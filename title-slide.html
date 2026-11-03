@@ -1,0 +1,20 @@
+<section id="$idprefix$title-slide"$for(title-slide-attributes/pairs)$ $it.key$="$it.value$"$endfor$ class="quarto-title-block">
+  <h1 class="title">$title$</h1>
+$if(subtitle)$
+  <p class="subtitle">$subtitle$</p>
+$endif$
+<div class="quarto-title-authors">
+$for(by-author)$
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">$by-author.name.literal$</div>
+</div>
+$endfor$
+</div>
+$if(date)$
+  <p class="date">$date$</p>
+$endif$
+  <div class="cc-notice">
+    <a href="https://creativecommons.org/licenses/by/4.0/deed.de"><img src="correlaid_assets/cc-by.svg" alt="CC BY 4.0"></a>
+    <span>Diese Präsentation ist lizenziert unter <a href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a>.<br>Davon ausgenommen sind entsprechend gekennzeichnete Fremdinhalte.</span>
+  </div>
+</section>

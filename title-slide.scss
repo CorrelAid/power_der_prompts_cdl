@@ -1,0 +1,99 @@
+/*-- scss:rules --*/
+
+#title-slide {
+  text-align: left;
+
+  .title {
+    font-size: 2.6em;
+    line-height: 1.1;
+    margin-bottom: 0.3em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1f2937;
+  }
+
+  // Lead text on correlaid.org: Inter 500, text color
+  .subtitle {
+    font-family: "Inter Variable", sans-serif;
+    font-size: 1.3em;
+    font-weight: 500;
+    color: #1f2937;
+    margin-bottom: 1.6em;
+  }
+
+  .quarto-title-authors {
+    display: block;
+    width: fit-content;
+    border-top: 2px solid currentColor;
+    padding-top: 0.6em;
+  }
+
+  .quarto-title-author,
+  .quarto-title-author-name {
+    padding: 0;
+    margin: 0;
+  }
+
+  .quarto-title-author-name,
+  .date {
+    font-size: 0.75em;
+    margin: 0;
+  }
+}
+
+.reveal .slide .source {
+  display: block;
+  position: absolute;
+  bottom: 2.5em;
+  left: 0;
+  right: 12%;
+  font-size: 0.4em;
+  opacity: 0.8;
+}
+
+.reveal .coc-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.6em 1em;
+  margin-top: 0.4em;
+
+  figure {
+    margin: 0;
+    text-align: center;
+  }
+
+  img {
+    height: 140px;
+    width: 100%;
+    object-fit: contain;
+    margin: 0;
+  }
+
+  figcaption {
+    font-size: 0.7em;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 0.3em;
+  }
+}
+
+// CC license notice on title slide
+.reveal .cc-notice {
+  margin-top: 3.5em;
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+  font-size: 0.6em;
+  line-height: 1.35;
+  color: #374151;
+  text-align: left;
+
+  img {
+    width: 88px;
+    height: 31px;
+    margin: 0;
+    max-width: none;
+  }
+  a { color: #00468a; text-decoration: underline; }
+  p { margin: 0; }
+}
