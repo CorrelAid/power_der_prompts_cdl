@@ -22,14 +22,14 @@ csl: correlaid_assets/apa.csl
 ## Hallo 👋 {.ca-upper}
 
 ::: ca-team-grid
-<div class="ca-person"><div class="ring"><img src="images/correlaid/jonas.png" alt="Jonas Stettner"></div><div class="name">Jonas</div><div class="role">Referent Digitale Infrastruktur<br>Civic Data Lab</div></div>
+<div class="ca-person"><div class="ring"><img src="images/correlaid/jonas.png" alt="Jonas Stettner"></div><div class="name">Jonas</div><div class="role">Referent für Digitale Infrastruktur bei CorrelAid</div></div>
 :::
 
 ::: notes
 - Kurze Vorstellung
 :::
 
-## Über CorrelAid {.ca-upper .ca-about background-color="#00468a"}
+## Über CorrelAid {.ca-upper .ca-about}
 
 ::: about-grid
 <div class="photos">
@@ -55,7 +55,7 @@ csl: correlaid_assets/apa.csl
 ::: ca-welcome-grid
 ![](images/correlaid/i_heart_data.png)
 
-- Ihr bekommt die **Folien** im Anschluss an den Workshop!
+- Die **Folien** findet ihr hier: [correlaid.github.io/power_der_prompts_d3](correlaid.github.io/power_der_prompts_d3/#/title-slide)
 - Lasst uns heute im Workshop gerne beim **Du** bleiben.
 - Es gibt keine „blöden“ Fragen – macht aktiv mit, teilt eure Erfahrungen und werdet eure Fragen los.
 - Bitte macht **weder Fotos noch Aufzeichnungen** von anderen Teilnehmenden. Der Workshop ist ein Rahmen für vertrauensvollen Austausch.
@@ -66,44 +66,66 @@ csl: correlaid_assets/apa.csl
 …könnt ihr
 
 1. typische KI-Projekte in der Zivilgesellschaft **kennen und einordnen**
-2. Werte, die in KI-Projekten beachtet werden sollten, **reflektieren**
-3. Kriterien **entwickeln**, wann KI sinnvoll ist – und wann andere Lösungen besser passen
+2. die Voraussetzungen für KI-Projekte (Daten, Fähigkeiten, Infrastruktur) **erkennen**
+3. Werte, die in KI-Projekten beachtet werden sollten, **reflektieren**
+4. Kriterien **entwickeln**, wann KI sinnvoll ist und wann andere Lösungen besser passen
 
 ::: notes
+- Titel-Spannung offen ansprechen: „Die Power der Prompts – klingt nach Hype. Genau das schauen wir uns heute an.“
 - Ziel: selbstbewusst beantworten können, wann KI sinnvoll ist – und wann nicht
 - Nicht "Wie können wir KI einsetzen?", sondern "Welches Problem haben wir?"
 :::
 
-## Inhalte {.ca-upper .ca-agenda background-image="correlaid_assets/sidebar.svg" background-size="100% 100%" background-position="left" background-repeat="no-repeat"}
+## Inhalte {.ca-upper .ca-agenda}
 
 <ol class="ca-toc">
 <li class="active"><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 12 min</small></span></li>
-<li><span class="num">02</span><span class="label">KI als Werkzeug – Wann ist ein KI-Projekt sinnvoll?<small>Impuls + Übung: Probleme zu Tasks zuordnen · 25 min</small></span></li>
-<li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen – Daten, Infrastruktur, Werte<small>Impuls + Übung: KI-Projekte unter der Lupe · 20 min</small></span></li>
-<li><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Q&A · 3 min</small></span></li>
+<li><span class="num">02</span><span class="label">KI als Werkzeug: Wann ist ein KI-Projekt sinnvoll?<small>Impuls + Übung: Probleme zu Tasks zuordnen · 22 min</small></span></li>
+<li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Daten, Infrastruktur, Werte<small>Impuls + Übung: KI-Projekte unter der Lupe · 20 min</small></span></li>
+<li><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Q&A · 6 min</small></span></li>
 </ol>
 
 ::: notes
 - Workshop: 3 Übungen, Teilnehmende sollen aktiv mitmachen
-- Zeiten: 5 Einstieg · 7 Übung · 15 Impuls · 10 Übung · 10 Impuls · 10 Übung · 3 Abschluss
+- Zeiten: 5 Einstieg · 7 Übung · 12 Impuls · 10 Übung · 8 Impuls · 12 Übung · 6 Abschluss
+- Kein Puffer eingeplant! Kürzen in dieser Reihenfolge: 1. Bonus-Problem Übung 2 · 2. Big-Tech-Folie · 3. „Was oft vergessen wird“ nur kurz anreißen · 4. Checkliste nicht besprechen (steht in den Folien)
+- Ziel: 3–5 min Puffer für Breakout-Technik und Fragen
 :::
 
 
 ## Die Skala
 
 ::: {style="font-size:1.8em; text-align:center; margin:0.4em 0 0.6em;"}
-🧙 Mythos ⟵ 🤔 ⟶ 🦊 Fabel(haft)
+🧙 Mythos ⟵ 🤔 ⟶ 🦊 Fable(haft)
 :::
 
-- 🧙 **Mythos**: klingt gut, ist aber nicht belegt – Hype, Werbeversprechen, „KI löst das schon“
-- 🤔 **Kommt drauf an**: Teils, teils – oder ihr wisst es (noch) nicht
-- 🦊 **Fabel(haft)**: hält, was es verspricht – konkret und nachweisbar nützlich
+- 🧙 **Mythos**: klingt gut, ist aber nicht belegt: Hype, Werbeversprechen, „KI löst das schon“
+- 🤔 **Kommt drauf an**: Teils, teils, oder ihr wisst es (noch) nicht
+- 🦊 **Fable(haft)**: hält, was es verspricht; konkret und nachweisbar nützlich
 
 ::: notes
 - Teil der 2 min Erklärung
 - Mythos: Erzählung, die Phänomene einordnet, ohne zu prüfen, ob sie stimmt
-- Fabel(haft): augenzwinkernd – das, was wirklich funktioniert
-- Anspielung: Mythos & Fable sind Namen von Claude-Modellen von Anthropic
+- Wortspiel laut aussprechen: gemeint ist „fabelhaft“ (= super), nicht „Fabel“ (die ist ja auch erfunden)
+:::
+
+## Die Skala
+
+::: {style="font-size:1.8em; text-align:center; margin:0.4em 0 0.6em;"}
+🧙 Mythos ⟵ 🤔 ⟶ 🦊 Fable(haft)
+:::
+
+::: {.skala-pics .skala-pics-wide}
+![](images/nyt_mythos.png){.pic-light}
+
+![](images/claude_fable.png){.pic-dark}
+:::
+
+[@nyt2026mythos · Screenshot: Claude-Modellauswahl, November 2026]{.source}
+
+::: notes
+- Ein Satz zur Anspielung: „Mythos“ und „Fable“ heißen auch Modelle der Firma Anthropic (Claude) – KI-Firmen benennen ihre Produkte selbst nach Erzählungen
+- Fable steht in der Modellauswahl, Mythos hält Anthropic laut eigener Aussage für zu gefährlich zur Veröffentlichung (NYT) – „zu gefährlich“ ist selbst ein Versprechen, das man auf die Skala legen kann
 :::
 
 ## Übung: Vibecheck {.center}
@@ -120,98 +142,145 @@ csl: correlaid_assets/apa.csl
 - 2 min Erklärung (Skala + Ablauf), 5 min Übung
 - Chat-Wasserfall: alle tippen, Enter erst auf „Los“ → alle Antworten kommen gleichzeitig
 - Einige Versprechen vorlesen, v.a. solche mit unterschiedlichen Emojis; 1–2 Leute fragen, warum
-- Co-Host sammelt 3–4 Versprechen für die nächste Folie
+- Beim Vorlesen 2–3 Versprechen merken und auf der nächsten Folie aufgreifen (Chat bleibt stehen)
 - Fokus auf Versprechen an Zivilgesellschaft: Zeiteinsparung, „kompetitiv bleiben“, Förderfähigkeit
 :::
 
 ## Was wird versprochen?
 
-- TODO: 2–3 Werbeversprechen / Pitches mit Quelle einfügen
-- Typische Muster:
-  - **Zeit sparen**: „mehr Zeit für das Wesentliche“
-  - **Nicht abgehängt werden**: „alle nutzen schon KI“
-  - **Effizienz** unter knappen Ressourcen und Förderlogiken
+- Eure Versprechen aus dem Chat: …
+- Typische Muster: **Zeit sparen** · **nicht abgehängt werden** · **Effizienz** unter Förderlogiken
 
 ::: fragment
 - Zwänge der Zivilgesellschaft: wenig Personal, Projektförderung, KI-Projekte haben Prestige und bekommen leichter Geld
-- Folge: **Workslop** – KI-Output, der nach Arbeit aussieht, aber Arbeit verlagert
+- Folgen:
+  - **Workslop** -> KI-Output, der nach Arbeit aussieht, aber Arbeit verlagert
+  - Projekte, in denen KI unnötig ist
+  - Eigentliche Probleme werden nicht gelöst
 :::
 
 [@niederhoffer2025]{.source}
 
 ::: notes
-- Mit gesammelten Versprechen aus Übung abgleichen
+- Live-Folie: 2–3 Versprechen aus dem Chat vorlesen („Vorhin hat jemand geschrieben …“) und den Mustern zuordnen
+- Optional: ein verifiziertes echtes Beispiel ergänzen (z.B. aus einem Förderaufruf)
 - Workslop: KI-generierter Output, der gut aussieht, aber andere müssen nacharbeiten
 :::
 
-## Inhalte {.ca-upper .ca-agenda background-image="correlaid_assets/sidebar.svg" background-size="100% 100%" background-position="left" background-repeat="no-repeat"}
+## Inhalte {.ca-upper .ca-agenda}
 
 <ol class="ca-toc">
 <li><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 12 min</small></span></li>
-<li class="active"><span class="num">02</span><span class="label">KI als Werkzeug – Wann ist ein KI-Projekt sinnvoll?<small>Impuls + Übung: Probleme zu Tasks zuordnen · 25 min</small></span></li>
+<li class="active"><span class="num">02</span><span class="label">KI als Werkzeug – Wann ist ein KI-Projekt sinnvoll?<small>Impuls + Übung: Probleme zu Tasks zuordnen · 22 min</small></span></li>
 <li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen – Daten, Infrastruktur, Werte<small>Impuls + Übung: KI-Projekte unter der Lupe · 20 min</small></span></li>
-<li><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Q&A · 3 min</small></span></li>
+<li><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Q&A · 6 min</small></span></li>
 </ol>
 
 ## Was ist KI? Intelligenz
 
-> Intelligence is the computational part of the ability to achieve goals in the world. [...] Intelligence involves mechanisms, and **AI research has discovered how to make computers carry out some of them and not others**. [@mccarthy_what_2012]
+> Intelligence is the computational part of the ability to achieve goals in the world. [...] **AI research has discovered how to make computers carry out some of them and not others**. [@mccarthy_what_2012]
 
-- Intelligenz als auf ein Ziel gerichtete Fähigkeit, die unterschiedliche Komponenten umfasst (z.B. von Logik bis Erkennen von Objekten)
-- Keine „Superintelligenz“, sondern einzelne Fähigkeiten
+*Intelligenz ist der rechnerische Teil der Fähigkeit, Ziele in der Welt zu erreichen. Die KI-Forschung hat herausgefunden, wie Computer manche dieser Mechanismen ausführen können, aber andere nicht.*
 
-::: notes
-- Intelligenz ist kein künstliches menschliches Bewusstsein
-- Komponenten, auf Ziel gerichtet
-:::
-
-## KI als Oberbegriff
-
-![](images/drawing.png)
+→ Keine „Superintelligenz“, sondern ein **Bündel von Fähigkeiten** – einordnen, lesen, wiederfinden, formulieren, vorausschauen, planen … Manche kann KI gut, andere kaum
 
 ::: notes
-- Wenn eine Technologie eine dieser Komponenten von Intelligenz abdeckt, ist sie KI
-- Nicht nur generative KI (ChatGPT, Claude)
-- GPT und Claude sind neuronale Sprachmodelle
+- Intelligenz ist kein künstliches menschliches Bewusstsein, sondern ein Bündel von Fähigkeiten, die auf ein Ziel gerichtet sind
+- Beispiel für „manche ja, andere nicht“ (Moravec-Paradox): Schachcomputer schlägt 1997 den Weltmeister – aber eine Tasse greifen oder Wäsche falten fällt Robotern bis heute schwer. Was für uns schwer ist, kann für Maschinen leicht sein, und umgekehrt
 :::
 
-## Denken in Tasks
+## Was ist KI? Ein Oberbegriff
 
-- KI-Methoden werden für **Tasks** entwickelt und mit dafür zusammengestellten Daten und Metriken evaluiert
-- Beispiel-Tasks: Klassifikation, Texterkennung, Textzusammenfassung, Suche, Nutzung von Tools
-- **Performance** messen: einfachste Metrik ist Accuracy (Anteil richtiger Klassifikationen)
-- Neuronale Netzwerke erzielen beste Performance bei vielen Tasks bzw. ermöglichen manche erst [@lecun2015]
+![](images/drawing.png){fig-align="center" style="max-height:560px;"}
 
 ::: notes
-- Von Wissenschaft lernen: Vorhaben in konkrete Tasks zerlegen und überlegen, wie man Performance misst
-- Grundlage für Übung gleich
+- KI als Oberbegriff: Wenn eine Technologie eine dieser Fähigkeiten abdeckt, ist sie KI
+- Nicht nur generative KI (ChatGPT, Claude) – GPT und Claude sind neuronale Sprachmodelle
+- Überleitung: „Diese Fähigkeiten sind noch zu vage, um damit zu arbeiten. Dafür braucht es Tasks.“
 :::
 
-## Von Tasks zu Prompts
+## Von Fähigkeiten zu Tasks {.ca-dense .ca-table}
 
-- **BERT** (340 Mio. Parameter): Finetuning – Modell wird auf einen Task angepasst [@devlin2019]
-- **Generative Modelle** (z.B. Claude, GPT): Parameterzahl nicht offengelegt, Schätzungen mehrere Billionen
-  - **Zero-/Few-Shot Prompting** und In-Context Learning: keine Veränderung der Parameter [@brown2020]
-- Darauf aufbauend:
-  - **RAG** (Retrieval-Augmented Generation): Modell sucht erst in eigenen Dokumenten, antwortet dann
-  - **Agents**: Modell nutzt Tools (Suche, Code, Dateien) und plant Schritte selbst
+Eine Fähigkeit wird zum **Task**, wenn man festlegt: Was geht rein? Was soll rauskommen? Woran messen wir, ob es stimmt?
 
-::: fragment
-- **Power der Prompts** – aber: Probleme trotzdem in Tasks zerlegen und Performance prüfen
+| Fähigkeit | Task | Beispiel: Eingabe → Ausgabe |
+|---|---|---|
+| Einordnen | ① Klassifikation | E-Mail → zuständige Person |
+| Lesen | ② Texterkennung | handschriftliches Formular → Text |
+| Wiederfinden | ③ Semantische Suche / RAG | Frage → passende Dokumente + Antwort |
+| Formulieren | ④ Textgenerierung | Behördenbrief → Leichte Sprache |
+| Planen & handeln | ⑤ Agent | Ziel → Schritte mit Tools (Suche, Dateien …) |
+| Vorausschauen | ⑥ Vorhersage | Einsatzdaten → Bedarf morgen |
+
+::: {.fragment style="font-size:0.85em; margin-top:0.5em;"}
+Früher ein Modell pro Task, heute ein großes Modell + **Prompt**, aber der Task bleibt derselbe. Ob er gelöst ist, zeigt eine **Metrik**, z.B. der Anteil richtiger Antworten.
 :::
 
 ::: notes
-- Hin zu Universalwerkzeugen: ein Prompt statt eigenes Modell
+- Das ist der Kern des Workshops: vage Fähigkeit („Sprache verstehen“) vs. klarer Task („Mails einer Person zuordnen“)
+- Die Nummern ①–⑥ kommen in Übung 2 wieder
+- Von der Wissenschaft lernen: KI-Methoden werden für Tasks entwickelt und mit eigens zusammengestellten Daten und Metriken verglichen
+- Agent: Ausgabe ist eine Folge von Handlungen – deshalb viel schwerer zu messen. Merken für später
+- Wie man Performance konkret misst, kommt gleich nach den Beispielprojekten
+- Neuronale Netze sind seit etwa 2012 bei vielen dieser Tasks führend [@lecun2015]
+- Fragment = Titel-Pivot: Power der Prompts – ja, aber das Problem bleibt das gleiche
+- Früher: ein Modell pro Task, extra dafür trainiert (z.B. BERT) [@devlin2019]; heute: ein großes generatives Modell + Prompt, das Modell wird nicht verändert [@brown2020]
+- RAG: Modell sucht erst in eigenen Dokumenten, antwortet dann · Agents: Modell nutzt Tools und plant Schritte selbst
+- Nur bei Nachfrage: BERT 340 Mio. Parameter, Finetuning; große generative Modelle legen Parameterzahl nicht offen (Schätzungen: Billionen); Zero-/Few-Shot Prompting, In-Context Learning
 - Performance nicht als gegeben ansehen; je größer das Modell, desto mehr externalisierte Kosten
 :::
 
-## Bestehen die Voraussetzungen? KI als Mythos
+## Typische KI-Projekte – nach Task sortiert {.ca-dense .ca-table}
+
+| Task | Projekte aus der Zivilgesellschaft | Performance messen |
+|----|----------|------|
+| **Klassifikation** | In safe hands: Interviewantworten kategorisieren · AWO: Förderprogramme einordnen [@cdl_demokratiefoerderquote] | Abgleich mit von Hand kodierten Beispielen |
+| **Texterkennung** | genialsozial: handschriftliche Formulare | Anteil falsch gelesener Wörter |
+| **Semantische Suche / RAG** | Schule ein Gesicht geben · Jugendhilfe.ai: Sozialrecht | Testfragen mit bekannter Antwort |
+| **Textgenerierung** | Fair Text, ErLeSen: Leichte Sprache | Prüfung durch Zielgruppe |
+| **Vorhersage** | DRK: Rettungswagen vorausschauend verlegen · BeeObserver: Anomalien im Bienenstock | Fehlalarme vs. Übersehene |
+
+
+
+[@cdl_projektkatalog]{.source}
+
+::: notes
+- Gleiche Handvoll Tasks hinter sehr unterschiedlichen Themen
+- Rechte Spalte: Der Task bestimmt, wie man Performance misst
+- Fehlalarme vs. Übersehene = Precision/Recall in einfachen Worten
+- Demokratieförderquote: nur bei einfachen Entscheidungen auf KI verlassen, schwierige Fälle Menschen überlassen
+- Weiteres Klassifikations-Beispiel: AfD-Gutachten – Äußerungen vorfiltern [@verfassungsblog2026]
+- genialsozial: Handschrifterkennung als bewusst akzeptierter temporärer Tech-Fix
+- Weitere Beispiele aus dem Katalog: KIA (Anfrage klassifizieren → Hinweise für Berater*innen generieren), Das steht dir zu (Rechner als Regelwerk + RAG-Chat)
+- KAIMo (Kinderschutz, eingestellt) als Beispiel für einen schwer messbaren Task – Projektseite vorher lesen
+- Katalog: Status-Angaben teils Selbstauskunft
+- Agents: kein Katalog-Projekt wirklich agentisch – Coding aus eigener Erfahrung erzählen; kleine Studie: erfahrene Entwickler:innen mit KI langsamer, nicht verallgemeinern [@becker2025]
+:::
+
+## Performance messen – so geht's
+
+1. **50–100 echte Fälle** sammeln (z.B. E-Mails, Anfragen, Dokumente)
+2. **Selbst labeln**: Was wäre die richtige Antwort / Kategorie?
+3. **Tool laufen lassen** und vergleichen: Wie oft liegt es richtig?
+4. **Fehler anschauen**: Welche Fälle gehen schief – und wen trifft das?
+
+::: fragment
+**Welche Fehlerquote ist okay?** Eine falsch sortierte Mail ist ärgerlich, eine falsche Auskunft in der Beratung kann schaden.
+:::
+
+::: notes
+- Praktischste Botschaft des Workshops: Performance prüfen geht auch ohne Data-Science-Team
+- Vor der Einführung messen, nicht danach
+- Regelmäßig wiederholen: Modelle ändern sich mit Updates
+:::
+
+## Was ist der Kontext? KI als Mythos
 
 - **Techno-Solutionismus**: KI wird als Lösung vorgeschlagen, aber das eigentliche Problem nicht gelöst (Chatbot gegen Einsamkeit) [@morozov2013]
 - **Systemisches Problem?** Fehlende Ressourcen lassen sich nicht wegautomatisieren
 - **Prozessoptimierung** statt Agentic AI – bessere Informationsarchitektur statt eigener Chatbot
 - Ehrenamtliche würden KI lieber für Verwaltung als für Social Media einsetzen [@cdl_ki_ehrenamt]
-- Prompt Engineering als Pseudowissenschaft: „You are a senior air traffic controller…“ [@zheng2024]
+- Rollen-Prompts („You are a senior …“) verbessern die Ergebnisse nicht verlässlich [@zheng2024]
 
 ::: notes
 - Aus CDL-Beratungen: Anfrage Chatbot -> oft stellt sich heraus, dass Website-Struktur das Problem ist
@@ -219,63 +288,31 @@ csl: correlaid_assets/apa.csl
 - Rollen-Prompts verbessern Performance nicht verlässlich
 :::
 
-## Typische KI-Projekte in der Zivilgesellschaft
-
-:::: {.columns}
-
-::: {.column width="50%"}
-**„Traditionellere“ Tasks**
-
-- **Klassifikation**
-  - AWO Demokratieförderquote: Förderprogramme klassifizieren [@cdl_demokratiefoerderquote]
-  - AfD-Gutachten: Äußerungen vorfiltern [@verfassungsblog2026]
-- **Handschrifterkennung**: genialsozial – handschriftliche Formulare digitalisieren
-:::
-
-::: {.column width="50%"}
-**Informationszugang**
-
-- **Chatbots**
-- **RAG / semantische Suche**: Schule ein Gesicht geben – Infos mit eigenen Worten finden
-
-**Agentic**
-
-- **Coding** mit Agents: produktiver? Erfahrene Entwickler:innen waren mit KI langsamer [@becker2025]
-:::
-
-::::
-
-::: notes
-- Demokratieförderquote: nur bei einfachen Entscheidungen auf KI verlassen, schwierige Fälle Menschen überlassen
-- Handwriting Recognition als bewusst akzeptierter temporärer Tech-Fix; Untersuchung, wie hoch Performance getrieben werden kann
-- Coding: aus eigener Erfahrung erzählen
-:::
-
-## Kriterien: Wann ist KI sinnvoll?
+## Kriterien: Wann ist KI sinnvoll? (Teil 1) {.ca-dense}
 
 - Lässt sich das Problem in einen **klaren Task** zerlegen?
 - Kann man **Performance messen** – und reicht sie? Was kosten Fehler?
 - Gibt es **einfachere Lösungen** (Prozess, Struktur, klassische Software)?
 - Ist es ein **systemisches Problem**, das Technik nicht löst?
-- Sind **Daten, Fähigkeiten und Infrastruktur** vorhanden?
-- Stehen Nutzen und **externalisierte Kosten** in einem vertretbaren Verhältnis?
 
-::: notes
-- Kriterienliste als Arbeitsgrundlage für die folgenden Übungen
-- Teilnehmende sollen sie in Übung 3 ergänzen
+::: {style="margin-top:1em; color:#374151;"}
+*Teil 2 folgt nach dem nächsten Block …*
 :::
 
-## Übung: Probleme zu Tasks zuordnen {.ca-dense}
+::: notes
+- Bewusst unvollständig: Daten/Infrastruktur und Kosten kommen in Block 3
+- Arbeitsgrundlage für Übung 2
+:::
 
-*Fiktionale Beispiele – welcher Task? Wie würdet ihr Performance beurteilen? Wäre KI überhaupt nötig?*
+## Übung: Welcher Task? (1/3)
 
-1. Ein Sportverein bekommt 200 E-Mails pro Woche und will sie an die richtige Person weiterleiten.
-2. Ratsuchende sollen die umfangreichen FAQ einer Beratungsstelle schneller durchsuchen können.
-3. Ein Archiv hat 3.000 handschriftliche Mitgliedsanträge aus den 1980ern.
-4. Eine Initiative will „mehr Reichweite“ auf Social Media.
-5. Denkt euch ein eigenes Problem aus!
+*Fiktionales Beispiel – welcher Task? Wie würdet ihr Performance beurteilen? Wäre KI überhaupt nötig?*
 
-**Tasks:** ① Klassifikation · ② Texterkennung · ③ Semantische Suche / RAG · ④ Textgenerierung · ⑤ Agent · ⑥ *kein KI-Task*
+::: {style="font-size:1.5em; font-weight:600; margin:0.8em 0 1em; line-height:1.3;"}
+Ein Sportverein bekommt 200 E-Mails pro Woche und will sie an die richtige Person weiterleiten.
+:::
+
+**Tasks:** ① Klassifikation · ② Texterkennung · ③ Semantische Suche / RAG · ④ Textgenerierung · ⑤ Agent · ⑥ Vorhersage · ✗ kein KI-Task
 
 *Tippt die Nummer in den Chat – Enter erst auf mein Los!*
 
@@ -283,48 +320,79 @@ csl: correlaid_assets/apa.csl
 - 2 min Erklärung, 8 min Plenum
 - Pro Problem Chat-Wasserfall: Problem vorlesen, alle tippen die Task-Nummer, Enter auf „Los“ (~2 min pro Problem)
 - Bei abweichenden Nummern 1–2 Leute bitten, das Mikro anzumachen
-- Lösung (Fragment) erst nach der Diskussion einblenden; Problem 5 nur bei übriger Zeit
-- Mögliche Lösungen: 1 Klassifikation (oder: klarere Kontaktadressen), 2 semantische Suche / RAG (oder: bessere FAQ-Struktur), 3 Handschrifterkennung, 4 kein klarer Task -> Problem schärfen
+- Mögliche Zuordnung: ① Klassifikation (oder: klarere Kontaktadressen)
 - Performance: Wie viele Mails richtig zugeordnet? Was passiert bei Fehlern?
+- „Das gibt es übrigens wirklich“: innatura gGmbH überlegt, Routineanfragen im Bestell-Postfach per KI zu erkennen (Pitch/Idee, kein laufendes System) [@cdl_projektkatalog]
 :::
 
-## Auflösung: Probleme zu Tasks
+## Übung: Welcher Task? (2/3)
+
+*Fiktionales Beispiel – welcher Task? Wie würdet ihr Performance beurteilen? Wäre KI überhaupt nötig?*
+
+::: {style="font-size:1.5em; font-weight:600; margin:0.8em 0 1em; line-height:1.3;"}
+Ein Archiv hat 3.000 handschriftliche Mitgliedsanträge aus den 1980ern.
+:::
+
+**Tasks:** ① Klassifikation · ② Texterkennung · ③ Semantische Suche / RAG · ④ Textgenerierung · ⑤ Agent · ⑥ Vorhersage · ✗ kein KI-Task
+
+*Tippt die Nummer in den Chat – Enter erst auf mein Los!*
+
+::: notes
+- Mögliche Zuordnung: ② Texterkennung – aber: Datenschutz! Überhaupt digitalisieren / aufbewahren?
+:::
+
+## Übung: Welcher Task? (3/3)
+
+*Fiktionales Beispiel – welcher Task? Wie würdet ihr Performance beurteilen? Wäre KI überhaupt nötig?*
+
+::: {style="font-size:1.5em; font-weight:600; margin:0.8em 0 1em; line-height:1.3;"}
+Eine Initiative will „mehr Reichweite“ auf Social Media.
+:::
+
+**Tasks:** ① Klassifikation · ② Texterkennung · ③ Semantische Suche / RAG · ④ Textgenerierung · ⑤ Agent · ⑥ Vorhersage · ✗ kein KI-Task
+
+*Tippt die Nummer in den Chat – Enter erst auf mein Los!*
+
+::: notes
+- Mögliche Zuordnung: ✗ kein klarer Task → Problem erst schärfen
+- Bonus nur bei übriger Zeit (erster Kürzungskandidat), nicht auf der Folie: „Ratsuchende sollen die FAQ einer Beratungsstelle schneller durchsuchen können“ – oder: euer eigenes Problem. Zuordnung: ③ Semantische Suche / RAG (oder: bessere FAQ-Struktur)
+:::
+
+## Mögliche Zuordnungen
 
 | Problem | Task | Oder ohne KI? |
 |---|---|---|
 | 1 · 200 E-Mails weiterleiten | ① Klassifikation | klarere Kontaktadressen, Formular |
-| 2 · FAQ durchsuchen | ③ Semantische Suche / RAG | bessere FAQ-Struktur |
-| 3 · Handschriftliche Anträge | ② Texterkennung | – |
-| 4 · „Mehr Reichweite“ | ⑥ kein klarer Task | Problem erst schärfen |
+| 2 · Handschriftliche Anträge | ② Texterkennung | Überhaupt digitalisieren? Darf das Archiv sie noch aufbewahren? Ehrenamtliche tippen ab |
+| 3 · „Mehr Reichweite“ | ✗ kein klarer Task | Problem erst schärfen |
+| [Bonus · FAQ durchsuchen]{.fragment fragment-index=1} | [③ Semantische Suche / RAG]{.fragment fragment-index=1} | [bessere FAQ-Struktur]{.fragment fragment-index=1} |
 
 ::: notes
-- Erst nach der Diskussion zeigen
+- Erst nach der Diskussion zeigen; es gibt nicht die eine richtige Lösung
 - Betonen: Spalte „Oder ohne KI?“ – oft die bessere Lösung
+- Problem 2: 3.000 Anträge voller personenbezogener Daten -> Vorgriff auf Datenschutz in Block 3
 :::
 
-## Inhalte {.ca-upper .ca-agenda background-image="correlaid_assets/sidebar.svg" background-size="100% 100%" background-position="left" background-repeat="no-repeat"}
+## Inhalte {.ca-upper .ca-agenda}
 
 <ol class="ca-toc">
 <li><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 12 min</small></span></li>
-<li><span class="num">02</span><span class="label">KI als Werkzeug – Wann ist ein KI-Projekt sinnvoll?<small>Impuls + Übung: Probleme zu Tasks zuordnen · 25 min</small></span></li>
+<li><span class="num">02</span><span class="label">KI als Werkzeug – Wann ist ein KI-Projekt sinnvoll?<small>Impuls + Übung: Probleme zu Tasks zuordnen · 22 min</small></span></li>
 <li class="active"><span class="num">03</span><span class="label">Ein KI-Projekt durchführen – Daten, Infrastruktur, Werte<small>Impuls + Übung: KI-Projekte unter der Lupe · 20 min</small></span></li>
-<li><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Q&A · 3 min</small></span></li>
+<li><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Q&A · 6 min</small></span></li>
 </ol>
 
-## Wie hole ich die Potentiale aus KI raus?
+## Was oft vergessen wird {.ca-dense}
 
-- **Interfaces**: Chat-Oberfläche, API, eingebaute KI in bestehenden Tools, lokale Modelle
-- **Daten sind die Grundlage**:
-  - **Datentypen**: Tabellen, Texte, Bilder, Audio
-  - **Texte als Daten**: KI macht unstrukturierte Texte auswertbar
-  - **Metadaten**: Daten über Daten – wer, wann, was, in welchem Format?
-  - **Semantische Daten**: Bedeutung explizit machen (Kategorien, Verknüpfungen)
-- **Kontextmanagement**: Das Modell weiß nur, was im Prompt / Kontext steht
-
+- **Nach der Förderung**: Wer pflegt den Chatbot, zahlt die API-Kosten, aktualisiert die Dokumente in Jahr 2?
+- **Schatten-KI**: Mitarbeitende und Ehrenamtliche kopieren vermutlich schon jetzt Daten in ChatGPT – eine einseitige **interne Richtlinie** ist oft das sinnvollste erste „KI-Projekt“
+- **Rechtliche Basics**: DSGVO (Auftragsverarbeitungsvertrag, Ort der Verarbeitung) · EU AI Act: Organisationen, die KI einsetzen, müssen **KI-Kompetenz** ihrer Mitarbeitenden fördern (Art. 4, seit 2025; 2026 durch den Digital Omnibus abgeschwächt)
 ::: notes
-- Ohne geordnete Daten bringt auch das beste Modell wenig
-- RAG und Agents funktionieren nur so gut wie die Dokumente, die sie finden
-- Kontext: welche Dokumente, welche Anweisungen, was ist zu viel
+- Keine Rechtsberatung – nur: Es gibt diese Pflichten, informiert euch
+- AI Act Art. 4 (KI-Kompetenz) gilt seit 2. Februar 2025
+- Seit 27.07.2026 Unterstützungs- statt Sicherstellungspflicht (VO (EU) 2026/1744), kein eigener Bußgeldrahmen. Vor dem Workshop im Amtsblatt gegenprüfen
+- Schatten-KI leitet über zum Code of Conduct am Ende
+- Ohne geordnete Daten bringt auch das beste Modell wenig – RAG und Agents funktionieren nur so gut wie die Dokumente, die sie finden (Datenfrage kommt in Übung 3, Frage 2)
 :::
 
 ## Welche Werte müssen beachtet werden? {.ca-dense}
@@ -332,10 +400,9 @@ csl: correlaid_assets/apa.csl
 :::: {.columns}
 
 ::: {.column width="50%"}
-- **Datenschutz**: Personenbezogene Daten? Wo werden sie verarbeitet?
 - **Bias & Diskriminierung**: ML reproduziert gesellschaftliche Ungleichheiten [@buolamwini2018]
 - **Copyright**: Trainingsdaten und Output
-- **Ressourcenverbrauch**: Rechenzentren 2030 mehr Strom als ganz Japan [@iea2025]
+- **Ressourcenverbrauch**: Rechenzentren insgesamt (nicht nur KI) könnten 2030 so viel Strom brauchen wie Japan heute [@iea2025]
 :::
 
 ::: {.column width="50%"}
@@ -347,32 +414,39 @@ csl: correlaid_assets/apa.csl
 ::::
 
 ::: fragment
-**Abwägung vs. Prinzipien**: im Einzelfall abwägen – oder klare rote Linien ziehen?
+**Abwägung vs. Prinzipien**: im Einzelfall abwägen, oder klare rote Linien ziehen?
 :::
 
 ::: notes
 - Streitthemen, keine vollständige Liste
-- Big Tech: Silicon Valley unterstützt größtenteils Trump; Peter Thiel (Palantir) sieht Regulierung als "Antichrist"
+- Big Tech: politische Nähe großer KI-Firmen zur Trump-Regierung; nur Aussagen nennen, die durch Quelle gedeckt sind (TODO prüfen gegen @rozen2026 / @kak2023)
 - KI ist durch Umstände ihrer Herstellung nicht nur Werkzeug, sondern politisch und hat externalisierte Kosten [@keymolen2026]
 - Boykott ist begründbar; individuelle ethische Entscheidung
 :::
 
-## Big Tech: Wer entwickelt KI?
+## Big Tech: Abhängigkeiten reduzieren {.ca-dense}
 
-![](images/trump_tech_bosses.avif){style="height:420px; display:block; margin:auto;"}
+![](images/trump_tech_bosses.avif){fig-align="center" style="max-height:250px; margin:0 auto 0.2em;"}
+
+Wenige Firmen kontrollieren die großen Modelle – und haben eine politische Agenda. Was ihr tun könnt:
+
+- **Offene Modelle** nutzen, wo es reicht
+- **EU-gehostete Anbieter** wählen
+- **Lokale Modelle** für sensible Daten
 
 [@rozen2026]{.source}
 
 ::: notes
-- Optional, falls Zeit
-- Fast der komplette "Grey Tribe" (Palantir, Anthropic, OpenAI, Microsoft, Google, Meta, Musk) mit Trump
-- Thiel: Regulierung, Multilateralismus, Institutionen = "Antichrist"
-- Daraus: Regulierung und demokratische Institutionen verteidigen
+- Kürzungskandidat Nr. 2, falls die Zeit knapp wird
+- Bild nicht lange stehen lassen – schnell zum Handlungsteil, sonst dominiert es die Fragerunde
+- Nur Aussagen über einzelne Firmen/Personen, die durch @rozen2026 gedeckt sind (TODO prüfen)
+- Lokale Modelle, API statt Chat-Oberfläche als Wege aus der Abhängigkeit
+- Daraus auch: Regulierung und demokratische Institutionen verteidigen
 :::
 
 ## Übung: KI-Projekte unter der Lupe {.ca-dense}
 
-*Breakout-Räume A–D, je ein fiktionales Projekt · Notizen im Pad: PAD-LINK · Danach im Chat: 🟢 / 🟡 / 🔴 + ein Satz*
+*Breakout-Räume A–D, je ein fiktionales Projekt · Pad: PAD-LINK · Am Ende ins Pad: 🟢 / 🟡 / 🔴 + ein Satz + ein fehlendes Kriterium*
 
 :::: {.columns}
 
@@ -388,31 +462,48 @@ csl: correlaid_assets/apa.csl
 ::: {.column width="52%"}
 **Fragen**
 
-- Welcher Task? Wie messen wir, ob es funktioniert?
-- Welche Daten, Fähigkeiten, Infrastruktur braucht es?
-- Geht es um **personenbezogene Daten**?
-- Welche Werte sind berührt? Was passiert bei Fehlern?
-- **Sinnvoll – ja, nein, unter welchen Bedingungen?**
+1. Welcher Task? Wie messen wir, ob es funktioniert?
+2. Welche Daten (personenbezogen?), Fähigkeiten, Infrastruktur? Wer trägt das Risiko bei Fehlern?
+3. **Sinnvoll – ja, nein, unter welchen Bedingungen?** *(wenig Zeit? hiermit starten)*
+4. **Welches Kriterium fehlt auf unserer Liste?**
 :::
 
 ::::
 
 
 ::: notes
-- 2 min Aufteilung, 8 min Breakout-Räume, Rückmeldung im Chat
-- Pad-Link VOR dem Öffnen der Räume im Hauptchat posten – in Breakout-Räumen ist der Hauptchat nicht sichtbar
-- Co-Host: Räume A–D öffnen (automatisch zuweisen), bei 2 min Restzeit Broadcast „Einigt euch auf Ampel + einen Satz“
-- Rückmeldung: jede Gruppe postet Ampel + Satz im Chat, vorlesen statt langer Runde
-- Ziel: Kriterien aus Impuls anwenden und ergänzen
+- 2 min Aufteilung, 8 min Breakout-Räume, Rückmeldung im Pad
+- Pad-Link VOR dem Öffnen der Räume im Hauptchat posten lassen – in Breakout-Räumen ist der Hauptchat nicht sichtbar
+- Tech-Support: postet Pad-Link, öffnet auf Stichwort Räume A–D (8 min), Broadcast bei 2 min Restzeit
+- Im Hauptraum bleiben, währenddessen im Pad mitlesen
+- Rückmeldung: Pad kurz teilen oder Ampeln A–D vorlesen, statt langer Runde
+- Ziel: Kriterien aus Impuls anwenden und ergänzen – Frage 4 liefert Material für die nächste Folie
+- Debrief B: Echtes Gegenstück – foodwatch „RAG4Good“ macht 20 Jahre Pressemitteilungen durchsuchbar (Prototyp/Pitch)
+- Debrief C (Chatbot): Die Ratsuchenden tragen das Risiko – Teilhabe
+- Debrief C: KIA (gefördert) ist bewusst kein Chatbot für Ratsuchende, sondern gibt Berater*innen Hinweise – Frage: „Wer sitzt vor der KI – Ratsuchende oder Fachkraft?“
+- Debrief D (Förderanträge): Rückbezug auf Workslop vom Anfang – Fördermittelgeber bekommen zunehmend KI-geschriebene Anträge
 :::
 
-## Inhalte {.ca-upper .ca-agenda background-image="correlaid_assets/sidebar.svg" background-size="100% 100%" background-position="left" background-repeat="no-repeat"}
+## Kriterien: Wann ist KI sinnvoll? (Teil 2) {.ca-dense}
+
+*Teil 1:* klarer Task · Performance messbar · einfachere Lösung? · systemisches Problem?
+
+- Sind **Daten, Fähigkeiten und Infrastruktur** vorhanden – auch nach Förderende?
+- Sind **Datenschutz** geklärt und **Betroffene** beteiligt?
+- Stehen Nutzen und **externalisierte Kosten** in einem vertretbaren Verhältnis?
+- **+ eure Ergänzungen aus den Gruppen:** …
+
+::: notes
+- Pad teilen, Ergänzungen (Frage 4) vorlesen und live sammeln
+:::
+
+## Inhalte {.ca-upper .ca-agenda}
 
 <ol class="ca-toc">
 <li><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 12 min</small></span></li>
-<li><span class="num">02</span><span class="label">KI als Werkzeug – Wann ist ein KI-Projekt sinnvoll?<small>Impuls + Übung: Probleme zu Tasks zuordnen · 25 min</small></span></li>
+<li><span class="num">02</span><span class="label">KI als Werkzeug – Wann ist ein KI-Projekt sinnvoll?<small>Impuls + Übung: Probleme zu Tasks zuordnen · 22 min</small></span></li>
 <li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen – Daten, Infrastruktur, Werte<small>Impuls + Übung: KI-Projekte unter der Lupe · 20 min</small></span></li>
-<li class="active"><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Q&A · 3 min</small></span></li>
+<li class="active"><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Q&A · 6 min</small></span></li>
 </ol>
 
 ## Code of Conduct Demokratische KI {.ca-coc}
@@ -433,15 +524,33 @@ csl: correlaid_assets/apa.csl
 ::: notes
 - Code of Conduct von CorrelAid mitentwickelt
 - 8 Grundprinzipien, konkrete Handlungsempfehlungen für gemeinwohlorientierte Organisationen
+- Nur zeigen: „Acht Prinzipien, mitentwickelt von CorrelAid, Link in den Folien.“ Max. 30 Sekunden
+- Danach Checkliste überspringen, direkt zu „Mitnehmen“ – bleiben ca. 4 min für Fragen
+:::
+
+## Checkliste zum Mitnehmen {.ca-dense}
+
+1. Lässt sich das Problem in einen **klaren Task** zerlegen?
+2. Kann man **Performance messen** (50–100 echte Fälle) – und reicht sie? Was kosten Fehler?
+3. Gibt es **einfachere Lösungen** (Prozess, Struktur, klassische Software)?
+4. Ist es ein **systemisches Problem**, das Technik nicht löst?
+5. Sind **Daten, Fähigkeiten und Infrastruktur** vorhanden – auch nach Förderende?
+6. Stehen Nutzen und **externalisierte Kosten** in einem vertretbaren Verhältnis?
+7. Sind **Datenschutz** geklärt und **Betroffene** beteiligt?
+
+::: notes
+- Nicht vorlesen – „ihr bekommt die Folien“
+- Ggf. Ergänzungen der Gruppen hier nachtragen, bevor die Folien verschickt werden
 :::
 
 ## Mitnehmen
 
-- Weniger *„Wie können wir KI einsetzen?“*, mehr *„Welches Problem haben wir (wirklich) – und ist KI dafür die beste Lösung?“*
-- Mitdenken: *„Wozu – und zu welchem Preis?“*
-- **DD KI** ab 25.11. – TODO Link / Beschreibung
+- **Die Power der Prompts** nur bei sinnvollem Einsatz von KI nutzen
+- Weniger *„Wie können wir KI einsetzen?“*, mehr *„Welches Problem haben wir (wirklich) und ist KI dafür die beste Lösung?“*
+- Mitdenken: *„Wozu und zu welchem Preis?“*
 
 ::: notes
+- Titel-Spannung auflösen: Prompts sind mächtig, aber das Problem zerlegen und Performance prüfen bleibt unsere Arbeit
 - Werbung für DD KI
 - Zeit für Fragen
 :::
