@@ -71,7 +71,7 @@ csl: correlaid_assets/apa.csl
 
 1. typische KI-Projekte in der Zivilgesellschaft **kennen und einordnen**
 2. die Voraussetzungen für KI-Projekte (Daten, Fähigkeiten, Infrastruktur) **erkennen**
-3. Werte, die in KI-Projekten beachtet werden sollten, **reflektieren**
+3. Folgen und Kosten von KI-Projekten **reflektieren**
 4. Kriterien **entwickeln**, wann KI sinnvoll ist und wann andere Lösungen besser passen
 
 ::: notes
@@ -84,35 +84,19 @@ csl: correlaid_assets/apa.csl
 
 <ol class="ca-toc">
 <li class="active"><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 7 min</small></span></li>
-<li><span class="num">02</span><span class="label">KI als Werkzeug: Wann ist ein KI-Projekt sinnvoll?<small>Impuls + Mini-Evaluation + Übung: Probleme zu Tasks zuordnen · 29 min</small></span></li>
-<li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Daten, Infrastruktur, Werte<small>Impuls + Übung: KI-Projekte unter der Lupe · 19 min</small></span></li>
+<li><span class="num">02</span><span class="label">KI als Werkzeug: Wann ist ein KI-Projekt sinnvoll?<small>Impuls + Mini-Evaluation + Übung: Probleme zu Tasks zuordnen · 24 min</small></span></li>
+<li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Daten, Infrastruktur, Kosten<small>Impuls + Übung: KI-Projekte unter der Lupe · 19 min</small></span></li>
 <li><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Q&A · 5 min</small></span></li>
 </ol>
 
 ::: notes
 - Workshop: 3 Übungen, Teilnehmende sollen aktiv mitmachen
-- Zeiten: 7 Block 1 (2 Begrüßung bis Inhalte · 1 Skala · 3 Vibecheck · 1 Versprechen) · 11 Konzepte (Intelligenz bis Messen) · 9 Mini-Evaluation (inkl. Umfrage) · 1 Kriterien Teil 1 · 8 Übung 2 · 7 Daten & Werte · 12 Übung 3 · 5 Abschluss = 60
-- Kein Puffer eingeplant! Kürzen in dieser Reihenfolge: 1. Big-Tech-Folie · 2. Bonus-Problem Übung 2 · 3. Projekttabelle nur zeigen, nicht besprechen · 4. Folie „Zwei Prompts“ überspringen und den Unterschied mündlich nennen · 5. Intelligenz-Folie überspringen, direkt zum Oberbegriff · 6. „Was oft vergessen wird“ nur kurz anreißen
+- Zeiten: 7 Block 1 (2 Begrüßung bis Inhalte · 1 Skala · 3 Vibecheck · 1 Versprechen) · 11 Konzepte (Intelligenz bis Messen) · 4 Mini-Evaluation · 1 Kriterien Teil 1 · 8 Übung 2 · 7 Daten & Kosten · 12 Übung 3 · 5 Abschluss = 55
+- Kein Puffer eingeplant! Kürzen in dieser Reihenfolge: 1. Big-Tech-Folie · 2. Bonus-Problem Übung 2 · 3. Projekttabelle nur zeigen, nicht besprechen · 4. Prompt-Folie der Mini-Evaluation überspringen und den Unterschied mündlich nennen · 5. Intelligenz-Folie überspringen, direkt zum Oberbegriff · 6. „Was oft vergessen wird“ nur kurz anreißen
 - Ziel: 3–5 min Puffer für Breakout-Technik und Fragen
 - Wenn nach „Oberbegriff“ schon 4 min von Block 2 vorbei: Projekttabelle nur zeigen, nicht besprechen („Beispiele zum Nachlesen“)
 :::
 
-
-## Die Skala
-
-::: {style="font-size:1.8em; text-align:center; margin:0.4em 0 0.6em;"}
-🧙 Mythos ⟵ 🤔 ⟶ 🦊 Fable(haft)
-:::
-
-- 🧙 **Mythos**: klingt gut, ist aber nicht belegt (Hype, Werbeversprechen, „KI löst das schon“)
-- 🤔 **Kommt drauf an**: teils, teils, oder ihr wisst es (noch) nicht
-- 🦊 **Fable(haft)**: hält, was es verspricht, und ist nachweisbar nützlich
-
-::: notes
-- Skala in 1 min erklären
-- Mythos: Erzählung, die Phänomene einordnet, ohne zu prüfen, ob sie stimmt
-- Wortspiel laut aussprechen: gemeint ist „fabelhaft“ (= super), nicht „Fabel“ (die ist ja auch erfunden)
-:::
 
 ## Die Skala
 
@@ -132,6 +116,22 @@ csl: correlaid_assets/apa.csl
 - Ein Satz zur Anspielung: „Mythos“ und „Fable“ heißen auch Modelle der Firma Anthropic (Claude). KI-Firmen benennen ihre Produkte selbst nach Erzählungen
 - Im April 2026 hielt Anthropic „Mythos Preview“ für zu gefährlich zur Veröffentlichung, seit Juni 2026 sind Mythos-Modelle verfügbar. Fable ist dasselbe Modell mit zusätzlichen Schutzmaßnahmen. Die Namen sind also Marketing
 - „Zu gefährlich“ ist selbst ein Versprechen, das man auf die Skala legen kann
+:::
+
+## Die Skala
+
+::: {style="font-size:1.8em; text-align:center; margin:0.4em 0 0.6em;"}
+🧙 Mythos ⟵ 🤔 ⟶ 🦊 Fable(haft)
+:::
+
+- 🧙 **Mythos**: klingt gut, ist aber nicht belegt (Hype, Werbeversprechen, „KI löst das schon“)
+- 🤔 **Kommt drauf an**: teils, teils, oder ihr wisst es (noch) nicht
+- 🦊 **Fable(haft)**: hält, was es verspricht, und ist nachweisbar nützlich
+
+::: notes
+- Skala in 1 min erklären
+- Mythos: Erzählung, die Phänomene einordnet, ohne zu prüfen, ob sie stimmt
+- Wortspiel laut aussprechen: gemeint ist „fabelhaft“ (= super), nicht „Fabel“ (die ist ja auch erfunden)
 :::
 
 ## Übung: Vibecheck {.center}
@@ -159,9 +159,9 @@ csl: correlaid_assets/apa.csl
 
 ::: fragment
 - Zwänge der Zivilgesellschaft: wenig Personal, Projektförderung. Aus unseren Beratungen wissen wir: KI-Projekte haben Prestige und bekommen leichter Geld
-- Folgen:
+- Die Kehrseite: Kosten werden verlagert
   - **Workslop**: KI-Output, der nach Arbeit aussieht, die Arbeit aber auf andere verlagert (Umfrage unter US-Büroangestellten)
-  - Projekte, in denen KI unnötig ist
+  - Umwelt, Klickarbeit, Abhängigkeit: dazu später mehr
 :::
 
 [@niederhoffer2025]{.source}
@@ -170,14 +170,16 @@ csl: correlaid_assets/apa.csl
 - Live-Folie: die zwei Versprechen aus dem Chat („Vorhin hat jemand geschrieben …“) den Mustern zuordnen
 - Optional: ein verifiziertes echtes Beispiel ergänzen (z.B. aus einem Förderaufruf)
 - Workslop: KI-generierter Output, der gut aussieht, bei dem andere aber nacharbeiten müssen
+- Externalisierte Kosten nur anteasern, nicht ausführen: kommt in Block 3 („Wer trägt die Kosten?“)
+- „Projekte, in denen KI unnötig ist“ mündlich als Brücke zu Block 2 (Wann ist ein KI-Projekt sinnvoll?)
 :::
 
 ## Inhalte {.ca-upper .ca-agenda}
 
 <ol class="ca-toc">
 <li><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 7 min</small></span></li>
-<li class="active"><span class="num">02</span><span class="label">KI als Werkzeug: Wann ist ein KI-Projekt sinnvoll?<small>Impuls + Mini-Evaluation + Übung: Probleme zu Tasks zuordnen · 29 min</small></span></li>
-<li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Daten, Infrastruktur, Werte<small>Impuls + Übung: KI-Projekte unter der Lupe · 19 min</small></span></li>
+<li class="active"><span class="num">02</span><span class="label">KI als Werkzeug: Wann ist ein KI-Projekt sinnvoll?<small>Impuls + Mini-Evaluation + Übung: Probleme zu Tasks zuordnen · 24 min</small></span></li>
+<li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Daten, Infrastruktur, Kosten<small>Impuls + Übung: KI-Projekte unter der Lupe · 19 min</small></span></li>
 <li><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Q&A · 5 min</small></span></li>
 </ol>
 
@@ -203,7 +205,7 @@ KI ist also ein **Bündel von Fähigkeiten**: einordnen, lesen, wiederfinden, fo
 - KI als Oberbegriff: Wenn eine Technologie eine dieser Fähigkeiten abdeckt, ist sie KI
 - KI umfasst mehr als generative KI (ChatGPT, Claude). GPT und Claude sind neuronale Sprachmodelle
 - Breite Definition ist wissenschaftlich üblich. Der AI Act grenzt aber einfache regelbasierte Software aus. Für die Art.-4-Pflicht zählt die AI-Act-Definition
-- Bild zeigt Methoden, nicht Fähigkeiten. Symbolic AI = Regeln, kommt gleich als „Bauweise“ wieder
+- Bild zeigt Methoden, nicht Fähigkeiten. Symbolic AI = Regeln, kommt gleich als „Ansatz“ wieder
 - Überleitung: „Diese Fähigkeiten sind noch zu vage, um damit zu arbeiten. Dafür braucht es Tasks.“
 :::
 
@@ -223,7 +225,7 @@ Ein **Task** legt fest: Was geht rein? Was soll rauskommen? Woran messen wir, ob
 | ⑧ Vorhersage / Anomalie | Einsatzdaten → Bedarf morgen | Abweichung, Fehlalarme vs. Übersehene |
 
 ::: {.fragment style="font-size:0.8em; margin-top:0.4em;"}
-**Bauweise:** Regeln · klassisches ML · kleines feinjustiertes Modell · großes Modell + Prompt · RAG · Agent. Für denselben Task gibt es verschiedene Bauweisen. Welche passt, zeigt die Messung. Regeln zählen im weiten Sinn als KI, unter dem AI Act meist nicht.
+Für denselben Task gibt es verschiedene **Ansätze**: Regeln, klassisches ML, ein kleines feinjustiertes Modell, ein großes Modell + Prompt, RAG oder einen Agenten. Welcher passt, zeigt die Messung. Regeln zählen im weiten Sinn als KI, unter dem AI Act meist nicht.
 :::
 
 ::: {.fragment style="font-size:0.7em; margin-top:0.3em; color:#4b5563;"}
@@ -234,7 +236,7 @@ Ein **Task** legt fest: Was geht rein? Was soll rauskommen? Woran messen wir, ob
 - Zentrale Folie des Workshops: vage Fähigkeit („Sprache verstehen“) vs. klarer Task („Mails einer Person zuordnen“)
 - Die Nummern ①–⑧ kommen in Übung 2 wieder
 - Von der Wissenschaft lernen: KI-Methoden werden für Tasks entwickelt und mit eigens zusammengestellten Daten und Metriken verglichen
-- Agent ist eine Bauweise, kein Task. Die Ausgabe ist eine Folge von Handlungen und deshalb viel schwerer zu messen. Merken für Übung 3 (Projekt D)
+- Agent ist ein Ansatz, kein Task. Die Ausgabe ist eine Folge von Handlungen und deshalb viel schwerer zu messen. Merken für Übung 3 (Projekt D)
 - Wie man Performance konkret misst, kommt nach der Prompting-Folie
 - Neuronale Netze sind seit etwa 2012 bei vielen dieser Tasks führend, vor allem bei Bild, Sprache und Text [@lecun2015]. Bei Tabellendaten sind baumbasierte Verfahren oft besser [@grinsztajn2022]
 - Regeln vs. AI Act: Brücke zur Art.-4-Folie in Block 3
@@ -246,22 +248,24 @@ Ein **Task** legt fest: Was geht rein? Was soll rauskommen? Woran messen wir, ob
 
 ## Typische KI-Projekte nach Task {.ca-dense .ca-table}
 
-| Task | Projekt | Stand |
-|---|---|---|
-| **① Klassifikation** | [In safe hands](https://correlaid.org/projekte/projektdatenbank/2023-10-ISH): Interviewantworten kategorisieren | in Weiterentwicklung |
-| | [AWO](https://www.civic-coding.de/ueber-civic-coding/projektlandkarte/projekt/demokratiefoerder-rechner/93): Förderprogramme einordnen | abgeschlossen |
-| **③ Texterkennung** | [genialsozial](https://www.saechsische-jugendstiftung.de/programme-projekte/genialsozial): Handschrifterkennung für Formulare | wird geprüft |
-| **④ Suche / Fragen beantworten** | [Schule ein Gesicht geben](https://www.civic-coding.de/ueber-civic-coding/projektlandkarte/projekt/datengestuetzte-zugaenge-zur-wissensdatenbank-von-schule-ein-gesicht-geben-ev/84): Wissensdatenbank | unbekannt |
-| | [Jugendhilfe.ai](https://jugendhilfe.ai/): Suchmaschine fürs Sozialrecht | in Weiterentwicklung |
-| **⑤ Vereinfachen** | [Fair Text](https://fair-text.com/), [ErLeSen](https://www.civic-coding.de/ueber-civic-coding/projektlandkarte/projekt/erstellung-und-analyse-leichter-sprache-durch-kuenstliche-intelligenz-erlesen/3): Leichte Sprache | in Betrieb |
-| **⑧ Vorhersage / Anomalie** | [DRK](https://publish.obsidian.md/datenprojekte-civic-data/Projekt/Disposition+von+Rettungsmitteln): Rettungswagen vorausschauend verlegen | im Testbetrieb |
-| | [BeeObserver](https://correlaid.org/projekte/projektdatenbank/2019-10-BEE): Anomalien im Bienenstock erkennen | in Betrieb |
+| Task | Projekt |
+|---|---|
+| **① Klassifikation** | [In safe hands](https://correlaid.org/projekte/projektdatenbank/2023-10-ISH): Interviewantworten kategorisieren |
+| | [AWO](https://www.civic-coding.de/ueber-civic-coding/projektlandkarte/projekt/demokratiefoerder-rechner/93): Förderprogramme einordnen |
+| **③ Texterkennung** | [genialsozial](https://saechsische-jugendstiftung.de/angebot/genialsozial-aktionstag-einen-tag-arbeiten-und-soziale-projekte-unterstuetzen/): Handschrifterkennung für Formulare |
+| **④ Suche / Fragen beantworten** | [Schule ein Gesicht geben](https://www.civic-coding.de/ueber-civic-coding/projektlandkarte/projekt/datengestuetzte-zugaenge-zur-wissensdatenbank-von-schule-ein-gesicht-geben-ev/84): Wissensdatenbank |
+| | [Jugendhilfe.ai](https://publish.obsidian.md/datenprojekte-civic-data/Projekt/Jugendhilfe.ai+-+Die+Suchmaschine+f%C3%BCr+die+SGB): Suchmaschine fürs Sozialrecht |
+| **⑤ Vereinfachen** | [Fair Text](https://fair-text.com/), [ErLeSen](https://www.civic-coding.de/ueber-civic-coding/projektlandkarte/projekt/erstellung-und-analyse-leichter-sprache-durch-kuenstliche-intelligenz-erlesen/3): Leichte Sprache |
+| **⑧ Vorhersage / Anomalie** | [DRK](https://publish.obsidian.md/datenprojekte-civic-data/Projekt/Disposition+von+Rettungsmitteln): Rettungswagen vorausschauend verlegen |
+| | [BeeObserver](https://correlaid.org/projekte/projektdatenbank/2019-10-BEE): Anomalien im Bienenstock erkennen |
 
-[Stand laut Katalog, Selbstauskunft · @cdl_projektkatalog]{.source}
+Mehr Projekte: [CDL-Projektsammlung](https://civic-data.de/machen/projektsammlung/) · [CorrelAid-Projektdatenbank](https://correlaid.org/projekte/projektdatenbank)
+
+[@cdl_projektkatalog]{.source}
 
 ::: notes
 - Gleiche Handvoll Tasks hinter sehr unterschiedlichen Themen
-- Rechte Spalte: Vieles ist Idee, Prototyp oder Selbstauskunft. Auch hier gilt die Skala vom Anfang
+- Stand laut Katalog (Selbstauskunft): In safe hands, Jugendhilfe.ai in Weiterentwicklung · AWO abgeschlossen · genialsozial wird geprüft · Schule ein Gesicht geben unbekannt · Fair Text, ErLeSen, BeeObserver in Betrieb · DRK im Testbetrieb. Vieles ist Idee oder Prototyp, auch hier gilt die Skala vom Anfang
 - Fehlalarme vs. Übersehene = Precision/Recall in einfachen Worten
 - DRK sind eigentlich zwei Schritte: Bedarf vorhersagen + Standorte optimieren
 - ② und ⑥ bewusst nicht auf der Folie. Echte Beispiele kommen in Übung 2 als Auflösung (Kassenführung EVIM, Full Fact). Für ⑦ kein Katalogbeispiel
@@ -288,7 +292,7 @@ Viele Tasks lassen sich heute mit einem großen Modell + **Prompt** lösen, aber
 :::
 
 ::: notes
-- Fragment greift den Titel auf: Prompts sind mächtig, aber nicht automatisch die beste Bauweise
+- Fragment greift den Titel auf: Prompts sind mächtig, aber nicht automatisch der beste Ansatz
 - Beispiele im Prompt = Few-Shot Prompting
 - Erst ein festes Ausgabeformat macht Ergebnisse messbar
 - Beispiele nicht aus den Testfällen nehmen, sonst prüft man nur, ob das Modell abschreiben kann
@@ -317,47 +321,14 @@ Viele Tasks lassen sich heute mit einem großen Modell + **Prompt** lösen, aber
 - Fehlerkosten: Eine falsch sortierte Mail ist ärgerlich, eine falsche Auskunft in der Beratung kann schaden
 :::
 
-## Mini-Evaluation: Wohin gehört die Mail? {.ca-dense .ca-mails}
+## Prompt als Variable {.ca-dense .ca-prompts}
 
-Sportverein, vier Kategorien: **A** Mitgliedschaft · **B** Training & Termine · **C** Spenden & Sponsoring · **D** Sonstiges
-
-:::: {.columns}
-
-::: {.column width="50%"}
-1. „Ich möchte zum Jahresende kündigen.“
-2. „Fällt das Training am Donnerstag wegen der Hallensanierung aus?“
-3. „Unsere Bäckerei würde gern Trikots für die Jugend sponsern.“
-4. „Meine Tochter möchte mitmachen. Gibt es ein Probetraining?“
-5. „Kann ich meinen Beitrag dieses Jahr als Spende absetzen?“
-:::
-
-::: {.column width="50%"}
-6. „Wo finde ich das Protokoll der letzten Mitgliederversammlung?“
-7. „Ich habe meine Trinkflasche in der Halle vergessen.“
-8. „Meine Bankverbindung hat sich geändert.“
-9. „Wir möchten nach dem Turnier den Erlös spenden. Zählt das auch als Mitgliedsbeitrag für unser Team?“
-10. „Darf ich als Nichtmitglied beim Sommerfest helfen?“
-:::
-
-::::
-
-*Gleich kommt eine Umfrage zu den Mails 4, 5, 6, 9 und 10: Welche Kategorie?*
-
-::: notes
-- 9 min insgesamt: 1 min lesen, 1 min Umfrage starten, 2 min abstimmen, 3 min Prompts + Auswertung, 2 min Debrief
-- Zoom-Umfrage startet der Tech-Support auf Stichwort: 5 Fragen (Mail 4, 5, 6, 9, 10), je A–D, Ergebnisse teilen
-- Fallback ohne Umfrage: nur die 5 Buchstaben in den Chat (Wasserfall), grob überfliegen
-- Bewusst mehrdeutig: 4 (A oder B), 5 (A oder C), 6 (A oder D), 9 (A oder C), 10 (A, B oder D)
-- Eindeutig: 1 A · 2 B · 3 C · 7 D · 8 A
-- „Das gibt es übrigens“: innatura gGmbH überlegt, Routineanfragen im Bestell-Postfach per KI zu erkennen (Pitch/Idee, kein laufendes System) [@cdl_projektkatalog]
-:::
-
-## Mini-Evaluation: Zwei Prompts, ein Modell {.ca-dense .ca-prompts}
+Sportverein: Eingehende Mails automatisch einer Kategorie zuordnen
 
 :::: {.columns}
 
 ::: {.column width="42%"}
-**Prompt 1**: nur das, was ihr auch hattet
+**Prompt 1**: nur die Kategorien
 
 ```{.text code-line-numbers="false"}
 Ordne die E-Mail einer Kategorie zu:
@@ -391,34 +362,37 @@ Antworte nur mit dem Buchstaben.
 ::::
 
 ::: notes
-- Beide Prompts vorher mit demselben Modell laufen lassen. Modell, Version, Datum: …
-- Die drei Beispiele in Prompt 2 sind bewusst keine der 10 Testmails (Regel 4 von der Messen-Folie)
+- 4 min für beide Folien
+- Beide Prompts vorher mit demselben Modell an 10 Testmails laufen lassen. Modell, Version, Datum: …
+- Eindeutige Testmails (beide Prompts sollten sie richtig haben): „Ich möchte zum Jahresende kündigen.“ A · „Fällt das Training am Donnerstag wegen der Hallensanierung aus?“ B · „Unsere Bäckerei würde gern Trikots für die Jugend sponsern.“ C · „Ich habe meine Trinkflasche in der Halle vergessen.“ D · „Meine Bankverbindung hat sich geändert.“ A
+- Die drei Beispiele in Prompt 2 sind bewusst keine der Testmails (Regel 4 von der Messen-Folie)
 - Prompt 2 entscheidet Grenzfälle per Definition (Probetraining → B, Spendenquittung → C). Das ist kein Schummeln, diese Arbeit muss ein Prompt leisten
+- „Das gibt es übrigens“: innatura gGmbH überlegt, Routineanfragen im Bestell-Postfach per KI zu erkennen (Pitch/Idee, kein laufendes System) [@cdl_projektkatalog]
 :::
 
-## Mini-Evaluation: Auswertung {.ca-dense}
+## Grenzfälle {.ca-dense .ca-table}
 
-| | Übereinstimmung mit eurer Mehrheit (Mail 4, 5, 6, 9, 10) |
+**A** Mitgliedschaft · **B** Training & Termine · **C** Spenden & Sponsoring · **D** Sonstiges
+
+| Mail | Passt zu |
 |---|---|
-| Prompt 1 | … / 5 |
-| Prompt 2 | … / 5 |
+| „Meine Tochter möchte mitmachen. Gibt es ein Probetraining?“ | A oder B |
+| „Wir möchten nach dem Turnier den Erlös spenden. Zählt das auch als Mitgliedsbeitrag?“ | A oder C |
+| „Mein Sohn wird im Training von anderen Kindern gemobbt. An wen kann ich mich wenden?“ | keine, landet in D |
 
-- **Wo wart ihr euch uneinig?** Dort sind die Kategorien unklar, nicht ihr
-- **Ist Prompt 2 besser?** Bei 5 bzw. 10 Fällen lässt sich das nicht sagen. Deshalb braucht es 100
-- **Welcher Fehler würde wehtun?** Eine Spende, die bei „Sonstiges“ landet?
+: {tbl-colwidths="[80,20]"}
 
 ::: fragment
-**Wer hat recht?** Wer die Definitionen geschrieben hat. Referenz-Labels müssen denselben Regeln folgen wie der Prompt.
+**„Ground Truth“ ist keine Wahrheit.** Referenz-Labels sind Entscheidungen von Menschen, Kategorien ein vereinfachtes Modell der Wirklichkeit. Gemessen wird immer nur gegen dieses Modell.
 :::
 
 ::: notes
-- TODO vorher: Labels beider Prompts für alle 10 Mails notieren: P1 … · P2 …
-- Mails 1, 2, 3, 7, 8 sind eindeutig. Kurz sagen, ob beide Prompts die richtig haben
-- Gemeinsam zählen: Bei wie vielen der 5 Grenzfälle stimmt jeder Prompt mit der Umfrage-Mehrheit überein?
-- Auf beide Ausgänge vorbereitet sein. Prompt 2 kann gegen die Mehrheit „verlieren“, denn seine Definitionen entscheiden 4 → B (Probetraining), 6 → D (Mitgliederversammlung steht nicht unter A), 10 → B (Veranstaltungen). Ihr habt ohne Definitionen abgestimmt
-- Prompt 2 gewinnt: „Sieht besser aus, aber bei 5 Fällen kann das Zufall sein.“
-- Prompt 2 verliert: „Ist Prompt 2 schlechter? Nein, er folgt Regeln, die ihr nicht kanntet. Ihr habt nach Bauchgefühl abgestimmt.“
-- In beiden Fällen: Referenz-Labels brauchen dieselben Definitionen wie der Prompt (siehe „Zu zweit labeln“ auf der Messen-Folie). Das verbindet Prompting-Folie, Messen-Folie und Übung
+- Kurz fragen: Wie hättet ihr entschieden? Ohne Definitionen landet jede:r woanders
+- Prompt 2 entscheidet per Definition: Probetraining → B, Turniererlös → C (oder A?). Das ist eine inhaltliche Entscheidung, keine technische
+- Mobbing-Mail: Für die wichtigste Mail gibt es keine Kategorie. Sie landet in „Sonstiges“ und bleibt vielleicht liegen. Kategorien bilden ab, woran man beim Entwerfen gedacht hat, nicht alles, was ankommt
+- Grenzfälle sind dort, wo Fehler wehtun
+- In echten Postfächern noch mehr: mehrere Anliegen in einer Mail, Ironie, Tippfehler, Anhänge
+- Verbindet Prompting-Folie, Messen-Folie („Zu zweit labeln“) und Übung
 - Überleitung: „Bevor man überhaupt promptet: Ist es ein Problem für KI?“
 :::
 
@@ -448,7 +422,7 @@ Antworte nur mit dem Buchstaben.
 *Fiktionales Beispiel: Welcher Task?*
 
 ::: {style="font-size:1.5em; font-weight:600; margin:0.8em 0 1em; line-height:1.3;"}
-Ein Verein bekommt jeden Monat 300 Belege und Rechnungen als PDF und tippt Betrag, Datum und Absender von Hand in die Buchhaltung ab.
+Ein Verein bekommt jeden Monat 300 Belege und Rechnungen als PDF und tippt Betrag, Datum und Absender von Hand in die Buchhaltung ab. Das kostet die Kassenwartin zwei Abende im Monat, Tippfehler fallen erst beim Jahresabschluss auf.
 :::
 
 **Tasks:** ① Klassifikation · ② Informationsextraktion · ③ Texterkennung · ④ Suche · ⑤ Vereinfachen · ⑥ Gruppieren · ⑦ Dubletten · ⑧ Vorhersage · ✗ kein KI-Task
@@ -468,7 +442,7 @@ Ein Verein bekommt jeden Monat 300 Belege und Rechnungen als PDF und tippt Betra
 *Fiktionales Beispiel: Welcher Task?*
 
 ::: {style="font-size:1.5em; font-weight:600; margin:0.8em 0 1em; line-height:1.3;"}
-Eine Tafel hat 4.000 Spender*innen in drei Excel-Listen, viele doppelt.
+Eine Tafel hat 4.000 Spender\*innen in drei Excel-Listen, viele doppelt. Manche bekommen drei Dankesbriefe, andere keinen, und niemand weiß, wie viele Spender\*innen es wirklich gibt.
 :::
 
 **Tasks:** ① Klassifikation · ② Informationsextraktion · ③ Texterkennung · ④ Suche · ⑤ Vereinfachen · ⑥ Gruppieren · ⑦ Dubletten · ⑧ Vorhersage · ✗ kein KI-Task
@@ -487,7 +461,7 @@ Eine Tafel hat 4.000 Spender*innen in drei Excel-Listen, viele doppelt.
 *Fiktionales Beispiel: Welcher Task?*
 
 ::: {style="font-size:1.5em; font-weight:600; margin:0.8em 0 1em; line-height:1.3;"}
-Eine Umfrage liefert 2.000 Freitextantworten.
+Eine Umfrage unter Ehrenamtlichen liefert 2.000 Freitextantworten. In drei Wochen ist der Bericht an die Förderin fällig, und niemand hat Zeit, alles zu lesen.
 :::
 
 **Tasks:** ① Klassifikation · ② Informationsextraktion · ③ Texterkennung · ④ Suche · ⑤ Vereinfachen · ⑥ Gruppieren · ⑦ Dubletten · ⑧ Vorhersage · ✗ kein KI-Task
@@ -505,9 +479,9 @@ Eine Umfrage liefert 2.000 Freitextantworten.
 
 | Problem | Task | Oder einfacher? |
 |---|---|---|
-| 1 · 300 Belege abtippen | ② Informationsextraktion (bei Scans vorher ③) | strukturierte E-Rechnungen (XRechnung/ZUGFeRD) anfragen |
+| 1 · 300 Belege abtippen | ② Informationsextraktion (bei Scans vorher ③) | strukturierte E-Rechnungen |
 | 2 · Doppelte Spender*innen | ⑦ Dubletten erkennen | Regeln (gleiche E-Mail, Name + PLZ), künftig eine Liste |
-| 3 · 2.000 Freitextantworten | ⑥ Gruppieren, ohne richtige Antwort (oder ①, wenn Kategorien feststehen) | von Hand eine Stichprobe kodieren |
+| 3 · 2.000 Freitextantworten | ⑥ Gruppieren, ohne richtige Antwort (oder ①, wenn Kategorien feststehen) | Feste Antwortfelder statt Freitext in Betracht ziehen |
 | [Bonus · „Mehr Reichweite“]{.fragment fragment-index=1} | [✗ kein klarer Task]{.fragment fragment-index=1} | [Problem erst schärfen]{.fragment fragment-index=1} |
 
 ::: notes
@@ -522,8 +496,8 @@ Eine Umfrage liefert 2.000 Freitextantworten.
 
 <ol class="ca-toc">
 <li><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 7 min</small></span></li>
-<li><span class="num">02</span><span class="label">KI als Werkzeug: Wann ist ein KI-Projekt sinnvoll?<small>Impuls + Mini-Evaluation + Übung: Probleme zu Tasks zuordnen · 29 min</small></span></li>
-<li class="active"><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Daten, Infrastruktur, Werte<small>Impuls + Übung: KI-Projekte unter der Lupe · 19 min</small></span></li>
+<li><span class="num">02</span><span class="label">KI als Werkzeug: Wann ist ein KI-Projekt sinnvoll?<small>Impuls + Mini-Evaluation + Übung: Probleme zu Tasks zuordnen · 24 min</small></span></li>
+<li class="active"><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Daten, Infrastruktur, Kosten<small>Impuls + Übung: KI-Projekte unter der Lupe · 19 min</small></span></li>
 <li><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Q&A · 5 min</small></span></li>
 </ol>
 
@@ -537,7 +511,7 @@ Eine Umfrage liefert 2.000 Freitextantworten.
 
 ::: notes
 - Lernziel 2, deshalb ausführlicher
-- Labels: Rückbezug auf die Mini-Evaluation. Schon bei 10 Mails waren wir uns uneinig
+- Labels: Rückbezug auf die Mini-Evaluation. Schon bei 5 Grenzfällen ist unklar, was „richtig“ ist
 - Zweites Jahr: Wer pflegt den Chatbot, zahlt die API-Kosten, aktualisiert die Dokumente nach Förderende?
 - Datenfrage kommt in Übung 3 wieder
 :::
@@ -557,13 +531,13 @@ Eine Umfrage liefert 2.000 Freitextantworten.
 - Schatten-KI leitet über zum Code of Conduct am Ende
 :::
 
-## Welche Werte müssen beachtet werden? {.ca-dense}
+## Wer trägt die Kosten? {.ca-dense}
 
 :::: {.columns}
 
 ::: {.column width="58%"}
 - **Bias & Diskriminierung**: Sprachmodelle bewerten Menschen je nach Dialekt schlechter [@hofmann2024]
-- **Ressourcenverbrauch**: Rechenzentren insgesamt (nicht nur KI) könnten 2030 so viel Strom brauchen wie Japan heute. Das sind knapp 3 % des weltweiten Verbrauchs, lokal aber stark konzentriert (Netze, Wasser) [@iea2025]
+- **Ressourcenverbrauch**: Rechenzentren insgesamt (nicht nur KI) könnten 2030 so viel Strom brauchen wie Japan heute. Das sind knapp 3 % des weltweiten Verbrauchs  [@iea2025], lokal aber stark konzentriert (Wasser, Luftverschmutzung)
 - **Ausbeutung**: Klickarbeit beim Datenlabeling [@perrigo2023]
 :::
 
@@ -603,7 +577,7 @@ Wenige Firmen kontrollieren die großen Modelle und verfolgen eine politische Ag
 [@rozen2026]{.source}
 
 ::: notes
-- Kürzungskandidat Nr. 1, falls die Zeit knapp wird. Dann auf „Welche Werte“ rechts wieder ergänzen: „**Big Tech**: Machtkonzentration, politische Agenda [@kak2023]“
+- Kürzungskandidat Nr. 1, falls die Zeit knapp wird. Dann auf „Wer trägt die Kosten?“ rechts wieder ergänzen: „**Big Tech**: Machtkonzentration, politische Agenda [@kak2023]“
 - TODO: Bildnachweis für das Foto ergänzen (Fotograf*in / Agentur)
 - Bild nicht lange stehen lassen, schnell zum Handlungsteil, sonst dominiert es die Fragerunde
 - Nur Aussagen über einzelne Firmen/Personen, die durch @rozen2026 gedeckt sind (TODO prüfen)
@@ -613,66 +587,105 @@ Wenige Firmen kontrollieren die großen Modelle und verfolgen eine politische Ag
 
 ## Übung: KI-Projekte unter der Lupe {.ca-dense}
 
-*Breakout-Räume A–D, je ein fiktionales Projekt. Details auf eurer Projektkarte im Pad · Pad: PAD-LINK · Am Ende ins Pad: 🧙 / 🤔 / 🦊 + ein Satz + ein fehlendes Kriterium*
+**Methode: Pre-Mortem.** Statt zu fragen *„Klappt das?“* tun wir so, als wäre das Projekt schon gescheitert, und suchen die Gründe.
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**So geht's**
+
+1. Ihr kommt in Raum **A, B, C oder D**, je ein fiktionales Projekt
+2. Öffnet das **Pad** und lest eure **Projektkarte** (1 min)
+3. Diskutiert die zwei Fragen (6 min)
+4. Tragt die Antworten in euren **Abschnitt im Pad** ein (1 min)
+
+*Rollen: eine Person schreibt, eine achtet auf die Zeit*
+:::
+
+::: {.column width="50%"}
+**Beispiel**
+
+*„Es ist November 2028. Der Mail-Sortierer des Sportvereins wurde abgeschaltet. Was ist passiert?“*
+
+- Nach einem Modell-Update hat niemand neu gemessen
+- Die Mobbing-Mail lag drei Wochen in „Sonstiges“
+- Die Person, die das gebaut hat, ist ausgetreten
+:::
+
+::::
+
+::: notes
+- 1,5 min erklären, dann direkt Aufteilung
+- Pre-Mortem: Scheitern vorwegnehmen macht es leichter, Risiken auszusprechen, als „Ist das sinnvoll?“ zu fragen. Niemand muss das Projekt schlechtreden, es ist ja schon gescheitert
+- Das Beispiel greift die Mini-Evaluation auf (Modell-Update, Grenzfall Mobbing) und zeigt, dass Gründe selten technisch sind
+- Pad-Link JETZT im Hauptchat posten lassen. In Breakout-Räumen ist der Hauptchat nicht sichtbar
+:::
+
+## Übung: KI-Projekte unter der Lupe {.ca-dense}
+
+*Pad: PAD-LINK · 8 Minuten · Projektkarten im Pad*
 
 :::: {.columns}
 
 ::: {.column width="48%"}
 **Projekte**
 
-- **A** Tafel: Spendeneingänge automatisch kategorisieren
+- **A** Migrationsberatung: Beratungsgespräche transkribieren und zusammenfassen
 - **B** Mieterverein: semantische Suche über 15 Jahre Rundbriefe
-- **C** Beratungsstelle: Chatbot für Erstfragen
+- **C** Schuldnerberatung: Chatbot für Erstfragen
 - **D** Verein: Agent bereitet Förderanträge vor
 :::
 
 ::: {.column width="52%"}
 **Fragen**
 
-1. **Sinnvoll? Ja, nein, unter welchen Bedingungen?**
-2. **Welches Kriterium fehlt auf unserer Liste?**
-
-*Optional im Pad: Welcher Task, wie messen? Welche Daten, wer trägt das Risiko?*
+1. **Es ist November 2028, das Projekt ist gescheitert. Was ist passiert?** (2–3 Gründe)
+2. **Was müsste gelten, damit es trotzdem 🦊 wird?**
 :::
 
 ::::
 
-
 ::: notes
-- 2 min Aufteilung, 8 min Breakout-Räume, Rückmeldung im Pad
-- Projektkarten (Nutzer*innen, Daten, wer zahlt, was ersetzt wird) stehen im Pad, nicht auf der Folie
-- Pad-Link VOR dem Öffnen der Räume im Hauptchat posten lassen. In Breakout-Räumen ist der Hauptchat nicht sichtbar
-- Tech-Support: postet Pad-Link, öffnet auf Stichwort Räume A–D (8 min), Broadcast bei 2 min Restzeit
-- Im Hauptraum bleiben, währenddessen im Pad mitlesen
-- Rückmeldung: Pad kurz teilen oder die Einschätzungen 🧙 / 🤔 / 🦊 von A–D vorlesen, statt langer Runde
-- Ziel: Kriterien aus dem Impuls anwenden und ergänzen. Frage 2 liefert Material für die nächste Folie
-- Debrief B: Echtes Gegenstück ist foodwatch „RAG4Good“, macht 20 Jahre Pressemitteilungen durchsuchbar (Prototyp/Pitch)
-- Debrief C (Chatbot): Die Ratsuchenden tragen das Risiko (Teilhabe)
-- Debrief C: KIA (gefördert) ist bewusst kein Chatbot für Ratsuchende, sondern gibt Berater*innen Hinweise. Frage: „Wer sitzt vor der KI, Ratsuchende oder Fachkraft?“
-- Debrief D (Förderanträge): Rückbezug auf Workslop vom Anfang. Fördermittelgeber bekommen zunehmend KI-geschriebene Anträge
+- 0,5 min Aufteilung, 8 min Breakout-Räume
+- Tech-Support: öffnet auf Stichwort Räume A–D (8 min), Broadcast bei 4 min (optionaler Twist, s.u.) und bei 1 min („Jetzt ins Pad schreiben“)
+- Im Hauptraum bleiben und im Pad mitlesen. Gründe aus Frage 1 schon den Kriterien 5–7 zuordnen, das spart Zeit im Debrief
+- Optionaler Twist per Broadcast nach 4 min (nur wenn Tech-Support pro Raum senden kann, sonst weglassen):
+  - A: „Viele Ratsuchende sprechen im Gespräch zwischen Deutsch, Arabisch und Türkisch.“
+  - B: „Die Hälfte der Rundbriefe vor 2015 sind eingescannte Papierseiten.“
+  - C: „Im Pilotmonat hat der Chatbot einer Person falsch erklärt, wann ihr Konto gepfändet werden darf. Sie hat deshalb eine Frist verpasst.“ (Fehlerkosten, Kriterium 4: Wer trägt das Risiko?)
+  - D: „Die Förderin schließt ab 2027 erkennbar KI-generierte Anträge aus.“
+- Debrief passiert auf der nächsten Folie, keine eigene Runde
+- Debrief A: Datenschutz besonders sensibler Daten (Aufenthaltsstatus), Einwilligung, Cloud vs. lokales Modell (Brücke zur Big-Tech-Folie). Wer prüft die Zusammenfassung? Fehler landen in der Akte
+- Debrief B: Echtes Gegenstück ist foodwatch „RAG4Good“, macht 20 Jahre Pressemitteilungen durchsuchbar (Prototyp/Pitch). RAG ist nur so gut wie die Dokumente
+- Debrief C: Die Ratsuchenden tragen das Risiko. KIA (gefördert) ist bewusst kein Chatbot für Ratsuchende, sondern gibt Berater*innen Hinweise. Frage: „Wer sitzt vor der KI, Ratsuchende oder Fachkraft?“
+- Debrief D: Rückbezug auf Workslop vom Anfang. Fördermittelgeber bekommen zunehmend KI-geschriebene Anträge, die Prüfarbeit wird verlagert. Agent = Ausgabe ist eine Folge von Handlungen, schwer zu messen
 :::
 
 ## Kriterien: Wann ist KI sinnvoll? (Teil 2) {.ca-dense}
 
 *1–4:* systemisches Problem? · einfachere Lösung? · klarer Task? · Performance messbar?
 
+**Welche davon steckten in euren Gründen fürs Scheitern?**
+
 5. Sind **Daten, Fähigkeiten und Infrastruktur** vorhanden, auch nach Förderende?
 6. Ist der **Datenschutz** geklärt und sind **Betroffene** beteiligt?
 7. Stehen Nutzen und **externalisierte Kosten** in einem vertretbaren Verhältnis?
-8. **+ eure Ergänzungen aus den Gruppen:** …
 
 ::: notes
-- Pad teilen, Ergänzungen (Frage 2) vorlesen und live sammeln
-- Teil 1 + Teil 2 = die vollständige Liste zum Mitnehmen (keine eigene Checkliste mehr)
-- Ergänzungen der Gruppen hier nachtragen, bevor die Folien verschickt werden
+- 2 min: Pad teilen. Pro Raum nur den stärksten Scheiternsgrund vorlesen und dem passenden Kriterium 5–7 zuordnen
+- Fehlt ein Kriterium in allen Gruppen, selbst nennen und auf die Karte zeigen, in der es steckt: A → 6 (Aufenthaltsstatus, Cloud) · B → 5 (API-Kosten nach Stiftungsgeld) · C → 5/6 (12 Monate Förderung, Ratsuchende in Notlage) · D → 7 (Prüfarbeit landet bei der Förderin) und 4 (Agent schwer messbar)
+- Gründe, die zu keinem Kriterium passen, nur mündlich aufgreifen
+- Eine 🦊-Bedingung aus Frage 2 vorlesen: „Das ist ein Kriterium in euren eigenen Worten.“ Damit ist Lernziel 4 (Kriterien entwickeln) eingelöst
+- Einschätzungen 🧙 / 🤔 / 🦊 nicht einzeln vorlesen, sie stehen im Pad
+- Teil 1 + Teil 2 = die vollständige Liste zum Mitnehmen
 :::
 
 ## Inhalte {.ca-upper .ca-agenda}
 
 <ol class="ca-toc">
 <li><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 7 min</small></span></li>
-<li><span class="num">02</span><span class="label">KI als Werkzeug: Wann ist ein KI-Projekt sinnvoll?<small>Impuls + Mini-Evaluation + Übung: Probleme zu Tasks zuordnen · 29 min</small></span></li>
-<li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Daten, Infrastruktur, Werte<small>Impuls + Übung: KI-Projekte unter der Lupe · 19 min</small></span></li>
+<li><span class="num">02</span><span class="label">KI als Werkzeug: Wann ist ein KI-Projekt sinnvoll?<small>Impuls + Mini-Evaluation + Übung: Probleme zu Tasks zuordnen · 24 min</small></span></li>
+<li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Daten, Infrastruktur, Kosten<small>Impuls + Übung: KI-Projekte unter der Lupe · 19 min</small></span></li>
 <li class="active"><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Q&A · 5 min</small></span></li>
 </ol>
 
@@ -700,10 +713,9 @@ Wenige Firmen kontrollieren die großen Modelle und verfolgen eine politische Ag
 
 ## Mitnehmen
 
-- Prompts sind mächtig. Trotzdem gilt: **erst das Problem klären, dann messen, dann einsetzen**
+- Prompts sind powerful. Trotzdem gilt: **erst das Problem klären, dann messen, dann einsetzen**
 - Statt *„Wie können wir KI einsetzen?“* lieber *„Welches Problem haben wir, und ist KI dafür die beste Lösung?“*
 - Mitdenken: *„Wozu und zu welchem Preis?“*
-- Und euer Versprechen vom Anfang: 🧙, 🤔 oder 🦊?
 
 ::: notes
 - Titel-Spannung auflösen: Prompts sind mächtig, aber das Problem zerlegen und Performance prüfen bleibt unsere Arbeit

@@ -17,7 +17,8 @@ Die Konferenz stellt technischen Support: eine Person vom **Tech-Support** über
   - Umfragen aktiviert
 - [ ] Zoom-Umfrage vorab anlegen lassen (oder selbst anlegen, falls wir Co-Host sind): 5 Fragen „Mail 4 / 5 / 6 / 9 / 10 – welche Kategorie?“, je Antwort A–D, anonym, Ergebnisse nach dem Beenden teilen
 - [ ] Ablauf schicken: auf welcher Folie was passiert (siehe Übergabeliste unten)
-- [ ] Textbausteine schicken (Pad-Link, Broadcast), damit der Tech-Support sie selbst posten kann
+- [ ] Fragen, ob Nachrichten an **einzelne** Breakout-Räume gehen (Zoom-Broadcast geht meist an alle Räume). Wenn nicht: Twist in Übung 3 weglassen
+- [ ] Textbausteine schicken (Pad-Link, Broadcast 1 min, ggf. Twist-Texte A–D), damit der Tech-Support sie selbst posten kann
 - [ ] Vereinbaren, wie wir während der Session Bescheid geben – Stichwort laut mit Namen sagen („[Name], öffnest du bitte die Räume?“) ist am einfachsten
 - [ ] Fragen, ob ein kurzer Technik-Test vorab möglich ist (sonst: in den 15 Minuten vor Beginn)
 
@@ -28,9 +29,10 @@ Die Konferenz stellt technischen Support: eine Person vom **Tech-Support** über
 | Übung 1 (Folie „Übung: Vibecheck“) | nichts Besonderes, Chat offen lassen |
 | Mini-Evaluation, Folie „Wohin gehört die Mail?“ | auf unser Stichwort Umfrage starten, nach 2 min beenden und Ergebnisse teilen |
 | Übung 2 (Folien „Übung: Welcher Task? (1–3/3)“) | nichts Besonderes, Chat offen lassen |
-| Übung 3, Folie „KI-Projekte unter der Lupe“ | Pad-Link in den Chat posten, **bevor** die Räume öffnen |
+| Übung 3, erste Folie „KI-Projekte unter der Lupe“ (Pre-Mortem) | Pad-Link in den Chat posten, **bevor** die Räume öffnen |
 | Übung 3, auf unser Stichwort | Räume A–D öffnen, 8 min |
-| Übung 3, 2 min Restzeit | Broadcast: „Noch 2 Minuten – einigt euch auf ein Emoji (🧙 / 🤔 / 🦊) + einen Satz und tragt beides ins Pad.“ |
+| Übung 3, nach 4 min (optional) | Twist-Broadcast pro Raum (Texte in den Notizen der zweiten Übungsfolie), nur wenn pro Raum senden geht |
+| Übung 3, 1 min Restzeit | Broadcast: „Noch 1 Minute – jetzt ins Pad schreiben: Gründe, Bedingung, 🧙 / 🤔 / 🦊 + ein Satz.“ |
 | Übung 3, nach 8 min | Räume schließen (automatisch, Countdown 30 s) |
 | ganze Session | Nachzügler*innen einlassen und in Übung 3 einem Raum zuweisen |
 
@@ -77,43 +79,29 @@ Problem 1 und 2: Chat-Wasserfall mit der Task-Nummer 1–8, dann Diskussion dort
 - [ ] Problem 2 (Tafel-Dubletten): Regeln schlagen oft ML; Spender*innendaten sind personenbezogen. Hier mündlich nachfragen: Wie messen? Bräuchte es KI?
 - [ ] Problem 3 (Freitextantworten, per Mikro): ⑥ Gruppieren – oder ①, wenn die Kategorien feststehen; keine richtige Antwort – wie prüft man dann?
 
-## Übung 3: KI-Projekte unter der Lupe (2 + 8 + 2 min)
+## Übung 3: KI-Projekte unter der Lupe – Pre-Mortem (2 + 8 + 2 min)
 
-Vier Breakout-Räume (A–D), Material liegt in einem geteilten Pad. Der Tech-Support bedient die Räume. Die Rückmeldung läuft übers Pad: Die Gruppen schreiben Emoji (🧙 / 🤔 / 🦊), Satz und fehlendes Kriterium direkt in ihren Abschnitt. So können wir während der Räume schon mitlesen und brauchen niemanden, der sammelt.
+Vier Breakout-Räume (A–D), Material liegt in einem geteilten Pad. Methode Pre-Mortem: „Es ist November 2028, das Projekt ist gescheitert. Was ist passiert?“ Der Tech-Support bedient die Räume. Die Rückmeldung läuft übers Pad, Debrief auf der Folie „Kriterien (Teil 2)“.
 
 ### Pad
 
-- [ ] Geteiltes Pad anlegen (CryptPad oder Etherpad), ein Abschnitt pro Projekt A–D mit Projektkarte (siehe unten), den 2 Pflichtfragen (Sinnvoll – unter welchen Bedingungen? · Welches Kriterium fehlt?) und darunter optional: Welcher Task, wie messen? Welche Daten, wer trägt das Risiko?
-- [ ] Ganz oben im Pad eine Kurzanleitung, damit die Gruppen ohne Moderation klarkommen:
-  - „Ihr seid in Raum A–D → arbeitet im Abschnitt mit eurem Buchstaben.“
-  - „Wer zuerst im Pad tippt, ist Sprecher*in und achtet auf die Zeit.“
-  - „Ihr habt 8 Minuten. Am Ende ausfüllen: 🧙 / 🤔 / 🦊 · ein Satz · ein fehlendes Kriterium.“
-- [ ] Pro Abschnitt drei feste Felder: `🧙 / 🤔 / 🦊:` · `Ein Satz:` · `Fehlendes Kriterium:`
-- [ ] Pro Projekt eine Karte mit vier Zeilen ins Pad, damit die Gruppen keine Details erfinden müssen:
-
-| | Wer nutzt es? | Welche Daten? | Wer zahlt und wartet? | Was ersetzt es? |
-|---|---|---|---|---|
-| **A** Tafel: Lebensmittelspenden automatisch kategorisieren | 2 Ehrenamtliche im Lager | ca. 300 Lieferscheine pro Monat als Foto/PDF, nicht personenbezogen | Förderung für 1 Jahr, danach ein ehrenamtlicher IT-Kollege | Excel-Liste, von Hand gepflegt |
-| **B** Mieterverein: semantische Suche über 15 Jahre Rundbriefe | 6 Berater*innen in der Sprechstunde | ca. 180 Rundbriefe als PDF, teils gescannt, Rechtslage teils veraltet; nicht personenbezogen | Anbieter-Abo 80 € pro Monat aus Mitgliedsbeiträgen; wer Dokumente aktualisiert, ist offen | Ordner im Regal + Erfahrung langjähriger Kolleg*innen |
-| **C** Beratungsstelle: Chatbot für Erstfragen | Ratsuchende (Schulden, Sozialleistungen) auf der Website, auch nachts | FAQ mit 40 Fragen; Eingaben enthalten oft sensible persönliche Daten | Projektförderung 18 Monate, US-Anbieter per API, danach offen | Telefonischer Erstkontakt, derzeit 2 Wochen Wartezeit |
-| **D** Verein: Agent bereitet Förderanträge vor | Geschäftsführung (1 Person, Teilzeit) | alte Anträge, Jahresberichte, Haushaltszahlen; Agent bekommt Zugriff auf Mail und Dateiablage | Abo 30 € pro Monat, zahlt die Geschäftsführung privat vor | ca. 3 Tage Schreibarbeit pro Antrag |
-- [ ] Am Ende des Pads ein Abschnitt „Fehlende Kriterien (alle Gruppen)“
+- [ ] Geteiltes Pad anlegen (CryptPad oder Etherpad) und Inhalt aus dem [Anhang: Pad-Inhalt](#anhang-pad-inhalt-übung-3) einfügen (Kurzanleitung oben, eine Karte pro Raum mit Antwortvorlage)
 - [ ] Pad-Link vorab testen: ohne Login öffnen und bearbeiten möglich?
 - [ ] Pad-Link in der Folie eintragen (Platzhalter `PAD-LINK`) und an den Tech-Support schicken
 
 ### Ablauf
 
-- [ ] Aufteilung ansagen (2 min), Tech-Support postet den Pad-Link, dann Stichwort für die Räume
-- [ ] Während der Räume im Hauptraum bleiben und im Pad mitlesen – Rückmeldungen schon vorsortieren
-- [ ] Debrief: Pad kurz teilen oder 🧙 / 🤔 / 🦊 von A–D vorlesen, je ein Satz
-- [ ] Fehlende Kriterien direkt aus dem Pad auf die Folie „Kriterien (Teil 2)“ beziehen
+- [ ] Pre-Mortem-Folie erklären (1,5 min), Tech-Support postet den Pad-Link, dann Stichwort für die Räume
+- [ ] Während der Räume im Hauptraum bleiben und im Pad mitlesen – Gründe schon den Kriterien 5–7 zuordnen
+- [ ] Optionaler Twist nach 4 min nur, wenn der Tech-Support pro Raum senden kann
+- [ ] Debrief (2 min) auf „Kriterien (Teil 2)“: pro Raum nur den stärksten Scheiternsgrund, dem passenden Kriterium 5–7 zuordnen; fehlt eins, auf die Karte zeigen, in der es steckt (Zuordnung in den Folien-Notizen); eine 🦊-Bedingung aus Frage 2 als „Kriterium in euren Worten“ vorlesen
 - [ ] Optional: Countdown-Timer auf den Übungsfolien (Quarto-Extension `countdown`)
 - [ ] Pad nach dem Workshop als Mitnehm-Material teilen (oder löschen, falls nicht gewünscht)
 
 ## Notfallplan
 
 - [ ] Unsere Verbindung bricht ab: Der Tech-Support hält das Meeting offen. Absprechen, dass kurz Bescheid gegeben wird („Jonas ist gleich zurück“)
-- [ ] Breakout-Technik streikt: Übung 3 im Plenum machen – Projekt C und D gemeinsam besprechen, Emoji per Chat-Wasserfall
+- [ ] Breakout-Technik streikt: Übung 3 im Plenum machen – Pre-Mortem für Projekt C und D gemeinsam, Emoji per Chat-Wasserfall
 - [ ] Chat-Wasserfall klappt nicht (zu wenige Leute): direkt 2–3 Personen namentlich ansprechen
 
 ## Probedurchlauf
@@ -124,5 +112,104 @@ Einmal mit 2–3 Testpersonen durchspielen, ca. 30 min. Die Technik übernimmt d
 - [ ] Chat-Wasserfall einmal üben, Timing für das Los prüfen
 - [ ] Stichworte für die Räume einmal laut üben
 - [ ] Pad aus einem Breakout-Raum heraus bearbeiten, Kurzanleitung im Pad verständlich?
+- [ ] Pre-Mortem-Fragen einmal mit einer Projektkarte durchspielen: Kommen in 6 min 2–3 Gründe zusammen?
+- [ ] Falls Twist geplant: Broadcast an einen einzelnen Raum testen
 - [ ] Bildschirmfreigabe der Folien inkl. Fragmente prüfen
 - [ ] Gesamtzeit der Übungen stoppen (Ziel: Vibecheck 4 · Mini-Evaluation 9 · Übung 2 8 · Übung 3 12 min)
+
+---
+
+## Anhang: Pad-Inhalt (Übung 3)
+
+Alles ab hier ins Pad kopieren, als Titel „Übung: KI-Projekte unter der Lupe“ statt „Kopf des Pads“.
+
+### Kopf des Pads
+
+**So geht's:** Lest eure Projektkarte (1 min), diskutiert die zwei Fragen (6 min) und tragt eure Antworten unten in eurem Abschnitt ein (1 min). Eine Person schreibt, eine achtet auf die Zeit.
+
+1. **Es ist November 2028, das Projekt ist gescheitert. Was ist passiert?** (2–3 Gründe)
+2. **Was müsste gelten, damit es trotzdem 🦊 wird?**
+
+Zum Schluss eure Einschätzung: 🧙 Mythos / 🤔 Kommt drauf an / 🦊 Fable(haft) und ein Satz, warum.
+
+*Alle Projekte sind fiktional.*
+
+---
+
+### Raum A · Migrationsberatung: Gespräche transkribieren und zusammenfassen
+
+**Die Idee (aus dem Projektantrag):** „Unsere Berater*innen verbringen ein Drittel ihrer Zeit mit Dokumentation. Mit KI schreibt sich die Akte von selbst, und wir haben mehr Zeit für Menschen.“
+
+- **Organisation:** Migrationsberatung, 6 hauptamtliche Berater*innen, rund 1.500 Gespräche im Jahr
+- **Was passiert:** Gespräche werden per Handy aufgenommen, ein Cloud-Dienst transkribiert sie, ein Sprachmodell schreibt eine Zusammenfassung für die Akte
+- **Tasks:** ③ Spracherkennung + ⑤ Zusammenfassen
+- **Daten:** Gesprächsaudio, darin Aufenthaltsstatus, Gesundheit, Familiensituation
+- **Wer nutzt es:** die Berater*innen; die Ratsuchenden sind im Raum
+- **Wer zahlt:** Landesförderprogramm „Digitalisierung im Ehrenamt“, 2 Jahre
+- **Was es ersetzt:** handschriftliche Notizen, die abends abgetippt werden
+
+**Eure Antworten:**
+
+- Gescheitert, weil …
+- Damit es 🦊 wird, müsste …
+- Einschätzung + ein Satz:
+
+---
+
+### Raum B · Mieterverein: Semantische Suche über 15 Jahre Rundbriefe
+
+**Die Idee (aus dem Projektantrag):** „15 Jahre Wissen, endlich auffindbar. Mitglieder stellen eine Frage und bekommen sofort die passende Antwort aus unserem Archiv.“
+
+- **Organisation:** Mieterverein, 8.000 Mitglieder, 3 Hauptamtliche, viele Ehrenamtliche
+- **Was passiert:** Alle Rundbriefe seit 2010 werden in eine Datenbank geladen. Mitglieder stellen auf der Website eine Frage, das System sucht passende Artikel und formuliert eine Antwort (RAG)
+- **Tasks:** ④ Suche / Fragen beantworten (+ ⑤ Formulieren)
+- **Daten:** rund 600 Rundbrief-Ausgaben, teils Word-Dateien, teils PDFs
+- **Wer nutzt es:** Mitglieder, ohne Beratung dazwischen
+- **Wer zahlt:** eine Stiftung, einmalig 25.000 €; die laufenden API-Kosten trägt der Verein
+- **Was es ersetzt:** Anrufe bei der Geschäftsstelle und die Suche von Hand im Archiv
+
+**Eure Antworten:**
+
+- Gescheitert, weil …
+- Damit es 🦊 wird, müsste …
+- Einschätzung + ein Satz:
+
+---
+
+### Raum C · Schuldnerberatung: Chatbot für Erstfragen
+
+**Die Idee (aus dem Projektantrag):** „Rund um die Uhr erreichbar, ohne Wartezeit. Unser KI-Assistent beantwortet Erstfragen sofort und entlastet das Team.“
+
+- **Organisation:** Schuldnerberatung, Wartezeit auf einen Termin derzeit 10 Wochen
+- **Was passiert:** Ein Chatbot auf der Website beantwortet Fragen wie „Darf mein Konto gepfändet werden?“ oder „Was ist ein P-Konto?“ und verweist bei Bedarf auf einen Termin
+- **Tasks:** ④ Fragen beantworten (+ ① Anliegen einordnen)
+- **Daten:** FAQ der Beratungsstelle, Merkblätter, Gesetzestexte
+- **Wer nutzt es:** Ratsuchende, oft in akuter Notlage, ohne Fachkraft dazwischen
+- **Wer zahlt:** Pilotförderung der Kommune, 12 Monate
+- **Was es ersetzt:** Telefonsprechstunde (2 Stunden pro Woche) und Infoseiten auf der Website
+
+**Eure Antworten:**
+
+- Gescheitert, weil …
+- Damit es 🦊 wird, müsste …
+- Einschätzung + ein Satz:
+
+---
+
+### Raum D · Verein: Agent bereitet Förderanträge vor
+
+**Die Idee (aus dem Projektantrag):** „Nie wieder eine Frist verpassen. Unser KI-Agent findet passende Förderprogramme und schreibt den ersten Antragsentwurf, wir müssen nur noch unterschreiben.“
+
+- **Organisation:** Umweltbildungsverein, komplett ehrenamtlich, 2 Personen schreiben alle Anträge
+- **Was passiert:** Ein Agent durchsucht regelmäßig Förderdatenbanken, prüft, ob ein Programm passt, und füllt Antragsformulare mit Texten aus früheren Anträgen und der Website vor
+- **Ansatz:** Agent (plant Schritte selbst, nutzt Suche und Formulare); Tasks darin u.a. ④ Suche, ① Passt das Programm?, ⑤ Texte formulieren
+- **Daten:** 20 frühere Anträge (davon 8 bewilligt), Jahresberichte, Website
+- **Wer nutzt es:** die zwei Antragsschreiber*innen
+- **Wer zahlt:** Abo eines KI-Tools, 40 € im Monat aus Mitgliedsbeiträgen
+- **Was es ersetzt:** Newsletter von Förderdatenbanken lesen und Anträge von Grund auf schreiben
+
+**Eure Antworten:**
+
+- Gescheitert, weil …
+- Damit es 🦊 wird, müsste …
+- Einschätzung + ein Satz:
