@@ -392,6 +392,16 @@ $code-block-border-color: $ca-primary;
   }
 }
 
+// Chapter overview: same look as agenda, compact 2-column grid
+.reveal .slides section.ca-agenda.ca-subtoc ol.ca-toc {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px 18px;
+  li { margin: 0; font-size: 0.85em; }
+  .num { flex-basis: 56px; font-size: 1.1em; }
+  .label { padding: 0.45em 0.8em; }
+}
+
 // One heading size for all content slides (intro/section slides use .ca-upper)
 .reveal .slides section:not(.ca-upper) > h2 {
   font-size: 1.55em !important;
@@ -463,3 +473,7 @@ $code-block-border-color: $ca-primary;
   }
   pre code { font-size: 1.15em !important; line-height: 1.4; max-height: none; padding: 0.6em 0.8em; background: transparent; white-space: pre; }
 }
+
+// Hidden list items that continue a numbered list: no gap between the two <ol>
+.reveal ol:has(+ .ca-list-cont) { margin-bottom: 0 !important; }
+.reveal .ca-list-cont > ol { margin-top: 0 !important; }
