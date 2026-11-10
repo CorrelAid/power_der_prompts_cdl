@@ -58,7 +58,6 @@ csl: correlaid_assets/apa.csl
 - Die **Folien** findet ihr hier: [correlaid.github.io/power_der_prompts_d3](https://correlaid.github.io/power_der_prompts_d3/#/title-slide)
 - Lasst uns heute im Workshop gerne beim **Du** bleiben.
 - Es gibt keine „blöden“ Fragen. Macht aktiv mit, teilt eure Erfahrungen und werdet eure Fragen los.
-- Bitte macht **keine Screenshots oder Mitschnitte** von anderen Teilnehmenden. Der Workshop ist ein Rahmen für vertrauensvollen Austausch.
 :::
 
 ::: notes
@@ -91,10 +90,10 @@ csl: correlaid_assets/apa.csl
 
 ::: notes
 - Workshop: 3 Übungen, Teilnehmende sollen aktiv mitmachen
-- Zeiten: 7 Block 1 (2 Begrüßung bis Inhalte · 1 Skala · 3 Vibecheck · 1 Versprechen) · 11 Konzepte (Intelligenz bis Messen) · 4 Mini-Evaluation · 1 Kriterien Teil 1 · 8 Übung 2 · 7 Daten & Kosten · 12 Übung 3 · 5 Abschluss = 55
-- Kein Puffer eingeplant! Kürzen in dieser Reihenfolge: 1. Big-Tech-Folie · 2. Bonus-Problem Übung 2 · 3. Projekttabelle nur zeigen, nicht besprechen · 4. Prompt-Folie der Mini-Evaluation überspringen und den Unterschied mündlich nennen · 5. Intelligenz-Folie überspringen, direkt zum Oberbegriff · 6. „Was oft vergessen wird“ nur kurz anreißen
+- Zeiten: 7 Block 1 (2 Begrüßung bis Inhalte · 1 Skala · 3 Vibecheck · 1 Versprechen) · 10 Konzepte (Intelligenz bis Prompts) · 4 Mini-Evaluation · 1 Messen · 1 Kriterien Teil 1 · 8 Übung 2 · 7 Daten & Kosten · 12 Übung 3 · 5 Abschluss = 55
+- Kein Puffer eingeplant! Kürzen in dieser Reihenfolge: 1. Big-Tech-Folie · 2. Bonus-Problem Übung 2 · 3. Projekttabelle nur zeigen, nicht besprechen · 4. Prompt-Folie der Mini-Evaluation überspringen und den Unterschied mündlich nennen · 5. Intelligenz-Folie überspringen, direkt zu den Tasks · 6. „Was oft vergessen wird“ nur kurz anreißen
 - Ziel: 3–5 min Puffer für Breakout-Technik und Fragen
-- Wenn nach „Oberbegriff“ schon 4 min von Block 2 vorbei: Projekttabelle nur zeigen, nicht besprechen („Beispiele zum Nachlesen“)
+- Wenn nach „Von Fähigkeiten zu Tasks“ schon 4 min von Block 2 vorbei: Projekttabelle nur zeigen, nicht besprechen („Beispiele zum Nachlesen“)
 :::
 
 
@@ -195,17 +194,6 @@ KI ist also ein **Bündel von Fähigkeiten**: einordnen, lesen, wiederfinden, fo
 - Original: „Intelligence is the computational part of the ability to achieve goals in the world. […] Intelligence involves mechanisms, and AI research has discovered how to make computers carry out some of them and not others.“
 - Intelligenz meint hier kein künstliches menschliches Bewusstsein, nur ein Bündel von Fähigkeiten, die auf ein Ziel gerichtet sind
 - Beispiel für „manche ja, andere nicht“ (Moravec-Paradox): Ein Schachcomputer schlägt 1997 den Weltmeister. Roboter, die zuverlässig und günstig in einer fremden Küche aufräumen, gibt es bis heute nicht. Was für uns schwer ist, kann für Maschinen leicht sein, und umgekehrt
-:::
-
-## Was ist KI? Ein Oberbegriff
-
-![](images/drawing.png){fig-align="center" style="max-height:560px;" fig-alt="Verschachtelte Kästen: Künstliche Intelligenz umfasst Machine Learning, darin neuronale Netze und Deep Learning, darin neuronale Sprachmodelle. Daneben symbolische KI (Regeln). Natural Language Processing überschneidet sich mit beiden."}
-
-::: notes
-- KI als Oberbegriff: Wenn eine Technologie eine dieser Fähigkeiten abdeckt, ist sie KI
-- KI umfasst mehr als generative KI (ChatGPT, Claude). GPT und Claude sind neuronale Sprachmodelle
-- Breite Definition ist wissenschaftlich üblich. Der AI Act grenzt aber einfache regelbasierte Software aus. Für die Art.-4-Pflicht zählt die AI-Act-Definition
-- Bild zeigt Methoden, nicht Fähigkeiten. Symbolic AI = Regeln, kommt gleich als „Ansatz“ wieder
 - Überleitung: „Diese Fähigkeiten sind noch zu vage, um damit zu arbeiten. Dafür braucht es Tasks.“
 :::
 
@@ -224,39 +212,25 @@ Ein **Task** legt fest: Was geht rein? Was soll rauskommen? Woran messen wir, ob
 | ⑦ Dubletten erkennen | Spendendatenbank → doppelte Einträge | Anteil gefundener Dubletten |
 | ⑧ Vorhersage / Anomalie | Einsatzdaten → Bedarf morgen | Abweichung, Fehlalarme vs. Übersehene |
 
-::: {.fragment style="font-size:0.8em; margin-top:0.4em;"}
-Für denselben Task gibt es verschiedene **Ansätze**: Regeln, klassisches ML, ein kleines feinjustiertes Modell, ein großes Modell + Prompt, RAG oder einen Agenten. Welcher passt, zeigt die Messung. Regeln zählen im weiten Sinn als KI, unter dem AI Act meist nicht.
-:::
-
-::: {.fragment style="font-size:0.7em; margin-top:0.3em; color:#4b5563;"}
-**Klassisches ML:** lernt aus gelabelten Beispielen · **Feinjustiert:** vorhandenes Modell mit eigenen Beispielen nachtrainiert · **RAG:** Modell sucht erst in euren Dokumenten, dann antwortet es · **Agent:** Modell plant Schritte selbst und nutzt Tools
-:::
-
 ::: notes
 - Zentrale Folie des Workshops: vage Fähigkeit („Sprache verstehen“) vs. klarer Task („Mails einer Person zuordnen“)
 - Die Nummern ①–⑧ kommen in Übung 2 wieder
 - Von der Wissenschaft lernen: KI-Methoden werden für Tasks entwickelt und mit eigens zusammengestellten Daten und Metriken verglichen
-- Agent ist ein Ansatz, kein Task. Die Ausgabe ist eine Folge von Handlungen und deshalb viel schwerer zu messen. Merken für Übung 3 (Projekt D)
-- Wie man Performance konkret misst, kommt nach der Prompting-Folie
+- Wie man Performance konkret misst, kommt nach der Mini-Evaluation
 - Neuronale Netze sind seit etwa 2012 bei vielen dieser Tasks führend, vor allem bei Bild, Sprache und Text [@lecun2015]. Bei Tabellendaten sind baumbasierte Verfahren oft besser [@grinsztajn2022]
-- Regeln vs. AI Act: Brücke zur Art.-4-Folie in Block 3
-- RAG und Agent werden in Übung 3 (Projekte B und D) gebraucht
-- Früher: ein Modell pro Task, extra dafür trainiert (z.B. BERT) [@devlin2019]; heute oft: ein großes generatives Modell + Prompt, das Modell wird nicht verändert [@brown2020]
-- Nur bei Nachfrage: BERT 340 Mio. Parameter, Finetuning; große generative Modelle legen Parameterzahl nicht offen (Schätzungen: Billionen); Zero-/Few-Shot Prompting, In-Context Learning
-- Performance nicht als gegeben ansehen; je größer das Modell, desto mehr externalisierte Kosten
 :::
 
 ## Typische KI-Projekte nach Task {.ca-dense .ca-table}
 
 | Task | Projekt |
 |---|---|
-| **① Klassifikation** | [In safe hands](https://correlaid.org/projekte/projektdatenbank/2023-10-ISH): Interviewantworten kategorisieren |
-| | [AWO](https://www.civic-coding.de/ueber-civic-coding/projektlandkarte/projekt/demokratiefoerder-rechner/93): Förderprogramme einordnen |
+| **① Klassifikation** | [AfD-Gutachten](https://www.afd-gutachten.de/gutachten/03-einfuehrung/04-methodik/02-massenhafte-erhebung-von-primaerdaten/01-quellen/): Äußerungen vorfiltern |
+| | [AWO](https://awo.org/projekt/demokratiefoerderung/): Förderprogramme einordnen |
 | **③ Texterkennung** | [genialsozial](https://saechsische-jugendstiftung.de/angebot/genialsozial-aktionstag-einen-tag-arbeiten-und-soziale-projekte-unterstuetzen/): Handschrifterkennung für Formulare |
-| **④ Suche / Fragen beantworten** | [Schule ein Gesicht geben](https://www.civic-coding.de/ueber-civic-coding/projektlandkarte/projekt/datengestuetzte-zugaenge-zur-wissensdatenbank-von-schule-ein-gesicht-geben-ev/84): Wissensdatenbank |
-| | [Jugendhilfe.ai](https://publish.obsidian.md/datenprojekte-civic-data/Projekt/Jugendhilfe.ai+-+Die+Suchmaschine+f%C3%BCr+die+SGB): Suchmaschine fürs Sozialrecht |
-| **⑤ Vereinfachen** | [Fair Text](https://fair-text.com/), [ErLeSen](https://www.civic-coding.de/ueber-civic-coding/projektlandkarte/projekt/erstellung-und-analyse-leichter-sprache-durch-kuenstliche-intelligenz-erlesen/3): Leichte Sprache |
-| **⑧ Vorhersage / Anomalie** | [DRK](https://publish.obsidian.md/datenprojekte-civic-data/Projekt/Disposition+von+Rettungsmitteln): Rettungswagen vorausschauend verlegen |
+| **④ Suche / Fragen beantworten** | [Schule ein Gesicht geben](https://civic-data.de/blog/schule-ein-gesicht-geben/): Wissensdatenbank |
+| | [Das steht dir zu (Caritas NRW)](https://ki-chat.das-steht-dir-zu.de/): KI-Chat zu Sozialleistungen |
+| **⑤ Vereinfachen** | [Fair Text](https://fair-text.com/assistant-leichte-sprache-uebersetzer/): Texte in Leichte Sprache übersetzen |
+| **⑧ Vorhersage / Anomalie** | [PRIORITAS](https://idw-online.de/de/news874067): Leitstellen Rettungsmittel und Klinik vorschlagen |
 | | [BeeObserver](https://correlaid.org/projekte/projektdatenbank/2019-10-BEE): Anomalien im Bienenstock erkennen |
 
 Mehr Projekte: [CDL-Projektsammlung](https://civic-data.de/machen/projektsammlung/) · [CorrelAid-Projektdatenbank](https://correlaid.org/projekte/projektdatenbank)
@@ -265,18 +239,56 @@ Mehr Projekte: [CDL-Projektsammlung](https://civic-data.de/machen/projektsammlun
 
 ::: notes
 - Gleiche Handvoll Tasks hinter sehr unterschiedlichen Themen
-- Stand laut Katalog (Selbstauskunft): In safe hands, Jugendhilfe.ai in Weiterentwicklung · AWO abgeschlossen · genialsozial wird geprüft · Schule ein Gesicht geben unbekannt · Fair Text, ErLeSen, BeeObserver in Betrieb · DRK im Testbetrieb. Vieles ist Idee oder Prototyp, auch hier gilt die Skala vom Anfang
+- Stand laut Katalog (Selbstauskunft): Das steht dir zu in Betrieb · AWO abgeschlossen · genialsozial wird geprüft · Schule ein Gesicht geben unbekannt · Fair Text, BeeObserver in Betrieb · PRIORITAS Forschungsprojekt in Entwicklung (DFKI, DRF Luftrettung als Praxispartner). Vieles ist Idee oder Prototyp, auch hier gilt die Skala vom Anfang
 - Fehlalarme vs. Übersehene = Precision/Recall in einfachen Worten
-- DRK sind eigentlich zwei Schritte: Bedarf vorhersagen + Standorte optimieren
+- PRIORITAS sind eigentlich zwei Schritte: Lage aus Echtzeitdaten einschätzen + beste Option empfehlen. Entscheidung bleibt bei Disponent*innen
 - ② und ⑥ bewusst nicht auf der Folie. Echte Beispiele kommen in Übung 2 als Auflösung (Kassenführung EVIM, Full Fact). Für ⑦ kein Katalogbeispiel
 - Demokratieförderquote: nur bei einfachen Entscheidungen auf KI verlassen, schwierige Fälle Menschen überlassen
-- Weiteres Klassifikations-Beispiel: AfD-Gutachten, Äußerungen vorfiltern [@verfassungsblog2026]
-- Weitere Beispiele aus dem Katalog: KIA (Anfrage klassifizieren, dann Hinweise für Berater*innen generieren), Das steht dir zu (Rechner als Regelwerk + RAG-Chat)
+- AfD-Gutachten: KI filtert Äußerungen vor, Menschen prüfen [@verfassungsblog2026]. Weiteres Klassifikations-Beispiel: In safe hands (CorrelAid), Interviewantworten kategorisieren
+- Weitere Beispiele aus dem Katalog: KIA (Anfrage klassifizieren, dann Hinweise für Berater*innen generieren)
 - KAIMo (Kinderschutz, eingestellt) als Beispiel für einen schwer messbaren Task. Projektseite vorher lesen
 - Katalog: Status-Angaben teils Selbstauskunft
 - AWO Demokratieförder-Rechner [@cdl_demokratiefoerderquote]
 - genialsozial: Handschrift-Digitalisierung nur geprüft, Hauptarbeit ist das digitale Formular. Handschrifterkennung wäre ein bewusst akzeptierter, temporärer Tech-Fix
 - Agents: Kein Katalog-Projekt ist agentisch. Stattdessen von eigener Coding-Erfahrung erzählen. Kleine Studie: erfahrene Entwickler*innen waren mit KI langsamer, nicht verallgemeinern [@becker2025]
+:::
+
+## Was ist KI? Ein Oberbegriff
+
+![](images/ki_oberbegriff.svg){fig-align="center" style="max-height:560px;" fig-alt="Verschachtelte Kästen: Künstliche Intelligenz umfasst Machine Learning, darin neuronale Netze und Deep Learning, darin neuronale Sprachmodelle. Daneben symbolische KI (Regeln). Natural Language Processing überschneidet sich mit beiden."}
+
+::: notes
+- KI als Oberbegriff: Wenn eine Technologie eine dieser Fähigkeiten abdeckt, ist sie KI
+- KI umfasst mehr als generative KI (ChatGPT, Claude). GPT und Claude sind neuronale Sprachmodelle
+- Breite Definition ist wissenschaftlich üblich. Der AI Act grenzt aber einfache regelbasierte Software aus. Für die Art.-4-Pflicht zählt die AI-Act-Definition
+- Bild zeigt Methoden, nicht Fähigkeiten. Symbolic AI = Regeln, der erste Ansatz auf der nächsten Folie
+- Überleitung: „Mit diesen Methoden lassen sich Tasks lösen, oft auf mehrere Arten.“
+:::
+
+## Ein Task, viele Ansätze {.ca-dense .ca-table .ca-tight}
+
+Beispiel-Task ①: **E-Mail → zuständige Person**
+
+| Ansatz | Wie es funktioniert | Im Beispiel |
+|---|---|---|
+| **Regeln** | Menschen schreiben Wenn-dann-Regeln | „Rechnung“ im Betreff → Buchhaltung |
+| **Klassisches ML** | Lernt aus gelabelten Beispielen | Lernt aus 1.000 bereits zugeordneten Mails |
+| **Finetuning** | Vorhandenes Modell mit eigenen Beispielen nachtrainiert | Kleines Sprachmodell mit euren Mails nachtrainiert |
+| **Großes Modell + Prompt** | Anweisung und ein paar Beispiele, Modell bleibt unverändert | „Ordne diese Mail einer Person zu: …“ |
+| **RAG** | Modell sucht erst in euren Dokumenten, dann antwortet es | Sucht im Zuständigkeitsplan, dann Zuordnung |
+| **Agent** | Modell plant Schritte selbst und nutzt Tools | Liest Mail, prüft Vertretungsplan, leitet weiter |
+
+::: {.fragment style="margin-top:0.5em;"}
+Welcher Ansatz passt, zeigt die **Messung**.
+:::
+
+::: notes
+- Agent ist ein Ansatz, kein Task. Die Ausgabe ist eine Folge von Handlungen und deshalb viel schwerer zu messen. Merken für Übung 3 (Projekt D)
+- Regeln vs. AI Act: Brücke zur Art.-4-Folie in Block 3
+- RAG und Agent werden in Übung 3 (Projekte B und D) gebraucht
+- Früher: ein Modell pro Task, extra dafür trainiert (z.B. BERT) [@devlin2019]; heute oft: ein großes generatives Modell + Prompt, das Modell wird nicht verändert [@brown2020]
+- Nur bei Nachfrage: BERT 340 Mio. Parameter, Finetuning; große generative Modelle legen Parameterzahl nicht offen (Schätzungen: Billionen); Zero-/Few-Shot Prompting, In-Context Learning
+- Performance nicht als gegeben ansehen; je größer das Modell, desto mehr externalisierte Kosten
 :::
 
 ## Was Prompts können {.ca-dense}
@@ -288,7 +300,7 @@ Mehr Projekte: [CDL-Projektsammlung](https://civic-data.de/machen/projektsammlun
 - ✗ Rollen („Du bist Expert*in …“) helfen nicht verlässlich [@zheng2024]
 
 ::: {.fragment style="font-size:0.85em; margin-top:0.6em;"}
-Viele Tasks lassen sich heute mit einem großen Modell + **Prompt** lösen, aber nicht immer am besten. Bei Tabellendaten gewinnen oft klassische Verfahren, bei Textklassifikation oft kleine, feinjustierte Modelle [@grinsztajn2022; @bucher2024].
+Viele Tasks lassen sich heute mit einem großen Modell + **Prompt** lösen, aber nicht immer am besten. Bei Tabellendaten gewinnen oft klassische Verfahren, bei Textklassifikation oft kleine Modelle mit Finetuning [@grinsztajn2022; @bucher2024].
 :::
 
 ::: notes
@@ -297,28 +309,6 @@ Viele Tasks lassen sich heute mit einem großen Modell + **Prompt** lösen, aber
 - Erst ein festes Ausgabeformat macht Ergebnisse messbar
 - Beispiele nicht aus den Testfällen nehmen, sonst prüft man nur, ob das Modell abschreiben kann
 - Überleitung: „Woher wisst ihr, ob der Prompt gut ist? Messen.“
-:::
-
-## Performance messen {.ca-dense}
-
-1. **100 echte Fälle** sammeln, seltene und kritische Fälle gezielt mit aufnehmen
-2. **Zu zweit labeln**: Wo seid ihr euch uneinig? Dort sind die Kategorien unklar
-3. **Vergleichen** mit einer einfachen Lösung (Stichwortregel, „alles ans Büro“) und dem heutigen Prozess
-4. **Prompt an anderen Fällen basteln** als an denen, mit denen ihr messt
-5. **Fehler anschauen**: Welche Fälle gehen schief, und wen trifft das?
-
-::: fragment
-**Faustregel:** Bei 100 Fällen sind 88 % und 92 % kein belastbarer Unterschied.
-:::
-
-::: notes
-- Wichtigste praktische Botschaft: Performance prüfen geht auch ohne Data-Science-Team
-- Vor der Einführung messen, nicht danach
-- Regelmäßig wiederholen, Modelle ändern sich mit Updates
-- Punkt 4: sonst misst man nur, wie gut man den Prompt an genau diese Fälle angepasst hat
-- Faustregel: Unsicherheit bei n = 100 und rund 90 % Trefferquote etwa ± 6 Prozentpunkte, bei niedrigerer Trefferquote mehr
-- Für Rückfragen: Zwei Prompts an denselben Fällen vergleichen und die Fälle anschauen, bei denen sie sich unterscheiden. Das sagt mehr als zwei Prozentzahlen
-- Fehlerkosten: Eine falsch sortierte Mail ist ärgerlich, eine falsche Auskunft in der Beratung kann schaden
 :::
 
 ## Prompt als Variable {.ca-dense .ca-prompts}
@@ -365,7 +355,7 @@ Antworte nur mit dem Buchstaben.
 - 4 min für beide Folien
 - Beide Prompts vorher mit demselben Modell an 10 Testmails laufen lassen. Modell, Version, Datum: …
 - Eindeutige Testmails (beide Prompts sollten sie richtig haben): „Ich möchte zum Jahresende kündigen.“ A · „Fällt das Training am Donnerstag wegen der Hallensanierung aus?“ B · „Unsere Bäckerei würde gern Trikots für die Jugend sponsern.“ C · „Ich habe meine Trinkflasche in der Halle vergessen.“ D · „Meine Bankverbindung hat sich geändert.“ A
-- Die drei Beispiele in Prompt 2 sind bewusst keine der Testmails (Regel 4 von der Messen-Folie)
+- Die drei Beispiele in Prompt 2 sind bewusst keine der Testmails (kommt gleich als Regel 4 auf der Messen-Folie)
 - Prompt 2 entscheidet Grenzfälle per Definition (Probetraining → B, Spendenquittung → C). Das ist kein Schummeln, diese Arbeit muss ein Prompt leisten
 - „Das gibt es übrigens“: innatura gGmbH überlegt, Routineanfragen im Bestell-Postfach per KI zu erkennen (Pitch/Idee, kein laufendes System) [@cdl_projektkatalog]
 :::
@@ -392,7 +382,30 @@ Antworte nur mit dem Buchstaben.
 - Mobbing-Mail: Für die wichtigste Mail gibt es keine Kategorie. Sie landet in „Sonstiges“ und bleibt vielleicht liegen. Kategorien bilden ab, woran man beim Entwerfen gedacht hat, nicht alles, was ankommt
 - Grenzfälle sind dort, wo Fehler wehtun
 - In echten Postfächern noch mehr: mehrere Anliegen in einer Mail, Ironie, Tippfehler, Anhänge
-- Verbindet Prompting-Folie, Messen-Folie („Zu zweit labeln“) und Übung
+- Verbindet Prompting-Folie und Übung, bereitet „Zu zweit labeln“ auf der Messen-Folie vor
+- Überleitung: „Wie prüft ihr also, ob ein Prompt gut genug ist?“
+:::
+
+## Performance messen {.ca-dense}
+
+1. **100 echte Fälle** sammeln, seltene und kritische Fälle gezielt mit aufnehmen
+2. **Zu zweit labeln**: Wo seid ihr euch uneinig? Dort sind die Kategorien unklar
+3. **Vergleichen** mit einer einfachen Lösung (Stichwortregel, „alles ans Büro“) und dem heutigen Prozess
+4. **Prompt an anderen Fällen basteln** als an denen, mit denen ihr messt
+5. **Fehler anschauen**: Welche Fälle gehen schief, und wen trifft das?
+
+::: fragment
+**Faustregel:** Bei 100 Fällen sind 88 % und 92 % kein belastbarer Unterschied.
+:::
+
+::: notes
+- Wichtigste praktische Botschaft: Performance prüfen geht auch ohne Data-Science-Team
+- Vor der Einführung messen, nicht danach
+- Regelmäßig wiederholen, Modelle ändern sich mit Updates
+- Punkt 4: sonst misst man nur, wie gut man den Prompt an genau diese Fälle angepasst hat
+- Faustregel: Unsicherheit bei n = 100 und rund 90 % Trefferquote etwa ± 6 Prozentpunkte, bei niedrigerer Trefferquote mehr
+- Für Rückfragen: Zwei Prompts an denselben Fällen vergleichen und die Fälle anschauen, bei denen sie sich unterscheiden. Das sagt mehr als zwei Prozentzahlen
+- Fehlerkosten: Eine falsch sortierte Mail ist ärgerlich, eine falsche Auskunft in der Beratung kann schaden
 - Überleitung: „Bevor man überhaupt promptet: Ist es ein Problem für KI?“
 :::
 
@@ -400,7 +413,7 @@ Antworte nur mit dem Buchstaben.
 
 1. Ist es ein **systemisches Problem**, das Technik nicht löst? Fehlende Ressourcen lassen sich nicht wegautomatisieren, ein Chatbot hilft nicht gegen Einsamkeit [@morozov2013]
 2. Gibt es **einfachere Lösungen** (Prozess, Struktur, klassische Software, bessere Website statt Chatbot)?
-3. Lässt sich das Problem in einen **klaren Task** zerlegen?
+3. Lässt sich das Problem in **klare Tasks** zerlegen?
 4. Kann man **Performance messen** (100 echte Fälle, zu zweit gelabelt, mit einfacher Lösung verglichen), und reicht sie? Was kosten Fehler?
 
 ::: {style="margin-top:1em; color:#374151;"}
@@ -537,7 +550,7 @@ Eine Umfrage unter Ehrenamtlichen liefert 2.000 Freitextantworten. In drei Woche
 
 ::: {.column width="58%"}
 - **Bias & Diskriminierung**: Sprachmodelle bewerten Menschen je nach Dialekt schlechter [@hofmann2024]
-- **Ressourcenverbrauch**: Rechenzentren insgesamt (nicht nur KI) könnten 2030 so viel Strom brauchen wie Japan heute. Das sind knapp 3 % des weltweiten Verbrauchs  [@iea2025], lokal aber stark konzentriert (Wasser, Luftverschmutzung)
+- **Ressourcenverbrauch**: Rechenzentren insgesamt (nicht nur KI) könnten 2030 so viel Strom brauchen wie Japan heute, knapp 3 % des weltweiten Verbrauchs [@iea2025].  Rechenzentren belasten lokal Stromnetz, Wasser und Luft
 - **Ausbeutung**: Klickarbeit beim Datenlabeling [@perrigo2023]
 :::
 
@@ -545,7 +558,7 @@ Eine Umfrage unter Ehrenamtlichen liefert 2.000 Freitextantworten. In drei Woche
 ::: {style="color:#4b5563; font-size:0.85em;"}
 **Zum Nachlesen**
 
-- **Cognitive Outsourcing**: Ersetzt KI Denkprozesse? Erste Hinweise, Forschung noch dünn [@jose2025]
+- **Cognitive Outsourcing**: Ersetzt KI Denkprozesse? [@jose2025]
 :::
 :::
 
@@ -640,7 +653,7 @@ Wenige Firmen kontrollieren die großen Modelle und verfolgen eine politische Ag
 **Fragen**
 
 1. **Es ist November 2028, das Projekt ist gescheitert. Was ist passiert?** (2–3 Gründe)
-2. **Was müsste gelten, damit es trotzdem 🦊 wird?**
+2. **Was müsste gelten, damit es trotzdem Fable(haft) (🦊) wird?**
 :::
 
 ::::
@@ -702,7 +715,7 @@ Wenige Firmen kontrollieren die großen Modelle und verfolgen eine politische Ag
 <figure><img src="images/coc/nachhaltigkeit.jpg" alt=""><figcaption>Ökologische Nachhaltigkeit</figcaption></figure>
 :::
 
-[demokratische-ki.de · @d64_coc; @d64_2025]{.source}
+[[demokratische-ki.de](https://demokratische-ki.de/)]{.source}
 
 ::: notes
 - Code of Conduct von CorrelAid mitentwickelt
