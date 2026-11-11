@@ -37,7 +37,8 @@ Minuten aus den Folien-Notizen. Uhrzeiten = Plan bei Start 15:45, auf volle Minu
 | 16:05 | 1 | 2 KI als Werkzeug | Kriterien (Teil 1) | Input |
 | **16:06** | 5 | 2 KI als Werkzeug | Übung 2: Welcher Task? (1 erklären · 3 Probleme, Lösung jeweils per Klick) | Chat-Wasserfall |
 | 16:11 | 5 | 3 KI-Projekt durchführen | Inhalte, Voraussetzungen, Was oft vergessen wird, Wer trägt die Kosten? | Input |
-| 16:16 | 3,5 | 3 KI-Projekt durchführen | Kriterien (Teil 2) nur vorlesen (0,5), Übung 3 erklären, Raumnummer → Fall, Pad-Link in den Chat, Aufteilung (3) | Input |
+| 16:15 | 0,5 | 3 KI-Projekt durchführen | Kriterien (Teil 2) | nur vorlesen |
+| 16:16 | 3 | 3 KI-Projekt durchführen | Übung 3 erklären, Raumnummer → Fall, Pad-Link in den Chat, Aufteilung | Input |
 | 16:19 | 4 | Puffer | Breakout-Übergaben, Verzug aus Block 1–3 | – |
 | **16:23** | 10 | 3 KI-Projekt durchführen | Übung 3: Was ist schiefgegangen? | Breakout-Räume (Fall nach Raumnummer) + Pad |
 | 16:33 | 2 | 4 Abschluss | Inhalte, Code of Conduct, Mitnehmen (kein Debrief, Ergebnisse stehen im Pad) | Input |
