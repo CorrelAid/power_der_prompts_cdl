@@ -36,7 +36,7 @@ Noch 1 Minute – jetzt ins Pad schreiben: Gründe und Kriterium.
 
 ```text
 Danke fürs Mitmachen! 🦊 Zum Mitnehmen:
-Pad mit euren Ergebnissen: https://pad.systemli.org/p/Die_Power_der_Prompts_-_D%C2%B3_Kongress_2026
+Pad mit euren Ergebnissen (wird nach 30 Tagen gelöscht): https://pad.systemli.org/p/Die_Power_der_Prompts_-_D%C2%B3_Kongress_2026
 Folien: https://correlaid.github.io/power_der_prompts_d3/
 Code of Conduct Demokratische KI: https://demokratische-ki.de/
 Projektideen: https://civic-data.de/machen/projektsammlung/ · https://correlaid.org/projekte/projektdatenbank

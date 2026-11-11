@@ -23,22 +23,21 @@ Online-Workshop, 55 Minuten, 11.11.2026, 15:45–16:40 Uhr. Fragen sammeln wir f
 
 ## Zeitplan
 
-Minuten aus den Folien-Notizen. Uhrzeiten = Plan bei Start 15:45.
+Minuten aus den Folien-Notizen. Uhrzeiten = Plan bei Start 15:45, auf volle Minuten gerundet.
 
 | Plan ab | Min | Block | Folien | Methode |
 | --- | --- | --- | --- | --- |
 | 15:45 | 2 | 1 Ankommen | Hallo, Über CorrelAid, Schön dass ihr da seid, Inhalte | Input |
 | 15:47 | 1,5 | 1 Ankommen | Die Skala | Input |
-| **15:48:30** | 4 | 1 Ankommen | Übung 1: Vibecheck (1 erklären · 2 tippen · 1 vorlesen) | Chat-Wasserfall |
-| 15:52:30 | 1 | 1 Ankommen | Was wird versprochen? | Input |
-| 15:53:30 | 8,5 | 2 KI als Werkzeug | Inhalte + Fahrplan (0,5), Was ist KI? Intelligenz (1), Von Fähigkeiten zu Tasks (3), Typische KI-Projekte nach Task (1,5), Was ist KI? Ein Oberbegriff (0,5), Ein Task viele Ansätze (1), Was Prompts können (1) | Input |
+| **15:49** | 4 | 1 Ankommen | Übung 1: Vibecheck (1 erklären · 2 tippen · 1 vorlesen) | Chat-Wasserfall |
+| 15:53 | 1 | 1 Ankommen | Was wird versprochen? | Input |
+| 15:54 | 8,5 | 2 KI als Werkzeug | Inhalte + Fahrplan (0,5), Was ist KI? Intelligenz (1), Von Fähigkeiten zu Tasks (3), Typische KI-Projekte nach Task (1,5), Was ist KI? Ein Oberbegriff (0,5), Ein Task viele Ansätze (1), Was Prompts können (1) | Input |
 | 16:02 | 1 | 2 KI als Werkzeug | Einfache Performancemessung | Input, kurz |
 | 16:03 | 1,5 | 2 KI als Werkzeug | Grenzfälle (Ground Truth) | Input, rhetorische Frage |
-| 16:04:30 | 1 | 2 KI als Werkzeug | Kriterien (Teil 1) | Input |
-| **16:05:30** | 5 | 2 KI als Werkzeug | Übung 2: Welcher Task? (1 erklären · 3 Probleme, Lösung jeweils per Klick) | Chat-Wasserfall |
-| 16:10:30 | 5 | 3 KI-Projekt durchführen | Inhalte, Voraussetzungen, Was oft vergessen wird, Wer trägt die Kosten? | Input |
-| 16:15:30 | 0,5 | 3 KI-Projekt durchführen | Kriterien (Teil 2) | nur vorlesen |
-| 16:16 | 3 | 3 KI-Projekt durchführen | Übung 3 erklären, Raumnummer → Fall, Pad-Link in den Chat, Aufteilung | Input |
+| 16:05 | 1 | 2 KI als Werkzeug | Kriterien (Teil 1) | Input |
+| **16:06** | 5 | 2 KI als Werkzeug | Übung 2: Welcher Task? (1 erklären · 3 Probleme, Lösung jeweils per Klick) | Chat-Wasserfall |
+| 16:11 | 5 | 3 KI-Projekt durchführen | Inhalte, Voraussetzungen, Was oft vergessen wird, Wer trägt die Kosten? | Input |
+| 16:16 | 3,5 | 3 KI-Projekt durchführen | Kriterien (Teil 2) nur vorlesen (0,5), Übung 3 erklären, Raumnummer → Fall, Pad-Link in den Chat, Aufteilung (3) | Input |
 | 16:19 | 4 | Puffer | Breakout-Übergaben, Verzug aus Block 1–3 | – |
 | **16:23** | 10 | 3 KI-Projekt durchführen | Übung 3: Was ist schiefgegangen? | Breakout-Räume (Fall nach Raumnummer) + Pad |
 | 16:33 | 2 | 4 Abschluss | Inhalte, Code of Conduct, Mitnehmen (kein Debrief, Ergebnisse stehen im Pad) | Input |

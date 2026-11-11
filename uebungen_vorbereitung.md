@@ -72,7 +72,7 @@ Breakout-Räume (bis 50 Personen 4 Räume, darüber mehr; wird 15 min vor Beginn
 - [ ] Bei Verzug die Uhrzeiten im Pad-Kopf live korrigieren, nicht nur mündlich
 - [ ] Nach den Räumen: Abschlussnachricht mit Pad-Link in den Chat (chat_texte.md Nr. 6), dann direkt zum Abschluss. Beobachtungen aus dem Pad ggf. in der Fragerunde aufgreifen (Notizen auf „Zeit für Fragen“)
 - [ ] Optional: Countdown-Timer auf den Übungsfolien (Quarto-Extension `countdown`)
-- [ ] Pad nach dem Workshop als Mitnehm-Material teilen (oder löschen, falls nicht gewünscht)
+- [ ] Pad bleibt als Mitnehm-Material online und wird nach 30 Tagen automatisch gelöscht
 
 ## Notfallplan
 
