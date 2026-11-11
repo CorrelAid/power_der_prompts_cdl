@@ -488,7 +488,7 @@ Eine Umfrage unter Ehrenamtlichen liefert 2.000 Freitextantworten. In drei Woche
 :::: {.columns}
 
 ::: {.column width="58%"}
-- **Bias & Diskriminierung**: In einer Studie bewerteten Sprachmodelle Menschen schlechter, die African American English schreiben [@hofmann2024]
+- **Bias & Diskriminierung**
 - **Ressourcenverbrauch**: Rechenzentren insgesamt (nicht nur KI) könnten 2030 so viel Strom brauchen wie Japan heute, knapp 3 % des weltweiten Verbrauchs [@iea2025].  Rechenzentren belasten lokal Stromnetz, Wasser und Luft
 - **Ausbeutung**: Klickarbeit beim Datenlabeling [@perrigo2023]
 :::
@@ -506,7 +506,7 @@ Eine Umfrage unter Ehrenamtlichen liefert 2.000 Freitextantworten. In drei Woche
 
 ::: notes
 - Nur die linke Spalte besprechen, rechts zum Nachlesen
-- Hofmann: Studie zu African American English, für deutsche Dialekte nicht untersucht. Trotzdem ein Grund, selbst zu messen
+- Bias-Beispiel: Sprachmodelle bewerteten in einer Studie Menschen schlechter, die African American English schreiben [@hofmann2024]. Für deutsche Dialekte nicht untersucht, trotzdem ein Grund, selbst zu messen
 - Weiteres Bias-Beispiel: Gesichtserkennung erkennt dunkelhäutige Frauen schlechter [@buolamwini2018]
 - KI ist durch ihre Herstellung auch politisch [@keymolen2026]. Boykott ist eine begründbare individuelle Entscheidung
 :::
