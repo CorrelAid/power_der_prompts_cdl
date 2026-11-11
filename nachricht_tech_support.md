@@ -18,8 +18,8 @@
 
 Tech-Support öffnet nur die Räume und weist automatisch zu.
 
-- [ ] Öffnen auf mein Stichwort, geplant ca. 16:23
-- [ ] Fragen, ob die Räume nach 10 Minuten automatisch schließen können (Countdown 30 s)
+- [ ] Öffnen auf mein Stichwort, geplant ca. 16:21
+- [ ] Fragen, ob die Räume nach 12 Minuten automatisch schließen können (Countdown 30 s)
 
 ## Testen
 

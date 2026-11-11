@@ -20,9 +20,9 @@ Absprache 15 Minuten vor Beginn: siehe [nachricht_tech_support.md](nachricht_tec
 | Übung 3, auf mein Stichwort | Tech-Support | Räume öffnen, automatisch zuweisen (nummeriert) |
 | Übung 3, vor dem Öffnen | ich | Pad-Link in den Hauptchat (chat_texte.md Nr. 2) |
 | Übung 3, direkt nach dem Öffnen | ich | Falls möglich: Broadcast mit Pad-Link (Nr. 3), weil der Hauptchat in den Räumen nicht sichtbar ist |
-| Übung 3, nach 5 min | ich | Falls möglich: Broadcast „Frage 2“ (Nr. 4) |
+| Übung 3, nach 7 min | ich | Falls möglich: Broadcast „Frage 2“ (Nr. 4) |
 | Übung 3, 1 min Restzeit | ich | Falls möglich: Broadcast „Noch 1 Minute“ (Nr. 5) |
-| Übung 3, nach 10 min | Tech-Support | Räume schließen (automatisch, Countdown 30 s) |
+| Übung 3, nach 12 min | Tech-Support | Räume schließen (automatisch, Countdown 30 s) |
 
 ## Bildschirm-Setup
 
@@ -57,7 +57,7 @@ Alle drei Probleme: Chat-Wasserfall mit der Task-Nummer 1–8, dann kurz selbst 
 
 ## Übung 3: Was ist schiefgegangen? (Pre-Mortem)
 
-Breakout-Räume (bis 50 Personen 4 Räume, darüber mehr; wird 15 min vor Beginn festgelegt, Fall nach Raumnummer: 1/5/9/13 → A usw.), Material liegt in einem geteilten Pad. Zeitplan bei Start 15:45: Räume 16:23–16:33, je 5 Minuten pro Frage (Wechsel per Broadcast). Methode Pre-Mortem: „Es ist November 2028, das Projekt ist gescheitert. Was ist passiert?“ Der Tech-Support bedient die Räume. Die Kriterien 1–7 stehen vorher auf der Folie „Kriterien (Teil 2)“. Frage 1 bleibt offen, in Frage 2 ordnen die Räume ihre Gründe selbst den Kriterien zu. Die Ergebnisse bleiben im Pad, es gibt keinen Debrief im Plenum.
+Breakout-Räume (bis 50 Personen 4 Räume, darüber mehr; wird 15 min vor Beginn festgelegt, Fall nach Raumnummer: 1/5/9/13 → A usw.), Material liegt in einem geteilten Pad. Zeitplan bei Start 15:45: Räume 16:21–16:33: 2 Minuten ankommen, dann je 5 Minuten pro Frage (Wechsel per Broadcast). Methode Pre-Mortem: „Es ist November 2028, das Projekt ist gescheitert. Was ist passiert?“ Der Tech-Support bedient die Räume. Die Kriterien 1–7 stehen vorher auf der Folie „Kriterien (Teil 2)“. Frage 1 bleibt offen, in Frage 2 ordnen die Räume ihre Gründe selbst den Kriterien zu. Die Ergebnisse bleiben im Pad, es gibt keinen Debrief im Plenum.
 
 ### Pad
 
@@ -104,7 +104,7 @@ Alles ab hier ins Pad kopieren, als Titel „Übung: Was ist schiefgegangen?“ 
 
 #### So geht's
 
-1. **Eine Person schreibt mit:** Wer nach dem Vornamen im Alphabet zuerst kommt, ist die einzige Person in diesem Dokument, teilt den Bildschirm und schreibt (Stichworte reichen). Alle anderen schauen zu.
+1. **2 Minuten, eine Person schreibt mit:** Wer nach dem Vornamen im Alphabet zuerst kommt, ist die einzige Person in diesem Dokument, teilt den Bildschirm und schreibt (Stichworte reichen). Alle anderen schauen zu.
 2. **5 Minuten:** Sucht euren Fall (Strg+F → „Fall A“ usw.), lest ihn gemeinsam und sammelt 2–3 Gründe, warum das Projekt gescheitert ist.
 3. **5 Minuten** (ihr bekommt eine Nachricht): Welche Kriterien (1–7, unten) hätten das verhindert? Schreibt eine oder mehrere Nummern hinter jeden Grund.
 

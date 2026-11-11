@@ -39,14 +39,14 @@ Minuten aus den Folien-Notizen. Uhrzeiten = Plan bei Start 15:45, auf volle Minu
 | 16:11 | 5 | 3 KI-Projekt durchführen | Inhalte, Voraussetzungen, Was oft vergessen wird, Wer trägt die Kosten? | Input |
 | 16:15 | 0,5 | 3 KI-Projekt durchführen | Kriterien (Teil 2) | nur vorlesen |
 | 16:16 | 3 | 3 KI-Projekt durchführen | Übung 3 erklären, Raumnummer → Fall, Pad-Link in den Chat, Aufteilung | Input |
-| 16:19 | 4 | Puffer | Breakout-Übergaben, Verzug aus Block 1–3 | – |
-| **16:23** | 10 | 3 KI-Projekt durchführen | Übung 3: Was ist schiefgegangen? | Breakout-Räume (Fall nach Raumnummer) + Pad |
+| 16:19 | 2 | Puffer | Breakout-Übergaben, Verzug aus Block 1–3 | – |
+| **16:21** | 12 | 3 KI-Projekt durchführen | Übung 3: Was ist schiefgegangen? (2 ankommen · 5 Frage 1 · 5 Frage 2) | Breakout-Räume (Fall nach Raumnummer) + Pad |
 | 16:33 | 2 | 4 Abschluss | Inhalte, Code of Conduct, Mitnehmen (kein Debrief, Ergebnisse stehen im Pad) | Input |
 | 16:35 | 5 | 4 Abschluss | Zeit für Fragen | Plenum |
 
-Summe: Block 1 = 8,5 · Block 2 = 17 · Block 3 = 18,5 · Abschluss = 7 · Puffer = 4 → 55 Minuten. Die Agenda-Folie zeigt gerundet 9 · 17 · 22 · 7 (Block 3 inkl. Puffer).
+Summe: Block 1 = 8,5 · Block 2 = 17 · Block 3 = 20,5 · Abschluss = 7 · Puffer = 2 → 55 Minuten. Die Agenda-Folie zeigt gerundet 9 · 17 · 22 · 7 (Block 3 inkl. Puffer).
 
-**Kontrollpunkte:** Übung 2 beginnt ca. 16:06 · Block 3 beginnt ca. 16:11 · Räume öffnen **spätestens 16:23**. Sind wir früher dran, öffnen die Räume früher (10 min bleiben 10 min), dann die Uhrzeit mündlich ansagen.
+**Kontrollpunkte:** Übung 2 beginnt ca. 16:06 · Block 3 beginnt ca. 16:11 · Räume öffnen **spätestens 16:21**. Sind wir früher dran, öffnen die Räume früher (12 min bleiben 12 min), dann die Uhrzeit mündlich ansagen.
 
 ## Fragen
 
@@ -57,7 +57,7 @@ Summe: Block 1 = 8,5 · Block 2 = 17 · Block 3 = 18,5 · Abschluss = 7 · Puffe
 
 ## Kürzungsplan bei Verzug
 
-Der Puffer ist 4 min, trotzdem früh kürzen, in dieser Reihenfolge:
+Der Puffer ist nur 2 min, also früh kürzen, in dieser Reihenfolge:
 
 1. Oberbegriff-Grafik überspringen
 2. Projekttabelle nur zeigen, nicht besprechen
@@ -80,7 +80,7 @@ Damit die Dokumente nicht auseinanderlaufen:
 
 **Was an mehreren Stellen steht und gemeinsam geändert werden muss:**
 
-- **Uhrzeiten Übung 3** (16:23–16:33): Notizen der Folie „Übung: Was ist schiefgegangen?“, Tech-Support-Checkliste
+- **Uhrzeiten Übung 3** (16:21–16:33): Notizen der Folie „Übung: Was ist schiefgegangen?“, Tech-Support-Checkliste
 - **Kriterien 1–7**: Folien „Kriterien (Teil 1/2)“, „Mitnehmen“, Pad-Kopf
 - **Tasks ①–⑧**: Folie „Von Fähigkeiten zu Tasks“, Folien Übung 2, Projektkarten im Pad
 - **Projektkarten A–D**: Folie „Übung: Was ist schiefgegangen?“, Pad, Zuordnung Raumnummer → Fall (Folie, Pad, chat_texte.md Nr. 2), Notizen zu „Zeit für Fragen“

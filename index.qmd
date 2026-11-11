@@ -541,7 +541,7 @@ Eine Umfrage unter Ehrenamtlichen liefert 2.000 Freitextantworten. In drei Woche
 :::: {.columns}
 
 ::: {.column width="62%"}
-1. **Eine Person schreibt mit:** Wer nach dem Vornamen im Alphabet zuerst kommt, öffnet den Link zum Pad, teilt den Bildschirm und schreibt.
+1. **2 Minuten, eine Person schreibt mit:** Wer nach dem Vornamen im Alphabet zuerst kommt, öffnet den Link zum Pad, teilt den Bildschirm und schreibt.
 2. **5 Minuten:** Lest euer Projekt und sammelt 2–3 Gründe, warum es gescheitert ist.
 3. **5 Minuten:** Welche [Kriterien](#kriterien-liste) (1–7, auch im Pad) hätten das verhindert? Mehrere sind möglich
 :::
@@ -564,8 +564,8 @@ Eine Umfrage unter Ehrenamtlichen liefert 2.000 Freitextantworten. In drei Woche
 - Methode heißt Pre-Mortem: Scheitern vorwegnehmen macht Risiken leichter aussprechbar. Niemand muss das Projekt schlechtreden
 - Beispiel mündlich: „Der Mail-Sortierer des Sportvereins wurde abgeschaltet. Nach einem Modell-Update hat niemand neu gemessen, die Mobbing-Mail lag drei Wochen in ‚Sonstiges‘.“ Gründe sind selten technisch
 - Projekte: A Chatbot für Erstfragen · B Suche über 15 Jahre Rundbriefe (RAG) · C Gespräche transkribieren und zusammenfassen · D Agent bereitet Förderanträge vor
-- Räume 16:23–16:33. Tech-Support öffnet nur die Räume (nummeriert, automatisch zugewiesen). Zuordnung Raumnummer → Fall steht auf der Folie und im Pad
-- Pad-Link vor dem Öffnen in den Hauptchat posten. Falls Broadcasts gehen: Link direkt, „Frage 2“ nach 5 min, „Noch 1 Minute“
+- Räume 16:21–16:33 (12 min: 2 ankommen, 5 + 5). Tech-Support öffnet nur die Räume (nummeriert, automatisch zugewiesen). Zuordnung Raumnummer → Fall steht auf der Folie und im Pad
+- Pad-Link vor dem Öffnen in den Hauptchat posten. Falls Broadcasts gehen: Link direkt, „Frage 2“ nach 7 min, „Noch 1 Minute“
 - Frage 1 bewusst ohne Kriterien, erst frei sammeln
 - Im Hauptraum bleiben, im Pad mitlesen, Auffälliges für die Fragerunde notieren
 :::
