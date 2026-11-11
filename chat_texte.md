@@ -11,10 +11,10 @@ Nachrichten, die ich selbst poste. Nr. 2–4 sind Broadcasts in die Räume (brau
 ## 2. Übung 3: Broadcast direkt nach dem Öffnen der Räume
 
 ```text
-📝 Pad: https://pad.systemli.org/p/Die_Power_der_Prompts_-_D%C2%B3_Kongress_2026 – nur EINE Person pro Raum öffnet das Pad (alphabetisch erster Vorname), teilt den Bildschirm und schreibt mit. Sucht euren Raum (Strg+F „Raum A“ usw.). Ihr habt 10 Minuten, bis 16:33 Uhr.
+📝 https://pad.systemli.org/p/Die_Power_der_Prompts_-_D%C2%B3_Kongress_2026 – nur EINE Person pro Raum öffnet den Link (wer im Alphabet zuerst kommt), teilt den Bildschirm und schreibt mit. Ihr habt 5 Minuten für Frage 1.
 ```
 
-## 3. Übung 3: Broadcast nach 5 min (16:28)
+## 3. Übung 3: Broadcast nach 5 min
 
 ```text
 Halbzeit – wechselt jetzt zu Frage 2: Welches Kriterium (1–7) hätte das verhindert? Schreibt die Nummer hinter jeden Grund.

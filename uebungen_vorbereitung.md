@@ -14,7 +14,7 @@ Die Konferenz stellt technischen Support: eine Person vom **Tech-Support** über
 - [ ] Klären, wer Host ist, und **Co-Host-Rechte** anfragen (für die Broadcasts in die Räume und ggf. Bildschirmfreigabe)
 - [ ] Einstellungen anfragen, da das Meeting vermutlich nicht in unserem Account liegt:
   - Breakout-Räume an, 4 Räume, automatisch zuweisen, „Teilnehmende dürfen Raum selbst wählen“ an
-  - Räume **nach den Fällen benennen** (Zoom zeigt sonst „Breakout-Raum 1–4“): „A · Migrationsberatung“, „B · Mieterverein“, „C · Schuldnerberatung“, „D · Förderanträge“
+  - Räume **nach den Fällen benennen** (Zoom zeigt sonst „Breakout-Raum 1–4“): „A · Schuldnerberatung“, „B · Mieterverein“, „C · Migrationsberatung“, „D · Förderanträge“
   - Räume nach 10 Minuten automatisch schließen, Countdown 30 s
   - Chat für alle an alle erlaubt, Reaktionen an
 - [ ] Ablauf schicken: auf welcher Folie was passiert (siehe Übergabeliste unten)
@@ -64,9 +64,9 @@ Alle drei Probleme: Chat-Wasserfall mit der Task-Nummer 1–8, dann kurz selbst 
 - [ ] Problem 2 (Tafel-Dubletten): Regeln schlagen oft ML; Spender*innendaten sind personenbezogen. Selbst kurz einordnen: Wie messen? Bräuchte es KI?
 - [ ] Problem 3 (Freitextantworten): ⑥ Gruppieren – oder ①, wenn die Kategorien feststehen; keine richtige Antwort – wie prüft man dann?
 
-## Übung 3: KI-Projekte unter der Lupe – Pre-Mortem
+## Übung 3: Was ist schiefgegangen? (Pre-Mortem)
 
-Vier Breakout-Räume (A–D), Material liegt in einem geteilten Pad. Zeitplan bei Start 15:45: Räume 16:23–16:33 (diese Uhrzeiten, inkl. „ab 16:28 Frage 2“, stehen im Pad, auf den Folien und im Chat-Text, bei Verschiebung überall anpassen). Methode Pre-Mortem: „Es ist November 2028, das Projekt ist gescheitert. Was ist passiert?“ Der Tech-Support bedient die Räume. Die Kriterien 1–7 stehen vorher auf der Folie „Kriterien (Teil 2)“. Frage 1 bleibt offen, in Frage 2 ordnen die Räume ihre Gründe selbst den Kriterien zu. Die Ergebnisse bleiben im Pad, es gibt keinen Debrief im Plenum.
+Vier Breakout-Räume (A–D), Material liegt in einem geteilten Pad. Zeitplan bei Start 15:45: Räume 16:23–16:33, je 5 Minuten pro Frage (Wechsel per Broadcast). Methode Pre-Mortem: „Es ist November 2028, das Projekt ist gescheitert. Was ist passiert?“ Der Tech-Support bedient die Räume. Die Kriterien 1–7 stehen vorher auf der Folie „Kriterien (Teil 2)“. Frage 1 bleibt offen, in Frage 2 ordnen die Räume ihre Gründe selbst den Kriterien zu. Die Ergebnisse bleiben im Pad, es gibt keinen Debrief im Plenum.
 
 ### Pad
 
@@ -105,30 +105,24 @@ Einmal mit 2–3 Testpersonen durchspielen, ca. 30 min. Die Technik übernimmt d
 
 ## Anhang: Pad-Inhalt (Übung 3)
 
-Alles ab hier ins Pad kopieren, als Titel „Übung: KI-Projekte unter der Lupe“ statt „Kopf des Pads“.
+Alles ab hier ins Pad kopieren, als Titel „Übung: Was ist schiefgegangen?“ statt „Kopf des Pads“.
 
 ### Kopf des Pads
 
-**So geht's**
+**Stellt euch vor: Es ist 2028, und euer KI-Projekt ist gescheitert. Warum?**
 
-⏱ **10 Minuten, bis 16:33 Uhr · ab 16:28 Frage 2 · letzte Minute: fertig schreiben**
+1. **Eine Person schreibt mit:** Wer im Alphabet zuerst kommt, ist die einzige Person in diesem Dokument, teilt den Bildschirm und schreibt (Stichworte reichen). Alle anderen schauen zu.
+2. **5 Minuten:** Sucht euer Projekt (Strg+F → „Raum A“ usw.), lest es gemeinsam und sammelt 2–3 Gründe, warum es gescheitert ist.
+3. **5 Minuten** (ihr bekommt eine Nachricht): Welches Kriterium (1–7, unten) hätte das verhindert? Schreibt die Nummer hinter jeden Grund.
 
-1. **Rollen**: Sagt kurz eure Vornamen. Wer dem Vornamen nach alphabetisch zuerst kommt, ist die **einzige Person im Pad**: teilt den Bildschirm und schreibt mit (Stichworte reichen). Alle anderen schauen auf den geteilten Bildschirm. Die Person mit dem alphabetisch folgenden Vornamen achtet auf die Zeit und sagt um 16:28: „Frage 2!“
-2. Findet euren Raum (Strg+F → „Raum A“ usw.) und lest gemeinsam eure **Projektkarte**
-3. Diskutiert die zwei Fragen
-4. Schreibt nur in euren eigenen **Abschnitt**
-
-**Fragen**
-
-1. **Es ist November 2028, das Projekt ist gescheitert. Was ist passiert?** (2–3 Gründe)
-2. **Welches Kriterium (1–7, unten) hätte das verhindert?** Schreibt die Nummer hinter jeden Grund
+Schreibt nur in euren eigenen Abschnitt.
 
 **Unsere Kriterien** (erst für Frage 2 anschauen, Frage 1 frei diskutieren)
 
 1. Lässt sich das Problem in **klare Tasks** zerlegen?
 2. Reicht etwas **Einfacheres**? Zuerst ohne KI (Prozess, Struktur, Regeln, bessere Website), dann die niedrigste Komplexitätsstufe: klassisches ML → Finetuning → Prompt → RAG → Agent
 3. Kann man **prüfen**, ob es gut genug funktioniert? Was kosten Fehler?
-4. Ist es ein **systemisches Problem**, das Technik nicht löst?
+4. Liegt das eigentliche Problem **woanders** (z. B. zu wenig Personal oder Geld → systemisches Problem), sodass Technik es nicht löst?
 5. Sind **Daten, Fähigkeiten und Infrastruktur** vorhanden?
 6. Ist der **Datenschutz** geklärt (wessen Daten stecken drin?) und sind **Betroffene** beteiligt?
 7. Stehen Nutzen und **externalisierte Kosten** in einem vertretbaren Verhältnis (Betroffene, Förderer, Umwelt)?
@@ -137,19 +131,19 @@ Alles ab hier ins Pad kopieren, als Titel „Übung: KI-Projekte unter der Lupe�
 
 ---
 
-### Raum A · Migrationsberatung: Beratungsgespräche transkribieren und zusammenfassen
+### Raum A · Schuldnerberatung: Chatbot für Erstfragen
 
-**Die Idee (aus dem Projektantrag):** „Unsere Berater*innen verbringen ein Drittel ihrer Zeit mit Dokumentation. Mit KI schreibt sich die Akte von selbst, und wir haben mehr Zeit für Menschen.“
+**Die Idee (aus dem Projektantrag):** „Rund um die Uhr erreichbar, ohne Wartezeit. Unser KI-Assistent beantwortet Erstfragen sofort und entlastet das Team.“
 
-- **Organisation:** Migrationsberatung, 6 hauptamtliche Berater*innen, rund 1.500 Gespräche im Jahr
-- **Was passiert:** Gespräche werden per Handy aufgenommen, ein Cloud-Dienst transkribiert sie, ein Sprachmodell schreibt eine Zusammenfassung für die Akte
-- **Tasks:** ③ Texterkennung / Spracherkennung + ⑤ Umformulieren (hier: Zusammenfassen)
-- **Daten:** Gesprächsaudio, darin Aufenthaltsstatus, Gesundheit, Familiensituation
-- **Wer nutzt es:** die Berater*innen; die Ratsuchenden sind im Raum
-- **Wer zahlt:** Landesförderprogramm „Digitalisierung in der Sozialen Arbeit“, 2 Jahre
-- **Was es ersetzt:** handschriftliche Notizen, die abends abgetippt werden
+- **Organisation:** Schuldnerberatung, Wartezeit auf einen Termin derzeit 10 Wochen
+- **Was passiert:** Ein Chatbot auf der Website beantwortet Fragen wie „Darf mein Konto gepfändet werden?“ oder „Was ist ein P-Konto?“ und verweist bei Bedarf auf einen Termin
+- **Tasks:** ④ Fragen beantworten (+ ① Anliegen einordnen)
+- **Daten:** FAQ der Beratungsstelle, Merkblätter, Gesetzestexte
+- **Wer nutzt es:** Ratsuchende, oft in akuter Notlage, ohne Fachkraft dazwischen
+- **Wer zahlt:** Pilotförderung der Kommune, 12 Monate
+- **Was es ersetzt:** Telefonsprechstunde (2 Stunden pro Woche) und Infoseiten auf der Website
 
-*Denkt auch an: In welchen Sprachen finden die Gespräche statt? Wer merkt, wenn in der Akte etwas Falsches steht?*
+*Denkt auch an: Wer hält die Merkblätter aktuell? Was passiert, wenn eine Antwort falsch ist, und wer trägt den Schaden?*
 
 **Eure Antworten:**
 
@@ -179,19 +173,19 @@ Alles ab hier ins Pad kopieren, als Titel „Übung: KI-Projekte unter der Lupe�
 
 ---
 
-### Raum C · Schuldnerberatung: Chatbot für Erstfragen
+### Raum C · Migrationsberatung: Beratungsgespräche transkribieren und zusammenfassen
 
-**Die Idee (aus dem Projektantrag):** „Rund um die Uhr erreichbar, ohne Wartezeit. Unser KI-Assistent beantwortet Erstfragen sofort und entlastet das Team.“
+**Die Idee (aus dem Projektantrag):** „Unsere Berater*innen verbringen ein Drittel ihrer Zeit mit Dokumentation. Mit KI schreibt sich die Akte von selbst, und wir haben mehr Zeit für Menschen.“
 
-- **Organisation:** Schuldnerberatung, Wartezeit auf einen Termin derzeit 10 Wochen
-- **Was passiert:** Ein Chatbot auf der Website beantwortet Fragen wie „Darf mein Konto gepfändet werden?“ oder „Was ist ein P-Konto?“ und verweist bei Bedarf auf einen Termin
-- **Tasks:** ④ Fragen beantworten (+ ① Anliegen einordnen)
-- **Daten:** FAQ der Beratungsstelle, Merkblätter, Gesetzestexte
-- **Wer nutzt es:** Ratsuchende, oft in akuter Notlage, ohne Fachkraft dazwischen
-- **Wer zahlt:** Pilotförderung der Kommune, 12 Monate
-- **Was es ersetzt:** Telefonsprechstunde (2 Stunden pro Woche) und Infoseiten auf der Website
+- **Organisation:** Migrationsberatung, 6 hauptamtliche Berater*innen, rund 1.500 Gespräche im Jahr
+- **Was passiert:** Gespräche werden per Handy aufgenommen, ein Cloud-Dienst transkribiert sie, ein Sprachmodell schreibt eine Zusammenfassung für die Akte
+- **Tasks:** ③ Texterkennung / Spracherkennung + ⑤ Umformulieren (hier: Zusammenfassen)
+- **Daten:** Gesprächsaudio, darin Aufenthaltsstatus, Gesundheit, Familiensituation
+- **Wer nutzt es:** die Berater*innen; die Ratsuchenden sind im Raum
+- **Wer zahlt:** Landesförderprogramm „Digitalisierung in der Sozialen Arbeit“, 2 Jahre
+- **Was es ersetzt:** handschriftliche Notizen, die abends abgetippt werden
 
-*Denkt auch an: Wer hält die Merkblätter aktuell? Was passiert, wenn eine Antwort falsch ist, und wer trägt den Schaden?*
+*Denkt auch an: In welchen Sprachen finden die Gespräche statt? Wer merkt, wenn in der Akte etwas Falsches steht?*
 
 **Eure Antworten:**
 

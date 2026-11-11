@@ -67,7 +67,7 @@ csl: correlaid_assets/apa.csl
 <ol class="ca-toc">
 <li class="active"><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 9 min</small></span></li>
 <li><span class="num">02</span><span class="label">KI als Werkzeug: Tasks, Methoden, Prompts<small>Impuls + Übung: Probleme zu Tasks zuordnen · 18 min</small></span></li>
-<li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Daten, Infrastruktur, Kosten<small>Impuls + Übung: KI-Projekte unter der Lupe · 21 min</small></span></li>
+<li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Daten, Infrastruktur, Kosten<small>Impuls + Übung: Was ist schiefgegangen? · 21 min</small></span></li>
 <li><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Fragen · 7 min</small></span></li>
 </ol>
 
@@ -161,7 +161,7 @@ csl: correlaid_assets/apa.csl
 <ol class="ca-toc">
 <li><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 9 min</small></span></li>
 <li class="active"><span class="num">02</span><span class="label">KI als Werkzeug: Tasks, Methoden, Prompts<small>Impuls + Übung: Probleme zu Tasks zuordnen · 18 min</small></span></li>
-<li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Daten, Infrastruktur, Kosten<small>Impuls + Übung: KI-Projekte unter der Lupe · 21 min</small></span></li>
+<li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Daten, Infrastruktur, Kosten<small>Impuls + Übung: Was ist schiefgegangen? · 21 min</small></span></li>
 <li><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Fragen · 7 min</small></span></li>
 </ol>
 
@@ -189,7 +189,7 @@ csl: correlaid_assets/apa.csl
 
 > Intelligenz ist der rechnerische Teil der Fähigkeit, Ziele in der Welt zu erreichen. […] Intelligenz umfasst Mechanismen; die KI-Forschung hat herausgefunden, wie Computer **manche davon ausführen können, andere nicht**.
 
-*Künstliche* Intelligenz (KI) ist also ein **Bündel von Fähigkeiten**: einordnen, lesen, wiederfinden, formulieren, vorausschauen, planen … Manche davon kann KI gut, andere kaum.
+Intelligenz ist also ein **Bündel von Fähigkeiten**: einordnen, lesen, wiederfinden, formulieren, vorausschauen, planen … Manche davon kann *Künstliche* Intelligenz (KI) gut, andere kaum.
 
 [@mccarthy_what_2012, eigene Übersetzung]{.source}
 
@@ -263,14 +263,18 @@ Mehr Projekte: [CDL-Projektsammlung](https://civic-data.de/machen/projektsammlun
 
 Beispiel-Task ①: **E-Mail → zuständige Person**
 
-| Ansatz | Wie es funktioniert | Im Beispiel |
-|---|---|---|
-| **Regeln** | Menschen schreiben Wenn-dann-Regeln | „Rechnung“ im Betreff → Buchhaltung |
-| **Klassisches ML** | Lernt aus gelabelten Beispielen | Lernt aus 1.000 bereits zugeordneten Mails |
-| **Finetuning** | Vorhandenes Modell mit eigenen Beispielen nachtrainiert | Kleines Sprachmodell mit euren Mails nachtrainiert |
-| **Großes Modell + Prompt** | Anweisung und ein paar Beispiele, Modell bleibt unverändert | „Ordne diese Mail einer Person zu: …“ |
-| **RAG** | Modell sucht erst in euren Dokumenten, dann antwortet es | Sucht im Zuständigkeitsplan, dann Zuordnung |
-| **Agent** | Modell plant Schritte selbst und nutzt Tools | Liest Mail, prüft Vertretungsplan, leitet weiter |
+Von oben nach unten: aufwendiger, teurer, schwerer zu prüfen
+
+| Ansatz | Komplexität | Wie es funktioniert | Im Beispiel |
+|---|---|---|---|
+| **Regeln** | ● | Menschen schreiben Wenn-dann-Regeln | „Rechnung“ im Betreff → Buchhaltung |
+| **Klassisches ML** | ●● | Lernt aus gelabelten Beispielen | Lernt aus 1.000 bereits zugeordneten Mails |
+| **Finetuning** | ●●● | Vorhandenes Modell mit eigenen Beispielen nachtrainiert | Kleines Sprachmodell mit euren Mails nachtrainiert |
+| **Großes Modell + Prompt** | ●●●● | Anweisung und ein paar Beispiele, Modell bleibt unverändert | „Ordne diese Mail einer Person zu: …“ |
+| **RAG** | ●●●●● | Modell sucht erst in euren Dokumenten, dann antwortet es | Sucht im Zuständigkeitsplan, dann Zuordnung |
+| **Agent** | ●●●●●● | Modell plant Schritte selbst und nutzt Tools | Liest Mail, prüft Vertretungsplan, leitet weiter |
+
+: {tbl-colwidths="[22,14,32,32]"}
 
 ::: {.fragment style="margin-top:0.5em;"}
 Welcher Ansatz passt, muss man **ausprobieren und prüfen**.
@@ -359,11 +363,11 @@ Bevor ihr euch auf KI verlasst, ein einfacher Einstieg:
 3. Kann man **prüfen**, ob es gut genug funktioniert? Was kosten Fehler?
 
 ::: {.fragment .ca-list-cont}
-4. Ist es ein **systemisches Problem**, das Technik nicht löst?
+4. Liegt das eigentliche Problem **woanders** (z. B. zu wenig Personal oder Geld → systemisches Problem), sodass Technik es nicht löst?
 :::
 
 ::: {style="margin-top:1em; color:#374151;"}
-*Teil 2 folgt nach dem nächsten Block …*
+*Kriterien 4/7, [später](#kriterien-teil-2) mehr*
 :::
 
 ::: notes
@@ -450,7 +454,7 @@ Eine Umfrage unter Ehrenamtlichen liefert 2.000 Freitextantworten. In drei Woche
 <ol class="ca-toc">
 <li><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 9 min</small></span></li>
 <li><span class="num">02</span><span class="label">KI als Werkzeug: Tasks, Methoden, Prompts<small>Impuls + Übung: Probleme zu Tasks zuordnen · 18 min</small></span></li>
-<li class="active"><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Daten, Infrastruktur, Kosten<small>Impuls + Übung: KI-Projekte unter der Lupe · 21 min</small></span></li>
+<li class="active"><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Daten, Infrastruktur, Kosten<small>Impuls + Übung: Was ist schiefgegangen? · 21 min</small></span></li>
 <li><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Fragen · 7 min</small></span></li>
 </ol>
 
@@ -511,9 +515,9 @@ Eine Umfrage unter Ehrenamtlichen liefert 2.000 Freitextantworten. In drei Woche
 - KI ist durch ihre Herstellung auch politisch [@keymolen2026]. Boykott ist eine begründbare individuelle Entscheidung
 :::
 
-## Kriterien: Wann ist KI sinnvoll? (Teil 2) {.ca-dense}
+## Kriterien: Wann ist KI sinnvoll? (Teil 2) {#kriterien-teil-2 .ca-dense}
 
-*1–4:* klarer Task? · reicht etwas Einfacheres? · prüfbar, ob es gut genug ist? · systemisches Problem?
+*1–4:* klarer Task? · reicht etwas Einfacheres? · prüfbar, ob es gut genug ist? · Problem liegt woanders?
 
 5. Sind **Daten, Fähigkeiten und Infrastruktur** vorhanden?
 6. Ist der **Datenschutz** geklärt und sind **Betroffene** beteiligt?
@@ -524,66 +528,45 @@ Eine Umfrage unter Ehrenamtlichen liefert 2.000 Freitextantworten. In drei Woche
 - Jetzt vollständig für Frage 2 im Pre-Mortem
 :::
 
-## Übung: KI-Projekte unter der Lupe {.ca-dense}
+## Übung: Was ist schiefgegangen? {.ca-dense .center}
 
-**Methode: Pre-Mortem.** Statt zu fragen *„Klappt das?“* tun wir so, als wäre das Projekt schon gescheitert, und suchen die Gründe.
+:::: {.columns style="display:flex; align-items:center; margin-bottom:0.6em;"}
 
-:::: {.columns}
-
-::: {.column width="50%"}
-**So geht's**
-
-1. **Rollen**: Wer dem Vornamen nach alphabetisch zuerst kommt, öffnet als **Einzige\*r das Pad** (Link per Broadcast), **teilt den Bildschirm** und schreibt mit. Die nächste Person im Alphabet achtet auf die Zeit
-2. Lest gemeinsam eure **Karte** (Raum A–D, je ein fiktionales Projekt)
-3. Frage 1, **ab Minute 5 Frage 2**
+::: {.column width="65%"}
+<span style="font-size:1.25em;">**Stellt euch vor: Es ist 2028, und euer KI‑Projekt ist gescheitert. Warum?**</span>
 :::
 
-::: {.column width="50%"}
-**Beispiel**
-
-*„Es ist November 2028. Der Mail-Sortierer des Sportvereins wurde abgeschaltet. Was ist passiert?“*
-
-- Nach einem Modell-Update hat niemand neu gemessen
-- Die Mobbing-Mail lag drei Wochen in „Sonstiges“
-- Die Person, die das gebaut hat, ist ausgetreten
+::: {.column width="35%"}
+<img src="images/meme_was_is_pasirt.jpg" alt="Jerry aus Tom und Jerry mit der Unterschrift ‚was is pasirt?‘" style="height:120px; margin:0;">
 :::
 
 ::::
 
-::: notes
-- 1,5 min erklären, dann direkt Aufteilung
-- Pre-Mortem: Scheitern vorwegnehmen macht Risiken leichter aussprechbar. Niemand muss das Projekt schlechtreden
-- Das Beispiel greift Modell-Update und Mobbing-Mail auf: Gründe sind selten technisch
-- Pad-Link direkt nach dem Öffnen der Räume per Broadcast schicken (Hauptchat ist in den Räumen nicht sichtbar)
-:::
-
-## Übung: KI-Projekte unter der Lupe {.ca-dense}
-
-*Pad-Link per Broadcast · 10 Minuten, bis 16:33 Uhr · ab 16:28 Frage 2*
-
 :::: {.columns}
 
-::: {.column width="48%"}
+::: {.column width="62%"}
+1. **Eine Person schreibt mit:** Wer im Alphabet zuerst kommt, öffnet den Link zum Pad, teilt den Bildschirm und schreibt.
+2. **5 Minuten:** Lest euer Projekt und sammelt 2–3 Gründe, warum es gescheitert ist.
+3. **5 Minuten:** Welches [Kriterium](#kriterien-liste) (1–7, auch im Pad) hätte das verhindert?
+:::
+
+::: {.column width="38%"}
 **Projekte**
 
-- **A** Migrationsberatung: Beratungsgespräche transkribieren und zusammenfassen
-- **B** Mieterverein: semantische Suche über 15 Jahre Rundbriefe
-- **C** Schuldnerberatung: Chatbot für Erstfragen
-- **D** Verein: Agent bereitet Förderanträge vor
-:::
-
-::: {.column width="52%"}
-**Fragen**
-
-1. **Es ist November 2028, das Projekt ist gescheitert. Was ist passiert?** (2–3 Gründe)
-2. **Welches Kriterium (1–7) hätte das verhindert?**
+- **A** Schuldnerberatung
+- **B** Mieterverein
+- **C** Migrationsberatung
+- **D** Förderanträge
 :::
 
 ::::
 
 ::: notes
-- Räume 16:23–16:33 (bei Start 15:45). Bei Verzug Uhrzeit mündlich und im Pad korrigieren
-- Tech-Support öffnet die Räume (nach den Fällen benannt, 10 min). Ich schicke die Broadcasts: Pad-Link direkt, „Frage 2“ nach 5 min, „Noch 1 Minute“
+- 2 min erklären, dann direkt Aufteilung
+- Methode heißt Pre-Mortem: Scheitern vorwegnehmen macht Risiken leichter aussprechbar. Niemand muss das Projekt schlechtreden
+- Beispiel mündlich: „Der Mail-Sortierer des Sportvereins wurde abgeschaltet. Nach einem Modell-Update hat niemand neu gemessen, die Mobbing-Mail lag drei Wochen in ‚Sonstiges‘.“ Gründe sind selten technisch
+- Projekte: A Chatbot für Erstfragen · B Suche über 15 Jahre Rundbriefe (RAG) · C Gespräche transkribieren und zusammenfassen · D Agent bereitet Förderanträge vor
+- Räume 16:23–16:33 (Tech-Support öffnet, nach den Fällen benannt). Ich schicke die Broadcasts: Link direkt, „Frage 2“ nach 5 min, „Noch 1 Minute“
 - Frage 1 bewusst ohne Kriterien, erst frei sammeln
 - Im Hauptraum bleiben, im Pad mitlesen, Auffälliges für die Fragerunde notieren
 :::
@@ -593,11 +576,15 @@ Eine Umfrage unter Ehrenamtlichen liefert 2.000 Freitextantworten. In drei Woche
 <ol class="ca-toc">
 <li><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 9 min</small></span></li>
 <li><span class="num">02</span><span class="label">KI als Werkzeug: Tasks, Methoden, Prompts<small>Impuls + Übung: Probleme zu Tasks zuordnen · 18 min</small></span></li>
-<li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Daten, Infrastruktur, Kosten<small>Impuls + Übung: KI-Projekte unter der Lupe · 21 min</small></span></li>
+<li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Daten, Infrastruktur, Kosten<small>Impuls + Übung: Was ist schiefgegangen? · 21 min</small></span></li>
 <li class="active"><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Fragen · 7 min</small></span></li>
 </ol>
 
 ## Code of Conduct Demokratische KI {.ca-coc}
+
+::: {style="padding:0.3em 0 1em;"}
+[demokratische-ki.de](https://demokratische-ki.de/)
+:::
 
 ::: coc-grid
 <figure><img src="images/coc/abwaegung.jpg" alt=""><figcaption>Abwägung der Nutzung</figcaption></figure>
@@ -610,20 +597,19 @@ Eine Umfrage unter Ehrenamtlichen liefert 2.000 Freitextantworten. In drei Woche
 <figure><img src="images/coc/nachhaltigkeit.jpg" alt=""><figcaption>Ökologische Nachhaltigkeit</figcaption></figure>
 :::
 
-[[demokratische-ki.de](https://demokratische-ki.de/)]{.source}
 
 ::: notes
 - Max. 30 s: „Acht Prinzipien, mitentwickelt von CorrelAid, Link in den Folien.“
 :::
 
-## Mitnehmen {.ca-dense}
+## Mitnehmen {#kriterien-liste .ca-dense}
 
 Statt *„Wie können wir KI einsetzen?“* lieber *„Welches Problem haben wir?“*
 
 1. Lässt sich das Problem in **klare Tasks** zerlegen?
 2. Reicht etwas **Einfacheres**? Zuerst ohne KI, dann die niedrigste Komplexitätsstufe: klassisches ML → … → Agent
 3. Kann man **prüfen**, ob es gut genug funktioniert?
-4. Ist es ein **systemisches Problem**, das Technik nicht löst?
+4. Liegt das eigentliche Problem **woanders** (z. B. zu wenig Personal oder Geld → systemisches Problem), sodass Technik es nicht löst?
 5. Sind **Daten, Fähigkeiten und Infrastruktur** vorhanden?
 6. Ist der **Datenschutz** geklärt und sind **Betroffene** beteiligt?
 7. Stehen Nutzen und **externalisierte Kosten** in einem vertretbaren Verhältnis?
@@ -637,9 +623,9 @@ Statt *„Wie können wir KI einsetzen?“* lieber *„Welches Problem haben wir
 ::: notes
 - Kein Debrief: Ergebnisse stehen im Pad. Direkt nach den Räumen die Abschlussnachricht mit Pad-Link posten
 - Falls keine Fragen kommen, aus dem Pad aufgreifen:
-  - A: „Lokal = Datenschutz gelöst“ stimmt nicht. Schlechtere Erkennung von Dari/Tigrinya = Bias. Einfacher: Fachkraft diktiert nach dem Gespräch selbst
+  - A: Die Ratsuchenden tragen das Risiko (6/7). KIA (gefördert) unterstützt bewusst Berater*innen statt Ratsuchende
   - B: Veraltete Artikel sind das Problem (5), nicht nur die API-Kosten. „Nach Datum gewichten“ löst das nicht. Echtes Gegenstück: foodwatch „RAG4Good“ (Prototyp)
-  - C: Die Ratsuchenden tragen das Risiko (6/7). KIA (gefördert) unterstützt bewusst Berater*innen statt Ratsuchende
+  - C: „Lokal = Datenschutz gelöst“ stimmt nicht. Schlechtere Erkennung von Dari/Tigrinya = Bias. Einfacher: Fachkraft diktiert nach dem Gespräch selbst
   - D: Prüfarbeit landet bei der Förderin, Rückbezug auf Workslop (7). Alte Anträge enthalten personenbezogene Daten (6). „40 €/Monat = keine Kosten“ greift zu kurz
 - Muster über alle Räume: KI für die Fachkraft statt für die Betroffenen
 - Kriterium 7 heißt nicht nur „Wer zahlt die Rechnung?“, sondern auch: Wer trägt Risiko, Prüfarbeit, Umweltkosten?

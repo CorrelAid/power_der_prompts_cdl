@@ -40,7 +40,7 @@ Minuten aus den Folien-Notizen. Uhrzeiten = Plan bei Start 15:45.
 | 16:16:30 | 0,5 | 3 KI-Projekt durchführen | Kriterien (Teil 2) | nur vorlesen |
 | 16:17 | 2 | 3 KI-Projekt durchführen | Übung 3 erklären (Pre-Mortem), Pad-Link, Aufteilung | Input |
 | 16:19 | 4 | Puffer | Breakout-Übergaben, Verzug aus Block 1–3 | – |
-| **16:23** | 10 | 3 KI-Projekt durchführen | Übung 3: KI-Projekte unter der Lupe | Breakout-Räume A–D + Pad |
+| **16:23** | 10 | 3 KI-Projekt durchführen | Übung 3: Was ist schiefgegangen? | Breakout-Räume A–D + Pad |
 | 16:33 | 2 | 4 Abschluss | Inhalte, Code of Conduct, Mitnehmen (kein Debrief, Ergebnisse stehen im Pad) | Input |
 | 16:35 | 5 | 4 Abschluss | Zeit für Fragen | Plenum |
 
@@ -81,10 +81,10 @@ Damit die Dokumente nicht auseinanderlaufen:
 
 **Was an mehreren Stellen steht und gemeinsam geändert werden muss:**
 
-- **Uhrzeiten Übung 3** (16:23 · 16:28 · 16:33): Folie „Übung: KI-Projekte unter der Lupe“ (2/2) + Notizen, Pad-Kopf (uebungen_vorbereitung.md + Live-Pad), chat_texte.md Nr. 2
+- **Uhrzeiten Übung 3** (16:23–16:33): Notizen der Folie „Übung: Was ist schiefgegangen?“, Tech-Support-Checkliste
 - **Kriterien 1–7**: Folien „Kriterien (Teil 1/2)“, „Mitnehmen“, Pad-Kopf
 - **Tasks ①–⑧**: Folie „Von Fähigkeiten zu Tasks“, Folien Übung 2, Projektkarten im Pad
-- **Projektkarten A–D**: Folie „Übung: KI-Projekte unter der Lupe“ (2/2), Pad, Raumnamen für den Tech-Support, Notizen zu „Zeit für Fragen“
+- **Projektkarten A–D**: Folie „Übung: Was ist schiefgegangen?“, Pad, Raumnamen für den Tech-Support, Notizen zu „Zeit für Fragen“
 - **Breakout-Broadcasts**: Notizen Übung 3, Übergabeliste in uebungen_vorbereitung.md, chat_texte.md Nr. 2–4
 
 Schneller Check vor dem Workshop: `grep -n "16:2" *.md index.qmd` und `grep -n "Kriterium\|①" *.md index.qmd`.

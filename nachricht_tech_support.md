@@ -9,7 +9,7 @@
 
 ## Breakout-Räume (Übung 3)
 
-- [ ] Räume nach den Fällen benennen: „A · Migrationsberatung“, „B · Mieterverein“, „C · Schuldnerberatung“, „D · Förderanträge“ (bei mehreren Räumen pro Fall: „A1 · Migrationsberatung“ usw.)
+- [ ] Räume nach den Fällen benennen: „A · Schuldnerberatung“, „B · Mieterverein“, „C · Migrationsberatung“, „D · Förderanträge“ (bei mehreren Räumen pro Fall: „A1 · Schuldnerberatung“ usw.)
 - [ ] Öffnen auf mein Stichwort, geplant ca. 16:23
 - [ ] Dauer 10 Minuten, danach automatisch schließen (Countdown 30 s)
 - [ ] Automatisch zuweisen, Teilnehmende dürfen den Raum selbst wechseln
