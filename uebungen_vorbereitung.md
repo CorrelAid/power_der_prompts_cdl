@@ -5,36 +5,33 @@ Checklisten für Technik und Übungen. Ablauf und Minuten: Folien ([index.qmd](i
 
 ## Rollen
 
-Die Konferenz stellt technischen Support: eine Person vom **Tech-Support** übernimmt Meeting öffnen/schließen, Einlass, Chat-Betreuung, Störungen und Technik (Breakout-Räume, Bildschirm teilen). 
+Die Konferenz stellt technischen Support: eine Person vom **Tech-Support** übernimmt Meeting öffnen/schließen, Einlass, Störungen und öffnet/schließt die Breakout-Räume. **Ich** poste die Chat-Nachrichten und schicke die Broadcasts in die Räume (dafür Co-Host-Rechte).
 
 Übung 1 und Übung 2 laufen im Zoom-Chat. Übung 3 nutzt Zoom-Breakout-Räume plus ein geteiltes Etherpad auf pad.systemli.org (ohne Login). Alle Texte für den Chat stehen in [chat_texte.md](chat_texte.md). Kein Whiteboard.
 
 ## Absprache mit dem Tech-Support (vorab per Mail)
 
-- [ ] Klären, wer Host ist und ob wir Co-Host-Rechte bekommen (brauchen wir nur für die Bildschirmfreigabe, falls die eingeschränkt ist)
+- [ ] Klären, wer Host ist, und **Co-Host-Rechte** anfragen (für die Broadcasts in die Räume und ggf. Bildschirmfreigabe)
 - [ ] Einstellungen anfragen, da das Meeting vermutlich nicht in unserem Account liegt:
   - Breakout-Räume an, 4 Räume, automatisch zuweisen, „Teilnehmende dürfen Raum selbst wählen“ an
-  - Räume **umbenennen** (Zoom zeigt sonst „Breakout-Raum 1–4“): „A · Migrationsberatung“, „B · Mieterverein“, „C · Schuldnerberatung“, „D · Förderanträge“
+  - Räume **nach den Fällen benennen** (Zoom zeigt sonst „Breakout-Raum 1–4“): „A · Migrationsberatung“, „B · Mieterverein“, „C · Schuldnerberatung“, „D · Förderanträge“
   - Räume nach 10 Minuten automatisch schließen, Countdown 30 s
   - Chat für alle an alle erlaubt, Reaktionen an
 - [ ] Ablauf schicken: auf welcher Folie was passiert (siehe Übergabeliste unten)
-- [ ] [chat_texte.md](chat_texte.md) schicken (Pad-Link, Broadcasts: Pad-Link nach dem Öffnen, Halbzeit, 1 min), damit der Tech-Support sie selbst posten kann
 - [ ] Vereinbaren, wie wir während der Session Bescheid geben – Stichwort laut mit Namen sagen („[Name], öffnest du bitte die Räume?“) ist am einfachsten
 - [ ] Fragen, ob ein kurzer Technik-Test vorab möglich ist (sonst: in den 15 Minuten vor Beginn)
 
 ### Übergabeliste für den Tech-Support
 
-| Wann | Was |
-|---|---|
-| Übung 1 (Folie „Übung: Vibecheck“) | nichts Besonderes, Chat offen lassen |
-| Übung 2 (Folien „Übung: Welcher Task? (1–3/3)“) | nichts Besonderes, Chat offen lassen |
-| Übung 3, erste Folie „KI-Projekte unter der Lupe“ (Pre-Mortem) | Pad-Link in den Chat posten, **bevor** die Räume öffnen |
-| Übung 3, auf unser Stichwort | Räume A–D öffnen, 10 min |
-| Übung 3, direkt nach dem Öffnen | Broadcast mit Pad-Link (Text in chat_texte.md), weil der Hauptchat in den Räumen nicht sichtbar ist |
-| Übung 3, nach 5 min | Broadcast: „Halbzeit – wechselt jetzt zu Frage 2: Welches Kriterium hätte das verhindert?“ |
-| Übung 3, 1 min Restzeit | Broadcast: „Noch 1 Minute – jetzt ins Pad schreiben: Gründe und Kriterium.“ |
-| Übung 3, nach 10 min | Räume schließen (automatisch, Countdown 30 s) |
-| ganze Session | Nachzügler*innen einlassen und in Übung 3 einem Raum zuweisen |
+| Wann | Wer | Was |
+|---|---|---|
+| Übung 1 und 2 | Tech-Support | Chat offen lassen |
+| Übung 3, auf mein Stichwort | Tech-Support | Räume A–D (nach den Fällen benannt) öffnen, 10 min |
+| Übung 3, direkt nach dem Öffnen | ich | Broadcast mit Pad-Link (chat_texte.md Nr. 2), weil der Hauptchat in den Räumen nicht sichtbar ist |
+| Übung 3, nach 5 min | ich | Broadcast „Frage 2“ (chat_texte.md Nr. 3) |
+| Übung 3, 1 min Restzeit | ich | Broadcast „Noch 1 Minute“ (chat_texte.md Nr. 4) |
+| Übung 3, nach 10 min | Tech-Support | Räume schließen (automatisch, Countdown 30 s) |
+| ganze Session | Tech-Support | Nachzügler*innen einlassen und in Übung 3 einem Raum zuweisen |
 
 ## Bildschirm-Setup
 
@@ -47,42 +44,42 @@ Die Konferenz stellt technischen Support: eine Person vom **Tech-Support** über
 
 Eine einzige Aktivität: Chat-Wasserfall mit Versprechen + Emoji von der Skala.
 
-- [ ] Skala in einem Satz pro Stufe erklären können (Folie „Die Skala“): 🧙 nicht belegt · 🤔 kommt drauf an · 🦊 nachweisbar nützlich
+- [ ] Skala in einem Satz pro Stufe erklären können (Folie „Die Skala“): 🧙 Mythos im eigentlichen Sinne · 🤔 unsicher (müsste ich ChatGPT fragen) · 🦊 keine Fabel, sondern fable(haft)
 - [ ] Wortspiel „fabelhaft“ und Anspielung auf Anthropic-Modellnamen in je einem Satz erklären
 - [ ] Moderationssatz üben: „Tippt ein Versprechen, das ihr gehört habt, plus ein Emoji von der Skala – Enter erst auf mein Los.“
 - [ ] Zwei Beispiel-Versprechen parat haben, falls der Chat leer bleibt
 - [ ] Nur zwei Versprechen vorlesen, möglichst mit unterschiedlichen Emojis, eine Person nach dem Warum fragen
-- [ ] Folie „Was wird versprochen?“ ist eine Live-Folie: die zwei Versprechen den Mustern zuordnen – der Chat bleibt stehen
+- [ ] Folie „Was wird versprochen?“: typische Muster nennen, dann per Klick die Kehrseite
 
 ## Übung 2: Probleme zu Tasks zuordnen
 
-Alle drei Probleme: Chat-Wasserfall mit der Task-Nummer 1–8, dann Diskussion dort, wo die Antworten auseinandergehen. Die Lösung kommt danach auf einer eigenen Folie. Läuft komplett im Plenum.
+Alle drei Probleme: Chat-Wasserfall mit der Task-Nummer 1–8, dann kurz selbst kommentieren. Die Lösung kommt danach auf einer eigenen Folie. Läuft komplett im Plenum.
 
 - [ ] Ablauf ansagen: „Ich lese ein Problem vor, ihr tippt die Nummer des Tasks, Enter erst auf mein Los.“
 - [ ] Zeit pro Problem: ca. 2 min, Bonus („mehr Reichweite“ / eigenes Problem, steht nur in den Notizen) nur bei übriger Zeit
 - [ ] Antworten nicht auszählen, nur grob überfliegen: „Viele ①, ein paar ⑥ – wer hat ⑥ getippt?“
-- [ ] Pro Problem 1–2 Leute mit abweichender Nummer im Chat fragen, warum
+- [ ] Kein Nachfragen: Antworten überfliegen und selbst kurz kommentieren
 - [ ] Folie „Mögliche Zuordnungen“ erst nach der Diskussion zeigen
 - [ ] Problem 1 (300 Belege): ② Informationsextraktion – oder ③, wenn die PDFs Scans sind; ohne KI: E-Rechnungen (XRechnung/ZUGFeRD) anfragen
-- [ ] Problem 2 (Tafel-Dubletten): Regeln schlagen oft ML; Spender*innendaten sind personenbezogen. Hier mündlich nachfragen: Wie messen? Bräuchte es KI?
+- [ ] Problem 2 (Tafel-Dubletten): Regeln schlagen oft ML; Spender*innendaten sind personenbezogen. Selbst kurz einordnen: Wie messen? Bräuchte es KI?
 - [ ] Problem 3 (Freitextantworten): ⑥ Gruppieren – oder ①, wenn die Kategorien feststehen; keine richtige Antwort – wie prüft man dann?
 
 ## Übung 3: KI-Projekte unter der Lupe – Pre-Mortem
 
-Vier Breakout-Räume (A–D), Material liegt in einem geteilten Pad. Zeitplan bei Start 15:45: Räume 16:20–16:30 (diese Uhrzeiten, inkl. „ab 16:25 Frage 2“, stehen im Pad, auf den Folien und im Chat-Text, bei Verschiebung überall anpassen). Methode Pre-Mortem: „Es ist November 2028, das Projekt ist gescheitert. Was ist passiert?“ Der Tech-Support bedient die Räume. Die Kriterien 1–7 stehen vorher auf der Folie „Kriterien (Teil 2)“. Frage 1 bleibt offen, in Frage 2 ordnen die Räume ihre Gründe selbst den Kriterien zu. Die Rückmeldung läuft übers Pad, Debrief auf der Folie „Was fehlt in der Liste?“.
+Vier Breakout-Räume (A–D), Material liegt in einem geteilten Pad. Zeitplan bei Start 15:45: Räume 16:23–16:33 (diese Uhrzeiten, inkl. „ab 16:28 Frage 2“, stehen im Pad, auf den Folien und im Chat-Text, bei Verschiebung überall anpassen). Methode Pre-Mortem: „Es ist November 2028, das Projekt ist gescheitert. Was ist passiert?“ Der Tech-Support bedient die Räume. Die Kriterien 1–7 stehen vorher auf der Folie „Kriterien (Teil 2)“. Frage 1 bleibt offen, in Frage 2 ordnen die Räume ihre Gründe selbst den Kriterien zu. Die Ergebnisse bleiben im Pad, es gibt keinen Debrief im Plenum.
 
 ### Pad
 
 - [x] Pad auf pad.systemli.org anlegen und Inhalt aus dem [Anhang: Pad-Inhalt](#anhang-pad-inhalt-übung-3) einfügen (Kurzanleitung oben, eine Karte pro Raum mit Antwortvorlage)
 - [ ] Pad-Link vorab testen: ohne Login öffnen und bearbeiten möglich?
-- [ ] Pad-Link an den Tech-Support schicken (steht in [chat_texte.md](chat_texte.md), auf der Folie nur „Pad-Link im Chat“)
+- [ ] Pad-Link an den Tech-Support schicken (steht in [chat_texte.md](chat_texte.md), auf der Folie nur „Pad-Link per Broadcast“)
 
 ### Ablauf
 
-- [ ] Folie „Kriterien (Teil 2)“ nur vorlesen, dann Pre-Mortem-Folie erklären, Tech-Support postet den Pad-Link, dann Stichwort für die Räume (Tech-Support schickt den Link nach dem Öffnen noch mal per Broadcast)
-- [ ] Während der Räume im Hauptraum bleiben und im Pad mitlesen – Gründe markieren, die zu keinem Kriterium passen, und notieren, welches Kriterium in keinem Raum vorkommt, Zeilen im falschen Raum-Abschnitt verschieben
+- [ ] Folie „Kriterien (Teil 2)“ nur vorlesen, dann Pre-Mortem-Folie erklären, Räume öffnen, direkt danach Pad-Link per Broadcast (chat_texte.md Nr. 2)
+- [ ] Während der Räume im Hauptraum bleiben und im Pad mitlesen – notieren, was für die Fragerunde auffällt, Zeilen im falschen Raum-Abschnitt verschieben
 - [ ] Bei Verzug die Uhrzeiten im Pad-Kopf live korrigieren, nicht nur mündlich
-- [ ] Debrief auf „Was fehlt in der Liste?“: Zuordnung steht schon im Pad, nicht live zuordnen. Nur Gründe vorlesen, die zu keinem Kriterium passen (max. 2); gibt es keine, das Kriterium nennen, das nirgends vorkam, und auf die Karte zeigen (Zuordnung in den Folien-Notizen)
+- [ ] Nach den Räumen: Abschlussnachricht mit Pad-Link in den Chat (chat_texte.md Nr. 5), dann direkt zum Abschluss. Beobachtungen aus dem Pad ggf. in der Fragerunde aufgreifen (Notizen auf „Zeit für Fragen“)
 - [ ] Optional: Countdown-Timer auf den Übungsfolien (Quarto-Extension `countdown`)
 - [ ] Pad nach dem Workshop als Mitnehm-Material teilen (oder löschen, falls nicht gewünscht)
 
@@ -114,17 +111,17 @@ Alles ab hier ins Pad kopieren, als Titel „Übung: KI-Projekte unter der Lupe�
 
 **So geht's**
 
-⏱ **10 Minuten, bis 16:30 Uhr · ab 16:25 Frage 2 · letzte Minute: fertig schreiben**
+⏱ **10 Minuten, bis 16:33 Uhr · ab 16:28 Frage 2 · letzte Minute: fertig schreiben**
 
-1. **Rollen**: Sagt kurz eure Vornamen. Wer dem Vornamen nach alphabetisch zuerst kommt, schreibt im Pad mit (Stichworte reichen). Die Person mit dem alphabetisch folgenden Vornamen achtet auf die Zeit und sagt um 16:25: „Frage 2!“
-2. Findet euren Raum (Strg+F → „Raum A“ usw.) und lest eure **Projektkarte**. Am Handy? Lasst euch die Karte vorlesen
+1. **Rollen**: Sagt kurz eure Vornamen. Wer dem Vornamen nach alphabetisch zuerst kommt, ist die **einzige Person im Pad**: teilt den Bildschirm und schreibt mit (Stichworte reichen). Alle anderen schauen auf den geteilten Bildschirm. Die Person mit dem alphabetisch folgenden Vornamen achtet auf die Zeit und sagt um 16:28: „Frage 2!“
+2. Findet euren Raum (Strg+F → „Raum A“ usw.) und lest gemeinsam eure **Projektkarte**
 3. Diskutiert die zwei Fragen
 4. Schreibt nur in euren eigenen **Abschnitt**
 
 **Fragen**
 
 1. **Es ist November 2028, das Projekt ist gescheitert. Was ist passiert?** (2–3 Gründe)
-2. **Welches Kriterium (1–7, unten) hätte das verhindert?** Schreibt die Nummer hinter jeden Grund. Passt ein Grund zu keinem Kriterium, notiert ihn trotzdem
+2. **Welches Kriterium (1–7, unten) hätte das verhindert?** Schreibt die Nummer hinter jeden Grund
 
 **Unsere Kriterien** (erst für Frage 2 anschauen, Frage 1 frei diskutieren)
 
@@ -157,7 +154,7 @@ Alles ab hier ins Pad kopieren, als Titel „Übung: KI-Projekte unter der Lupe�
 **Eure Antworten:**
 
 - Gescheitert, weil …
-- Kriterium (Nummer hinter jedem Grund), passt zu keinem: …
+- Kriterium (Nummer hinter jedem Grund): …
 
 ---
 
@@ -178,7 +175,7 @@ Alles ab hier ins Pad kopieren, als Titel „Übung: KI-Projekte unter der Lupe�
 **Eure Antworten:**
 
 - Gescheitert, weil …
-- Kriterium (Nummer hinter jedem Grund), passt zu keinem: …
+- Kriterium (Nummer hinter jedem Grund): …
 
 ---
 
@@ -199,7 +196,7 @@ Alles ab hier ins Pad kopieren, als Titel „Übung: KI-Projekte unter der Lupe�
 **Eure Antworten:**
 
 - Gescheitert, weil …
-- Kriterium (Nummer hinter jedem Grund), passt zu keinem: …
+- Kriterium (Nummer hinter jedem Grund): …
 
 ---
 
@@ -220,4 +217,4 @@ Alles ab hier ins Pad kopieren, als Titel „Übung: KI-Projekte unter der Lupe�
 **Eure Antworten:**
 
 - Gescheitert, weil …
-- Kriterium (Nummer hinter jedem Grund), passt zu keinem: …
+- Kriterium (Nummer hinter jedem Grund): …
