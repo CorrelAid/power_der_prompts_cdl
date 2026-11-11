@@ -547,24 +547,22 @@ Eine Umfrage unter Ehrenamtlichen liefert 2.000 Freitextantworten. In drei Woche
 :::
 
 ::: {.column width="38%"}
-::: {style="font-size:0.8em;"}
-**Projekt nach Raumnummer**
+**Projekte**
 
-- **A** Schuldnerberatung: 1, 5, 9, 13
-- **B** Mieterverein: 2, 6, 10, 14
-- **C** Migrationsberatung: 3, 7, 11, 15
-- **D** Förderanträge: 4, 8, 12, 16
-:::
+- **Raum 1:** Schuldnerberatung
+- **Raum 2:** Mieterverein
+- **Raum 3:** Migrationsberatung
+- **Raum 4:** Förderanträge
 :::
 
 ::::
 
 ::: notes
-- 3 min erklären (inkl. Raumnummer → Fall, Link in den Chat), dann direkt Aufteilung
+- 3 min erklären (inkl. Raum 1–4 → Fall A–D, Link in den Chat), dann direkt Aufteilung
 - Methode heißt Pre-Mortem: Scheitern vorwegnehmen macht Risiken leichter aussprechbar. Niemand muss das Projekt schlechtreden
 - Beispiel mündlich: „Der Mail-Sortierer des Sportvereins wurde abgeschaltet. Nach einem Modell-Update hat niemand neu gemessen, die Mobbing-Mail lag drei Wochen in ‚Sonstiges‘.“ Gründe sind selten technisch
 - Projekte: A Chatbot für Erstfragen · B Suche über 15 Jahre Rundbriefe (RAG) · C Gespräche transkribieren und zusammenfassen · D Agent bereitet Förderanträge vor
-- Räume 16:21–16:33 (12 min: 2 ankommen, 5 + 5). Tech-Support öffnet nur die Räume (nummeriert, automatisch zugewiesen). Zuordnung Raumnummer → Fall steht auf der Folie und im Pad
+- Räume 16:21–16:33 (12 min: 2 ankommen, 5 + 5). Tech-Support öffnet nur die 4 Räume (nummeriert, automatisch zugewiesen, 20–30 Personen). Zuordnung Raumnummer → Fall steht auf der Folie und im Pad
 - Pad-Link vor dem Öffnen in den Hauptchat posten. Falls Broadcasts gehen: Link direkt, „Frage 2“ nach 7 min, „Noch 1 Minute“
 - Frage 1 bewusst ohne Kriterien, erst frei sammeln
 - Im Hauptraum bleiben, im Pad mitlesen, Auffälliges für die Fragerunde notieren

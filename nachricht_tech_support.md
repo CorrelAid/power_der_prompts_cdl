@@ -2,13 +2,8 @@
 
 ## Klären
 
-- [ ] **Erwartete Teilnehmendenzahl** erfragen → Anzahl Räume festlegen:
-  - bis 50 Personen: **4 Räume** (Raum 1 = A, 2 = B, 3 = C, 4 = D)
-  - über 50: **8 Räume** (1/5 → A, 2/6 → B, 3/7 → C, 4/8 → D), über 100: 12–16 Räume
-  - Fall ergibt sich immer aus der Raumnummer: 1/5/9/13 → A, 2/6/10/14 → B, 3/7/11/15 → C, 4/8/12/16 → D
-- [ ] Raumzahl an Claude geben:
-  - **4 Räume:** Zuordnung vereinfachen lassen auf „Raum 1 → Fall A, Raum 2 → B, Raum 3 → C, Raum 4 → D“ (Folie, Pad, Chat-Nachricht 2)
-  - **mehr als 4 Räume:** Pad mit einem Antwortabschnitt pro Raum anpassen lassen
+- [x] **Teilnehmendenzahl:** 20–30 → **4 Räume** (Raum 1 = A, 2 = B, 3 = C, 4 = D)
+- [x] Zuordnung auf Folie, Pad und Chat-Nachricht vereinfacht
 - [ ] Fragen, ob ich **Co-Host-Rechte** für Broadcasts bekomme (sonst nur Hauptchat vor dem Öffnen)
 - [ ] **Bildschirmfreigabe für Teilnehmende** in den Breakout-Räumen erlauben (die schreibende Person teilt das Pad)
 - [ ] Chat für alle an alle erlaubt

@@ -57,7 +57,7 @@ Alle drei Probleme: Chat-Wasserfall mit der Task-Nummer 1–8, dann kurz selbst 
 
 ## Übung 3: Was ist schiefgegangen? (Pre-Mortem)
 
-Breakout-Räume (bis 50 Personen 4 Räume, darüber mehr; wird 15 min vor Beginn festgelegt, Fall nach Raumnummer: 1/5/9/13 → A usw.), Material liegt in einem geteilten Pad. Zeitplan bei Start 15:45: Räume 16:21–16:33: 2 Minuten ankommen, dann je 5 Minuten pro Frage (Wechsel per Broadcast). Methode Pre-Mortem: „Es ist November 2028, das Projekt ist gescheitert. Was ist passiert?“ Der Tech-Support bedient die Räume. Die Kriterien 1–7 stehen vorher auf der Folie „Kriterien (Teil 2)“. Frage 1 bleibt offen, in Frage 2 ordnen die Räume ihre Gründe selbst den Kriterien zu. Die Ergebnisse bleiben im Pad, es gibt keinen Debrief im Plenum.
+4 Breakout-Räume für 20–30 Personen (Raum 1 → Fall A, 2 → B, 3 → C, 4 → D), Material liegt in einem geteilten Pad. Zeitplan bei Start 15:45: Räume 16:21–16:33: 2 Minuten ankommen, dann je 5 Minuten pro Frage (Wechsel per Broadcast). Methode Pre-Mortem: „Es ist November 2028, das Projekt ist gescheitert. Was ist passiert?“ Der Tech-Support bedient die Räume. Die Kriterien 1–7 stehen vorher auf der Folie „Kriterien (Teil 2)“. Frage 1 bleibt offen, in Frage 2 ordnen die Räume ihre Gründe selbst den Kriterien zu. Die Ergebnisse bleiben im Pad, es gibt keinen Debrief im Plenum.
 
 ### Pad
 
@@ -110,10 +110,10 @@ Alles ab hier ins Pad kopieren, als Titel „Übung: Was ist schiefgegangen?“ 
 
 #### Welcher Fall gehört zu eurem Raum?
 
-- Raum 1, 5, 9, 13 → **Fall A** · Schuldnerberatung
-- Raum 2, 6, 10, 14 → **Fall B** · Mieterverein
-- Raum 3, 7, 11, 15 → **Fall C** · Migrationsberatung
-- Raum 4, 8, 12, 16 → **Fall D** · Förderanträge
+- Raum 1 → **Fall A** · Schuldnerberatung
+- Raum 2 → **Fall B** · Mieterverein
+- Raum 3 → **Fall C** · Migrationsberatung
+- Raum 4 → **Fall D** · Förderanträge
 
 *Schreibt nur in euren eigenen Abschnitt. Alle Fälle sind fiktional.*
 
