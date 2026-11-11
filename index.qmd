@@ -67,7 +67,7 @@ csl: correlaid_assets/apa.csl
 <ol class="ca-toc">
 <li class="active"><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 9 min</small></span></li>
 <li><span class="num">02</span><span class="label">KI als Werkzeug: Tasks, Methoden, Prompts<small>Impuls + Übung: Probleme zu Tasks zuordnen · 17 min</small></span></li>
-<li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Daten, Infrastruktur, Kosten<small>Impuls + Übung: Was ist schiefgegangen? · 22 min</small></span></li>
+<li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Voraussetzungen und Kosten<small>Impuls + Übung: Was ist schiefgegangen? · 22 min</small></span></li>
 <li><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Fragen · 7 min</small></span></li>
 </ol>
 
@@ -161,7 +161,7 @@ csl: correlaid_assets/apa.csl
 <ol class="ca-toc">
 <li><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 9 min</small></span></li>
 <li class="active"><span class="num">02</span><span class="label">KI als Werkzeug: Tasks, Methoden, Prompts<small>Impuls + Übung: Probleme zu Tasks zuordnen · 17 min</small></span></li>
-<li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Daten, Infrastruktur, Kosten<small>Impuls + Übung: Was ist schiefgegangen? · 22 min</small></span></li>
+<li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Voraussetzungen und Kosten<small>Impuls + Übung: Was ist schiefgegangen? · 22 min</small></span></li>
 <li><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Fragen · 7 min</small></span></li>
 </ol>
 
@@ -450,19 +450,19 @@ Eine Umfrage unter Ehrenamtlichen liefert 2.000 Freitextantworten. In drei Woche
 <ol class="ca-toc">
 <li><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 9 min</small></span></li>
 <li><span class="num">02</span><span class="label">KI als Werkzeug: Tasks, Methoden, Prompts<small>Impuls + Übung: Probleme zu Tasks zuordnen · 17 min</small></span></li>
-<li class="active"><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Daten, Infrastruktur, Kosten<small>Impuls + Übung: Was ist schiefgegangen? · 22 min</small></span></li>
+<li class="active"><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Voraussetzungen und Kosten<small>Impuls + Übung: Was ist schiefgegangen? · 22 min</small></span></li>
 <li><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Fragen · 7 min</small></span></li>
 </ol>
 
-## Voraussetzungen: Daten, Fähigkeiten, Infrastruktur {.ca-dense}
+## Voraussetzungen {.ca-dense}
 
 - **Daten**: Gibt es genug echte Fälle? Sind sie zugänglich, aktuell, dokumentiert? Personenbezogen?
+  - KI arbeitet besser mit **strukturierten** Daten, am besten mit **semantischen**: **Metadaten** beschreiben, was Felder bedeuten und wie sie zusammenhängen
+  - RAG und Agents sind nur so gut wie die **Dokumente**, die sie finden
 - **Labels**: Wer entscheidet, was „richtig“ ist, und hat diese Person dafür Zeit?
-- **Fähigkeiten**: Wer kann messen, Fehler auswerten, nachjustieren?
+- **Fähigkeiten**: Wer kann messen, Fehler auswerten und das System anpassen?
 - **Infrastruktur**: Wo läuft es, wer zahlt, wer wartet? Auch noch im zweiten Jahr?
   - KI braucht **Schnittstellen (APIs)** zu euren Systemen
-  - KI arbeitet besser mit **strukturierten** Daten, am besten mit **semantischen**: **Metadaten** beschreiben, was Felder bedeuten und wie sie zusammenhängen
-- RAG und Agents sind nur so gut wie die **Dokumente**, die sie finden
 
 ::: notes
 - Labels: Rückbezug auf die Grenzfälle
@@ -541,7 +541,7 @@ Eine Umfrage unter Ehrenamtlichen liefert 2.000 Freitextantworten. In drei Woche
 :::: {.columns}
 
 ::: {.column width="62%"}
-1. **Eine Person schreibt mit:** Wer im Alphabet zuerst kommt, öffnet den Link zum Pad, teilt den Bildschirm und schreibt.
+1. **Eine Person schreibt mit:** Wer nach dem Vornamen im Alphabet zuerst kommt, öffnet den Link zum Pad, teilt den Bildschirm und schreibt.
 2. **5 Minuten:** Lest euer Projekt und sammelt 2–3 Gründe, warum es gescheitert ist.
 3. **5 Minuten:** Welche [Kriterien](#kriterien-liste) (1–7, auch im Pad) hätten das verhindert? Mehrere sind möglich
 :::
@@ -575,7 +575,7 @@ Eine Umfrage unter Ehrenamtlichen liefert 2.000 Freitextantworten. In drei Woche
 <ol class="ca-toc">
 <li><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 9 min</small></span></li>
 <li><span class="num">02</span><span class="label">KI als Werkzeug: Tasks, Methoden, Prompts<small>Impuls + Übung: Probleme zu Tasks zuordnen · 17 min</small></span></li>
-<li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Daten, Infrastruktur, Kosten<small>Impuls + Übung: Was ist schiefgegangen? · 22 min</small></span></li>
+<li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Voraussetzungen und Kosten<small>Impuls + Übung: Was ist schiefgegangen? · 22 min</small></span></li>
 <li class="active"><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Fragen · 7 min</small></span></li>
 </ol>
 

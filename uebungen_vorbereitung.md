@@ -104,7 +104,7 @@ Alles ab hier ins Pad kopieren, als Titel „Übung: Was ist schiefgegangen?“ 
 
 #### So geht's
 
-1. **Eine Person schreibt mit:** Wer im Alphabet zuerst kommt, ist die einzige Person in diesem Dokument, teilt den Bildschirm und schreibt (Stichworte reichen). Alle anderen schauen zu.
+1. **Eine Person schreibt mit:** Wer nach dem Vornamen im Alphabet zuerst kommt, ist die einzige Person in diesem Dokument, teilt den Bildschirm und schreibt (Stichworte reichen). Alle anderen schauen zu.
 2. **5 Minuten:** Sucht euren Fall (Strg+F → „Fall A“ usw.), lest ihn gemeinsam und sammelt 2–3 Gründe, warum das Projekt gescheitert ist.
 3. **5 Minuten** (ihr bekommt eine Nachricht): Welche Kriterien (1–7, unten) hätten das verhindert? Schreibt eine oder mehrere Nummern hinter jeden Grund.
 

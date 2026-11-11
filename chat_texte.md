@@ -11,13 +11,13 @@ Nachrichten, die ich selbst poste. Nr. 3–5 sind Broadcasts in die Räume (nur 
 ## 2. Übung 3: Pad-Link in den Hauptchat (bevor die Räume öffnen)
 
 ```text
-📝 Link für die Gruppenarbeit: https://pad.systemli.org/p/Die_Power_der_Prompts_-_D%C2%B3_Kongress_2026 – nur EINE Person pro Raum öffnet ihn (wer im Alphabet zuerst kommt), teilt den Bildschirm und schreibt mit. Fall nach Raumnummer: 1/5/9/13 → A · 2/6/10/14 → B · 3/7/11/15 → C · 4/8/12/16 → D
+📝 Link für die Gruppenarbeit: https://pad.systemli.org/p/Die_Power_der_Prompts_-_D%C2%B3_Kongress_2026 – nur EINE Person pro Raum öffnet ihn (wer nach dem Vornamen im Alphabet zuerst kommt), teilt den Bildschirm und schreibt mit. Fall nach Raumnummer: 1/5/9/13 → A · 2/6/10/14 → B · 3/7/11/15 → C · 4/8/12/16 → D
 ```
 
 ## 3. Übung 3: Broadcast direkt nach dem Öffnen der Räume (falls möglich)
 
 ```text
-📝 https://pad.systemli.org/p/Die_Power_der_Prompts_-_D%C2%B3_Kongress_2026 – nur EINE Person pro Raum öffnet den Link (wer im Alphabet zuerst kommt), teilt den Bildschirm und schreibt mit. Ihr habt 5 Minuten für Frage 1.
+📝 https://pad.systemli.org/p/Die_Power_der_Prompts_-_D%C2%B3_Kongress_2026 – nur EINE Person pro Raum öffnet den Link (wer nach dem Vornamen im Alphabet zuerst kommt), teilt den Bildschirm und schreibt mit. Ihr habt 5 Minuten für Frage 1.
 ```
 
 ## 4. Übung 3: Broadcast nach 5 min (falls möglich)
