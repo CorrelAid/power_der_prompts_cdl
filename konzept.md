@@ -13,7 +13,7 @@ Online-Workshop, 55 Minuten, 11.11.2026, 15:45–16:40 Uhr. Fragen sammeln wir f
 | Referent | Jonas Stettner, CorrelAid |
 | Format | Zoom, 3 Übungen, Ansprache mit du/ihr |
 | Werkzeuge | Zoom-Chat, 4 Breakout-Räume, Etherpad auf pad.systemli.org (ohne Login) |
-| Tech-Support | Stellt die Konferenz: Einlass, Breakout-Räume öffnen/schließen, Störungen. Chat und Broadcasts mache ich (Co-Host) |
+| Tech-Support | Stellt die Konferenz: öffnet nur die Breakout-Räume (automatisch zugewiesen). Chat und ggf. Broadcasts mache ich |
 | Folien | [index.qmd](index.qmd) · [correlaid.github.io/power_der_prompts_d3](https://correlaid.github.io/power_der_prompts_d3/) |
 | Vorbereitung | [uebungen_vorbereitung.md](uebungen_vorbereitung.md) · Chat-Texte: [chat_texte.md](chat_texte.md) · Offene Punkte: [todo.md](todo.md) |
 
@@ -31,27 +31,27 @@ Minuten aus den Folien-Notizen. Uhrzeiten = Plan bei Start 15:45.
 | 15:47 | 1,5 | 1 Ankommen | Die Skala | Input |
 | **15:48:30** | 4 | 1 Ankommen | Übung 1: Vibecheck (1 erklären · 2 tippen · 1 vorlesen) | Chat-Wasserfall |
 | 15:52:30 | 1 | 1 Ankommen | Was wird versprochen? | Input |
-| 15:53:30 | 7,5 | 2 KI als Werkzeug | Inhalte + Fahrplan (0,5), Was ist KI? Intelligenz (1), Von Fähigkeiten zu Tasks (2), Typische KI-Projekte nach Task (1,5), Was ist KI? Ein Oberbegriff (0,5), Ein Task viele Ansätze (1), Was Prompts können (1) | Input |
-| 16:01 | 1 | 2 KI als Werkzeug | Einfache Performancemessung | Input, kurz |
-| 16:02 | 1,5 | 2 KI als Werkzeug | Grenzfälle (Ground Truth) | Input, rhetorische Frage |
-| 16:03:30 | 1 | 2 KI als Werkzeug | Kriterien (Teil 1) | Input |
-| **16:04:30** | 7 | 2 KI als Werkzeug | Übung 2: Welcher Task? (1–3/3), Mögliche Zuordnungen | Chat-Wasserfall |
-| 16:11:30 | 5 | 3 KI-Projekt durchführen | Inhalte, Voraussetzungen, Was oft vergessen wird, Wer trägt die Kosten? | Input |
-| 16:16:30 | 0,5 | 3 KI-Projekt durchführen | Kriterien (Teil 2) | nur vorlesen |
-| 16:17 | 2 | 3 KI-Projekt durchführen | Übung 3 erklären (Pre-Mortem), Pad-Link, Aufteilung | Input |
+| 15:53:30 | 8,5 | 2 KI als Werkzeug | Inhalte + Fahrplan (0,5), Was ist KI? Intelligenz (1), Von Fähigkeiten zu Tasks (3), Typische KI-Projekte nach Task (1,5), Was ist KI? Ein Oberbegriff (0,5), Ein Task viele Ansätze (1), Was Prompts können (1) | Input |
+| 16:02 | 1 | 2 KI als Werkzeug | Einfache Performancemessung | Input, kurz |
+| 16:03 | 1,5 | 2 KI als Werkzeug | Grenzfälle (Ground Truth) | Input, rhetorische Frage |
+| 16:04:30 | 1 | 2 KI als Werkzeug | Kriterien (Teil 1) | Input |
+| **16:05:30** | 5 | 2 KI als Werkzeug | Übung 2: Welcher Task? (1 erklären · 3 Probleme, Lösung jeweils per Klick) | Chat-Wasserfall |
+| 16:10:30 | 5 | 3 KI-Projekt durchführen | Inhalte, Voraussetzungen, Was oft vergessen wird, Wer trägt die Kosten? | Input |
+| 16:15:30 | 0,5 | 3 KI-Projekt durchführen | Kriterien (Teil 2) | nur vorlesen |
+| 16:16 | 3 | 3 KI-Projekt durchführen | Übung 3 erklären, Raumnummer → Fall, Pad-Link in den Chat, Aufteilung | Input |
 | 16:19 | 4 | Puffer | Breakout-Übergaben, Verzug aus Block 1–3 | – |
-| **16:23** | 10 | 3 KI-Projekt durchführen | Übung 3: Was ist schiefgegangen? | Breakout-Räume A–D + Pad |
+| **16:23** | 10 | 3 KI-Projekt durchführen | Übung 3: Was ist schiefgegangen? | Breakout-Räume (Fall nach Raumnummer) + Pad |
 | 16:33 | 2 | 4 Abschluss | Inhalte, Code of Conduct, Mitnehmen (kein Debrief, Ergebnisse stehen im Pad) | Input |
 | 16:35 | 5 | 4 Abschluss | Zeit für Fragen | Plenum |
 
-Summe: Block 1 = 8,5 · Block 2 = 18 · Block 3 = 17,5 · Abschluss = 7 · Puffer = 4 → 55 Minuten. Die Agenda-Folie zeigt gerundet 9 · 18 · 21 · 7 (Block 3 inkl. Puffer).
+Summe: Block 1 = 8,5 · Block 2 = 17 · Block 3 = 18,5 · Abschluss = 7 · Puffer = 4 → 55 Minuten. Die Agenda-Folie zeigt gerundet 9 · 17 · 22 · 7 (Block 3 inkl. Puffer).
 
-**Kontrollpunkte:** Übung 2 beginnt ca. 16:05 · Block 3 beginnt ca. 16:12 · Räume öffnen **spätestens 16:23**. Sind wir früher dran, öffnen die Räume früher (10 min bleiben 10 min), dann die Uhrzeit mündlich ansagen.
+**Kontrollpunkte:** Übung 2 beginnt ca. 16:06 · Block 3 beginnt ca. 16:11 · Räume öffnen **spätestens 16:23**. Sind wir früher dran, öffnen die Räume früher (10 min bleiben 10 min), dann die Uhrzeit mündlich ansagen.
 
 ## Fragen
 
 - Auf der Folie „Schön, dass ihr da seid!“ bitten wir: Fragen merken, am Ende gibt es Zeit dafür.
-- Fragen im Chat während des Workshops sammelt der Tech-Support (oder wir merken sie uns) für die Fragerunde.
+- Fragen im Chat während des Workshops merken wir uns für die Fragerunde.
 - Verständnisfragen, die eine Übung blockieren, beantworten wir sofort.
 - Die 5 Minuten Fragerunde sind kein Puffer. Bei Verzug kürzen wir Inhalte (siehe unten).
 
@@ -59,11 +59,10 @@ Summe: Block 1 = 8,5 · Block 2 = 18 · Block 3 = 17,5 · Abschluss = 7 · Puffe
 
 Der Puffer ist 4 min, trotzdem früh kürzen, in dieser Reihenfolge:
 
-1. Bonus-Problem Übung 2 weglassen
-2. Oberbegriff-Grafik überspringen
-3. Projekttabelle nur zeigen, nicht besprechen
-4. Intelligenz-Folie überspringen, direkt zu den Tasks
-5. „Was oft vergessen wird“ nur kurz anreißen
+1. Oberbegriff-Grafik überspringen
+2. Projekttabelle nur zeigen, nicht besprechen
+3. Intelligenz-Folie überspringen, direkt zu den Tasks
+4. „Was oft vergessen wird“ nur kurz anreißen
 
 ## Konsistenz
 
@@ -84,7 +83,7 @@ Damit die Dokumente nicht auseinanderlaufen:
 - **Uhrzeiten Übung 3** (16:23–16:33): Notizen der Folie „Übung: Was ist schiefgegangen?“, Tech-Support-Checkliste
 - **Kriterien 1–7**: Folien „Kriterien (Teil 1/2)“, „Mitnehmen“, Pad-Kopf
 - **Tasks ①–⑧**: Folie „Von Fähigkeiten zu Tasks“, Folien Übung 2, Projektkarten im Pad
-- **Projektkarten A–D**: Folie „Übung: Was ist schiefgegangen?“, Pad, Raumnamen für den Tech-Support, Notizen zu „Zeit für Fragen“
-- **Breakout-Broadcasts**: Notizen Übung 3, Übergabeliste in uebungen_vorbereitung.md, chat_texte.md Nr. 2–4
+- **Projektkarten A–D**: Folie „Übung: Was ist schiefgegangen?“, Pad, Zuordnung Raumnummer → Fall (Folie, Pad, chat_texte.md Nr. 2), Notizen zu „Zeit für Fragen“
+- **Breakout-Broadcasts**: Notizen Übung 3, Übergabeliste in uebungen_vorbereitung.md, chat_texte.md Nr. 3–5
 
 Schneller Check vor dem Workshop: `grep -n "16:2" *.md index.qmd` und `grep -n "Kriterium\|①" *.md index.qmd`.

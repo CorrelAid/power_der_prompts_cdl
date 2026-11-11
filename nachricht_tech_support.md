@@ -2,18 +2,24 @@
 
 ## Klären
 
-- [ ] **Erwartete Teilnehmendenzahl** erfragen → Anzahl Räume festlegen (ca. 6–7 Personen pro Raum, die vier Fälle wiederholen sich: bei 100 Personen 16 Räume A1–A4, B1–B4, C1–C4, D1–D4)
-- [ ] Raumzahl an Claude geben → Pad mit einem Antwortabschnitt pro Raum anpassen lassen
-- [ ] **Co-Host-Rechte** für mich (Broadcasts in die Räume)
+- [ ] **Erwartete Teilnehmendenzahl** erfragen → Anzahl Räume festlegen:
+  - bis 50 Personen: **4 Räume** (Raum 1 = A, 2 = B, 3 = C, 4 = D)
+  - über 50: **8 Räume** (1/5 → A, 2/6 → B, 3/7 → C, 4/8 → D), über 100: 12–16 Räume
+  - Fall ergibt sich immer aus der Raumnummer: 1/5/9/13 → A, 2/6/10/14 → B, 3/7/11/15 → C, 4/8/12/16 → D
+- [ ] Raumzahl an Claude geben:
+  - **4 Räume:** Zuordnung vereinfachen lassen auf „Raum 1 → Fall A, Raum 2 → B, Raum 3 → C, Raum 4 → D“ (Folie, Pad, Chat-Nachricht 2)
+  - **mehr als 4 Räume:** Pad mit einem Antwortabschnitt pro Raum anpassen lassen
+- [ ] Fragen, ob ich **Co-Host-Rechte** für Broadcasts bekomme (sonst nur Hauptchat vor dem Öffnen)
 - [ ] **Bildschirmfreigabe für Teilnehmende** in den Breakout-Räumen erlauben (die schreibende Person teilt das Pad)
+- [ ] Chat für alle an alle erlaubt
+- [ ] Stichwort vereinbaren: laut mit Namen („[Name], öffnest du bitte die Räume?“)
 
 ## Breakout-Räume (Übung 3)
 
-- [ ] Räume nach den Fällen benennen: „A · Schuldnerberatung“, „B · Mieterverein“, „C · Migrationsberatung“, „D · Förderanträge“ (bei mehreren Räumen pro Fall: „A1 · Schuldnerberatung“ usw.)
+Tech-Support öffnet nur die Räume und weist automatisch zu.
+
 - [ ] Öffnen auf mein Stichwort, geplant ca. 16:23
-- [ ] Dauer 10 Minuten, danach automatisch schließen (Countdown 30 s)
-- [ ] Automatisch zuweisen, Teilnehmende dürfen den Raum selbst wechseln
-- [ ] Nachzügler*innen einem Raum zuweisen
+- [ ] Fragen, ob die Räume nach 10 Minuten automatisch schließen können (Countdown 30 s)
 
 ## Testen
 

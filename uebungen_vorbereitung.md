@@ -9,29 +9,20 @@ Die Konferenz stellt technischen Support: eine Person vom **Tech-Support** über
 
 Übung 1 und Übung 2 laufen im Zoom-Chat. Übung 3 nutzt Zoom-Breakout-Räume plus ein geteiltes Etherpad auf pad.systemli.org (ohne Login). Alle Texte für den Chat stehen in [chat_texte.md](chat_texte.md). Kein Whiteboard.
 
-## Absprache mit dem Tech-Support (vorab per Mail)
+## Ablauf mit dem Tech-Support
 
-- [ ] Klären, wer Host ist, und **Co-Host-Rechte** anfragen (für die Broadcasts in die Räume und ggf. Bildschirmfreigabe)
-- [ ] Einstellungen anfragen, da das Meeting vermutlich nicht in unserem Account liegt:
-  - Breakout-Räume an, 4 Räume, automatisch zuweisen, „Teilnehmende dürfen Raum selbst wählen“ an
-  - Räume **nach den Fällen benennen** (Zoom zeigt sonst „Breakout-Raum 1–4“): „A · Schuldnerberatung“, „B · Mieterverein“, „C · Migrationsberatung“, „D · Förderanträge“
-  - Räume nach 10 Minuten automatisch schließen, Countdown 30 s
-  - Chat für alle an alle erlaubt, Reaktionen an
-- [ ] Ablauf schicken: auf welcher Folie was passiert (siehe Übergabeliste unten)
-- [ ] Vereinbaren, wie wir während der Session Bescheid geben – Stichwort laut mit Namen sagen („[Name], öffnest du bitte die Räume?“) ist am einfachsten
-- [ ] Fragen, ob ein kurzer Technik-Test vorab möglich ist (sonst: in den 15 Minuten vor Beginn)
+Absprache 15 Minuten vor Beginn: siehe [nachricht_tech_support.md](nachricht_tech_support.md).
 
-### Übergabeliste für den Tech-Support
 
 | Wann | Wer | Was |
 |---|---|---|
 | Übung 1 und 2 | Tech-Support | Chat offen lassen |
-| Übung 3, auf mein Stichwort | Tech-Support | Räume A–D (nach den Fällen benannt) öffnen, 10 min |
-| Übung 3, direkt nach dem Öffnen | ich | Broadcast mit Pad-Link (chat_texte.md Nr. 2), weil der Hauptchat in den Räumen nicht sichtbar ist |
-| Übung 3, nach 5 min | ich | Broadcast „Frage 2“ (chat_texte.md Nr. 3) |
-| Übung 3, 1 min Restzeit | ich | Broadcast „Noch 1 Minute“ (chat_texte.md Nr. 4) |
+| Übung 3, auf mein Stichwort | Tech-Support | Räume öffnen, automatisch zuweisen (nummeriert) |
+| Übung 3, vor dem Öffnen | ich | Pad-Link in den Hauptchat (chat_texte.md Nr. 2) |
+| Übung 3, direkt nach dem Öffnen | ich | Falls möglich: Broadcast mit Pad-Link (Nr. 3), weil der Hauptchat in den Räumen nicht sichtbar ist |
+| Übung 3, nach 5 min | ich | Falls möglich: Broadcast „Frage 2“ (Nr. 4) |
+| Übung 3, 1 min Restzeit | ich | Falls möglich: Broadcast „Noch 1 Minute“ (Nr. 5) |
 | Übung 3, nach 10 min | Tech-Support | Räume schließen (automatisch, Countdown 30 s) |
-| ganze Session | Tech-Support | Nachzügler*innen einlassen und in Übung 3 einem Raum zuweisen |
 
 ## Bildschirm-Setup
 
@@ -56,17 +47,17 @@ Eine einzige Aktivität: Chat-Wasserfall mit Versprechen + Emoji von der Skala.
 Alle drei Probleme: Chat-Wasserfall mit der Task-Nummer 1–8, dann kurz selbst kommentieren. Die Lösung kommt danach auf einer eigenen Folie. Läuft komplett im Plenum.
 
 - [ ] Ablauf ansagen: „Ich lese ein Problem vor, ihr tippt die Nummer des Tasks, Enter erst auf mein Los.“
-- [ ] Zeit pro Problem: ca. 2 min, Bonus („mehr Reichweite“ / eigenes Problem, steht nur in den Notizen) nur bei übriger Zeit
+- [ ] Zeit: 1 min erklären, dann pro Problem ~1,3 min inkl. Lösung (per Klick auf der Problem-Folie)
 - [ ] Antworten nicht auszählen, nur grob überfliegen: „Viele ①, ein paar ⑥ – wer hat ⑥ getippt?“
 - [ ] Kein Nachfragen: Antworten überfliegen und selbst kurz kommentieren
-- [ ] Folie „Mögliche Zuordnungen“ erst nach der Diskussion zeigen
+- [ ] Lösung erst nach dem Kommentieren per Klick einblenden
 - [ ] Problem 1 (300 Belege): ② Informationsextraktion – oder ③, wenn die PDFs Scans sind; ohne KI: E-Rechnungen (XRechnung/ZUGFeRD) anfragen
 - [ ] Problem 2 (Tafel-Dubletten): Regeln schlagen oft ML; Spender*innendaten sind personenbezogen. Selbst kurz einordnen: Wie messen? Bräuchte es KI?
 - [ ] Problem 3 (Freitextantworten): ⑥ Gruppieren – oder ①, wenn die Kategorien feststehen; keine richtige Antwort – wie prüft man dann?
 
 ## Übung 3: Was ist schiefgegangen? (Pre-Mortem)
 
-Vier Breakout-Räume (A–D), Material liegt in einem geteilten Pad. Zeitplan bei Start 15:45: Räume 16:23–16:33, je 5 Minuten pro Frage (Wechsel per Broadcast). Methode Pre-Mortem: „Es ist November 2028, das Projekt ist gescheitert. Was ist passiert?“ Der Tech-Support bedient die Räume. Die Kriterien 1–7 stehen vorher auf der Folie „Kriterien (Teil 2)“. Frage 1 bleibt offen, in Frage 2 ordnen die Räume ihre Gründe selbst den Kriterien zu. Die Ergebnisse bleiben im Pad, es gibt keinen Debrief im Plenum.
+Breakout-Räume (bis 50 Personen 4 Räume, darüber mehr; wird 15 min vor Beginn festgelegt, Fall nach Raumnummer: 1/5/9/13 → A usw.), Material liegt in einem geteilten Pad. Zeitplan bei Start 15:45: Räume 16:23–16:33, je 5 Minuten pro Frage (Wechsel per Broadcast). Methode Pre-Mortem: „Es ist November 2028, das Projekt ist gescheitert. Was ist passiert?“ Der Tech-Support bedient die Räume. Die Kriterien 1–7 stehen vorher auf der Folie „Kriterien (Teil 2)“. Frage 1 bleibt offen, in Frage 2 ordnen die Räume ihre Gründe selbst den Kriterien zu. Die Ergebnisse bleiben im Pad, es gibt keinen Debrief im Plenum.
 
 ### Pad
 
@@ -76,10 +67,10 @@ Vier Breakout-Räume (A–D), Material liegt in einem geteilten Pad. Zeitplan be
 
 ### Ablauf
 
-- [ ] Folie „Kriterien (Teil 2)“ nur vorlesen, dann Pre-Mortem-Folie erklären, Räume öffnen, direkt danach Pad-Link per Broadcast (chat_texte.md Nr. 2)
+- [ ] Folie „Kriterien (Teil 2)“ nur vorlesen, dann Übungsfolie erklären (inkl. Raumnummer → Fall), Räume öffnen, Pad-Link vorher in den Hauptchat (chat_texte.md Nr. 2), nach dem Öffnen falls möglich per Broadcast (Nr. 3)
 - [ ] Während der Räume im Hauptraum bleiben und im Pad mitlesen – notieren, was für die Fragerunde auffällt, Zeilen im falschen Raum-Abschnitt verschieben
 - [ ] Bei Verzug die Uhrzeiten im Pad-Kopf live korrigieren, nicht nur mündlich
-- [ ] Nach den Räumen: Abschlussnachricht mit Pad-Link in den Chat (chat_texte.md Nr. 5), dann direkt zum Abschluss. Beobachtungen aus dem Pad ggf. in der Fragerunde aufgreifen (Notizen auf „Zeit für Fragen“)
+- [ ] Nach den Räumen: Abschlussnachricht mit Pad-Link in den Chat (chat_texte.md Nr. 6), dann direkt zum Abschluss. Beobachtungen aus dem Pad ggf. in der Fragerunde aufgreifen (Notizen auf „Zeit für Fragen“)
 - [ ] Optional: Countdown-Timer auf den Übungsfolien (Quarto-Extension `countdown`)
 - [ ] Pad nach dem Workshop als Mitnehm-Material teilen (oder löschen, falls nicht gewünscht)
 
@@ -97,7 +88,7 @@ Einmal mit 2–3 Testpersonen durchspielen, ca. 30 min. Die Technik übernimmt d
 - [ ] Chat-Wasserfall einmal üben, Timing für das Los prüfen
 - [ ] Stichworte für die Räume einmal laut üben
 - [ ] Pad aus einem Breakout-Raum heraus bearbeiten, Kurzanleitung im Pad verständlich?
-- [ ] Pre-Mortem-Fragen einmal mit einer Projektkarte durchspielen: Kommen in 6 min 2–3 Gründe zusammen?
+- [ ] Pre-Mortem-Fragen einmal mit einer Projektkarte durchspielen: Kommen in 5 min 2–3 Gründe zusammen?
 - [ ] Bildschirmfreigabe der Folien inkl. Fragmente prüfen
 - [ ] Gesamtzeit der Übungen stoppen und mit dem Zeitplan in [konzept.md](konzept.md) vergleichen
 
@@ -111,27 +102,36 @@ Alles ab hier ins Pad kopieren, als Titel „Übung: Was ist schiefgegangen?“ 
 
 **Stellt euch vor: Es ist 2028, und euer KI-Projekt ist gescheitert. Warum?**
 
+#### So geht's
+
 1. **Eine Person schreibt mit:** Wer im Alphabet zuerst kommt, ist die einzige Person in diesem Dokument, teilt den Bildschirm und schreibt (Stichworte reichen). Alle anderen schauen zu.
-2. **5 Minuten:** Sucht euer Projekt (Strg+F → „Raum A“ usw.), lest es gemeinsam und sammelt 2–3 Gründe, warum es gescheitert ist.
-3. **5 Minuten** (ihr bekommt eine Nachricht): Welches Kriterium (1–7, unten) hätte das verhindert? Schreibt die Nummer hinter jeden Grund.
+2. **5 Minuten:** Sucht euren Fall (Strg+F → „Fall A“ usw.), lest ihn gemeinsam und sammelt 2–3 Gründe, warum das Projekt gescheitert ist.
+3. **5 Minuten** (ihr bekommt eine Nachricht): Welche Kriterien (1–7, unten) hätten das verhindert? Schreibt eine oder mehrere Nummern hinter jeden Grund.
 
-Schreibt nur in euren eigenen Abschnitt.
+#### Welcher Fall gehört zu eurem Raum?
 
-**Unsere Kriterien** (erst für Frage 2 anschauen, Frage 1 frei diskutieren)
+- Raum 1, 5, 9, 13 → **Fall A** · Schuldnerberatung
+- Raum 2, 6, 10, 14 → **Fall B** · Mieterverein
+- Raum 3, 7, 11, 15 → **Fall C** · Migrationsberatung
+- Raum 4, 8, 12, 16 → **Fall D** · Förderanträge
+
+*Schreibt nur in euren eigenen Abschnitt. Alle Fälle sind fiktional.*
+
+#### Unsere Kriterien
+
+*Erst für Frage 2 anschauen, Frage 1 frei diskutieren.*
 
 1. Lässt sich das Problem in **klare Tasks** zerlegen?
-2. Reicht etwas **Einfacheres**? Zuerst ohne KI (Prozess, Struktur, Regeln, bessere Website), dann die niedrigste Komplexitätsstufe: klassisches ML → Finetuning → Prompt → RAG → Agent
+2. Reicht etwas **Einfacheres**? Zuerst ohne KI (Prozess, Struktur, bessere Website), dann die niedrigste Komplexitätsstufe: Regeln → klassisches ML → Finetuning → Prompt → RAG → Agent
 3. Kann man **prüfen**, ob es gut genug funktioniert? Was kosten Fehler?
 4. Liegt das eigentliche Problem **woanders** (z. B. zu wenig Personal oder Geld → systemisches Problem), sodass Technik es nicht löst?
 5. Sind **Daten, Fähigkeiten und Infrastruktur** vorhanden?
 6. Ist der **Datenschutz** geklärt (wessen Daten stecken drin?) und sind **Betroffene** beteiligt?
 7. Stehen Nutzen und **externalisierte Kosten** in einem vertretbaren Verhältnis (Betroffene, Förderer, Umwelt)?
 
-*Alle Projekte sind fiktional.*
-
 ---
 
-### Raum A · Schuldnerberatung: Chatbot für Erstfragen
+### Fall A · Schuldnerberatung: Chatbot für Erstfragen
 
 **Die Idee (aus dem Projektantrag):** „Rund um die Uhr erreichbar, ohne Wartezeit. Unser KI-Assistent beantwortet Erstfragen sofort und entlastet das Team.“
 
@@ -148,11 +148,11 @@ Schreibt nur in euren eigenen Abschnitt.
 **Eure Antworten:**
 
 - Gescheitert, weil …
-- Kriterium (Nummer hinter jedem Grund): …
+- Kriterien (eine oder mehrere Nummern hinter jedem Grund): …
 
 ---
 
-### Raum B · Mieterverein: semantische Suche über 15 Jahre Rundbriefe
+### Fall B · Mieterverein: semantische Suche über 15 Jahre Rundbriefe
 
 **Die Idee (aus dem Projektantrag):** „15 Jahre Wissen, endlich auffindbar. Mitglieder stellen eine Frage und bekommen sofort die passende Antwort aus unserem Archiv.“
 
@@ -169,11 +169,11 @@ Schreibt nur in euren eigenen Abschnitt.
 **Eure Antworten:**
 
 - Gescheitert, weil …
-- Kriterium (Nummer hinter jedem Grund): …
+- Kriterien (eine oder mehrere Nummern hinter jedem Grund): …
 
 ---
 
-### Raum C · Migrationsberatung: Beratungsgespräche transkribieren und zusammenfassen
+### Fall C · Migrationsberatung: Beratungsgespräche transkribieren und zusammenfassen
 
 **Die Idee (aus dem Projektantrag):** „Unsere Berater*innen verbringen ein Drittel ihrer Zeit mit Dokumentation. Mit KI schreibt sich die Akte von selbst, und wir haben mehr Zeit für Menschen.“
 
@@ -190,11 +190,11 @@ Schreibt nur in euren eigenen Abschnitt.
 **Eure Antworten:**
 
 - Gescheitert, weil …
-- Kriterium (Nummer hinter jedem Grund): …
+- Kriterien (eine oder mehrere Nummern hinter jedem Grund): …
 
 ---
 
-### Raum D · Verein: Agent bereitet Förderanträge vor
+### Fall D · Verein: Agent bereitet Förderanträge vor
 
 **Die Idee (aus dem Projektantrag):** „Nie wieder eine Frist verpassen. Unser KI-Agent findet passende Förderprogramme und schreibt den ersten Antragsentwurf, wir müssen nur noch unterschreiben.“
 
@@ -211,4 +211,4 @@ Schreibt nur in euren eigenen Abschnitt.
 **Eure Antworten:**
 
 - Gescheitert, weil …
-- Kriterium (Nummer hinter jedem Grund): …
+- Kriterien (eine oder mehrere Nummern hinter jedem Grund): …

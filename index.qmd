@@ -55,7 +55,7 @@ csl: correlaid_assets/apa.csl
 
 - Die **Folien** findet ihr hier: [correlaid.github.io/power_der_prompts_d3](https://correlaid.github.io/power_der_prompts_d3/#/title-slide)
 - Lasst uns heute im Workshop gerne beim **Du** bleiben.
-- Es gibt keine „blöden“ Fragen. Macht aktiv mit und teilt eure Erfahrungen. Merkt euch eure Fragen: am Ende gibt es Zeit dafür.
+- Macht aktiv mit und teilt eure Erfahrungen. Es gibt keine „blöden“ Fragen. Merkt euch eure Fragen: am Ende gibt es Zeit dafür.
 :::
 
 ::: notes
@@ -66,8 +66,8 @@ csl: correlaid_assets/apa.csl
 
 <ol class="ca-toc">
 <li class="active"><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 9 min</small></span></li>
-<li><span class="num">02</span><span class="label">KI als Werkzeug: Tasks, Methoden, Prompts<small>Impuls + Übung: Probleme zu Tasks zuordnen · 18 min</small></span></li>
-<li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Daten, Infrastruktur, Kosten<small>Impuls + Übung: Was ist schiefgegangen? · 21 min</small></span></li>
+<li><span class="num">02</span><span class="label">KI als Werkzeug: Tasks, Methoden, Prompts<small>Impuls + Übung: Probleme zu Tasks zuordnen · 17 min</small></span></li>
+<li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Daten, Infrastruktur, Kosten<small>Impuls + Übung: Was ist schiefgegangen? · 22 min</small></span></li>
 <li><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Fragen · 7 min</small></span></li>
 </ol>
 
@@ -160,8 +160,8 @@ csl: correlaid_assets/apa.csl
 
 <ol class="ca-toc">
 <li><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 9 min</small></span></li>
-<li class="active"><span class="num">02</span><span class="label">KI als Werkzeug: Tasks, Methoden, Prompts<small>Impuls + Übung: Probleme zu Tasks zuordnen · 18 min</small></span></li>
-<li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Daten, Infrastruktur, Kosten<small>Impuls + Übung: Was ist schiefgegangen? · 21 min</small></span></li>
+<li class="active"><span class="num">02</span><span class="label">KI als Werkzeug: Tasks, Methoden, Prompts<small>Impuls + Übung: Probleme zu Tasks zuordnen · 17 min</small></span></li>
+<li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Daten, Infrastruktur, Kosten<small>Impuls + Übung: Was ist schiefgegangen? · 22 min</small></span></li>
 <li><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Fragen · 7 min</small></span></li>
 </ol>
 
@@ -217,7 +217,7 @@ Ein **Task** legt fest: Was geht rein? Was soll rauskommen? Woran messen wir, ob
 | ⑧ Vorhersage / Anomalie | Einsatzdaten → Bedarf morgen | Abweichung, Fehlalarme vs. Übersehene |
 
 ::: notes
-- 2 min. Zentrale Folie: vage Fähigkeit („Sprache verstehen“) vs. klarer Task („Mails einer Person zuordnen“)
+- 3 min. Zentrale Folie: vage Fähigkeit („Sprache verstehen“) vs. klarer Task („Mails einer Person zuordnen“)
 - Nummern ①–⑧ kommen in Übung 2 wieder
 - ⑧ Fehlalarme vs. Übersehene = Precision/Recall
 - Bei Nachfrage: Neuronale Netze seit etwa 2012 bei Bild, Sprache, Text führend [@lecun2015], bei Tabellendaten oft baumbasierte Verfahren [@grinsztajn2022]
@@ -245,7 +245,7 @@ Mehr Projekte: [CDL-Projektsammlung](https://civic-data.de/machen/projektsammlun
 - AfD-Gutachten: KI filtert vor, Menschen prüfen [@verfassungsblog2026]
 - AWO: KI nur für einfache Fälle, schwierige entscheiden Menschen [@cdl_demokratiefoerderquote]
 - genialsozial: Hauptarbeit ist das digitale Formular, Handschrifterkennung nur als Übergangslösung geprüft
-- ② und ⑥ fehlen bewusst, Beispiele kommen in Übung 2 (EVIM, Full Fact)
+- ② und ⑥ fehlen bewusst, ② kommt in Übung 2 als Praxisbeispiel (EVIM)
 - Agents: kein Katalog-Projekt. Eigene Coding-Erfahrung erzählen; kleine Studie: erfahrene Entwickler*innen waren mit KI langsamer, nicht verallgemeinern [@becker2025]
 :::
 
@@ -345,7 +345,7 @@ Bevor ihr euch auf KI verlasst, ein einfacher Einstieg:
 : {tbl-colwidths="[75,25]"}
 
 ::: {.fragment fragment-index=2}
-**„Ground Truth“ ist nicht die Wahrheit** Referenz-Labels sind Entscheidungen von Menschen, Kategorien ein vereinfachtes Modell der Wirklichkeit. Gemessen wird immer nur gegen dieses Modell. Würde zu tief gehen: Bias
+**„Ground Truth“ ist nicht die Wahrheit** Referenz-Labels sind Entscheidungen von Menschen, Kategorien ein vereinfachtes Modell der Wirklichkeit. Gemessen wird immer nur gegen dieses Modell.
 :::
 
 ::: notes
@@ -359,7 +359,7 @@ Bevor ihr euch auf KI verlasst, ein einfacher Einstieg:
 ## Kriterien: Wann ist KI sinnvoll? (Teil 1) {.ca-dense}
 
 1. Lässt sich das Problem in **klare Tasks** zerlegen?
-2. Reicht etwas **Einfacheres**? Zuerst ohne KI, dann die niedrigste Komplexitätsstufe: klassisches ML → Finetuning → Prompt → RAG → Agent
+2. Reicht etwas **Einfacheres**? Zuerst ohne KI, dann die niedrigste Komplexitätsstufe: Regeln → klassisches ML → Finetuning → Prompt → RAG → Agent
 3. Kann man **prüfen**, ob es gut genug funktioniert? Was kosten Fehler?
 
 ::: {.fragment .ca-list-cont}
@@ -372,7 +372,7 @@ Bevor ihr euch auf KI verlasst, ein einfacher Einstieg:
 
 ::: notes
 - 1–3 fassen Block 2 zusammen. 4 per Klick: die Frage, die in der Praxis zuerst kommt
-- 2: Erst ohne KI (Prozess, Struktur, Regeln, bessere Website statt Chatbot), dann die einfachste Stufe, die laut Messung reicht. Regeln zählen hier als „ohne KI“, weil sie nichts lernen
+- 2: Erst ohne KI (Prozess, Struktur, bessere Website statt Chatbot), dann die einfachste Stufe aus der Tabelle „Ein Task, viele Ansätze“, die laut Messung reicht
 - 4: Techno-Solutionismus [@morozov2013]. Fehlende Ressourcen lassen sich nicht wegautomatisieren, ein Chatbot hilft nicht gegen Einsamkeit
 - Aus CDL-Beratungen: Chatbot-Anfrage, eigentliches Problem ist oft die Website-Struktur
 - Optional: Ehrenamtliche würden KI lieber für Verwaltung als für Social Media nutzen [@cdl_ki_ehrenamt], nicht repräsentativ
@@ -391,8 +391,13 @@ Ein Verein bekommt jeden Monat 300 Belege und Rechnungen als PDF und tippt Betra
 
 *Tippt die Nummer in den Chat. Enter erst auf mein Los!*
 
+::: {.fragment style="margin-top:0.6em;"}
+**Mögliche Lösung:** ② Informationsextraktion (bei Scans vorher ③) · **Oder einfacher?** Strukturierte E-Rechnungen
+:::
+
 ::: notes
-- 7 min für alle drei Probleme, ~2 min pro Problem
+- 5 min: 1 erklären, dann pro Problem ~1,3 min: tippen, Los, Antworten kurz kommentieren, per Klick Lösung zeigen
+- Es gibt nicht die eine richtige Lösung. „Oder einfacher?“ betonen, dort steht oft die bessere Lösung
 - Problem vorlesen, alle tippen die Nummer, Enter auf „Los“. Kein Nachfragen, Antworten selbst kurz kommentieren („Viele ②, ein paar ③“)
 - Zuordnung: ② (bei Scans vorher ③). Ohne KI: strukturierte E-Rechnungen (XRechnung/ZUGFeRD)
 - Aus der Praxis: EVIM liest Kassenbelege per KI aus [@cdl_projektkatalog]
@@ -410,10 +415,14 @@ Eine Tafel hat 4.000 Spender\*innen in drei Excel-Listen, viele doppelt. Manche 
 
 *Tippt die Nummer in den Chat. Enter erst auf mein Los!*
 
+::: {.fragment style="margin-top:0.6em;"}
+**Mögliche Lösung:** ⑦ Dubletten erkennen · **Oder einfacher?** Regeln (gleiche E-Mail, Name + PLZ), künftig eine Liste
+:::
+
 ::: notes
 - Zuordnung: ⑦. Regeln (gleiche E-Mail, Name + PLZ) schlagen oft ML
 - Messen: Stichprobe von Paaren von Hand prüfen
-- Datenschutz: Spender*innendaten nicht in ChatGPT kopieren
+- Datenschutz: Spender*innendaten nicht in ChatGPT kopieren, Vorgriff auf Block 3
 :::
 
 ## Übung: Welcher Task? (3/3)
@@ -428,33 +437,20 @@ Eine Umfrage unter Ehrenamtlichen liefert 2.000 Freitextantworten. In drei Woche
 
 *Tippt die Nummer in den Chat. Enter erst auf mein Los!*
 
-::: notes
-- Zuordnung: ⑥ (oder ①, wenn Kategorien feststehen). Keine richtige Antwort, also Plausibilität prüfen
-- Aus der Praxis: Full Fact clustert Nachrichten für Faktenprüfer*innen [@cdl_projektkatalog]
-- Bonus nur bei übriger Zeit: „Eine Initiative will ‚mehr Reichweite‘.“ → ✗ kein klarer Task
+::: {.fragment style="margin-top:0.6em;"}
+**Mögliche Lösung:** ⑥ Gruppieren, ohne richtige Antwort (oder ①, wenn Kategorien feststehen) · **Oder einfacher?** Feste Antwortfelder statt Freitext
 :::
 
-## Mögliche Zuordnungen
-
-| Problem | Task | Oder einfacher? |
-|---|---|---|
-| 1 · 300 Belege abtippen | ② Informationsextraktion (bei Scans vorher ③) | strukturierte E-Rechnungen |
-| 2 · Doppelte Spender*innen | ⑦ Dubletten erkennen | Regeln (gleiche E-Mail, Name + PLZ), künftig eine Liste |
-| 3 · 2.000 Freitextantworten | ⑥ Gruppieren, ohne richtige Antwort (oder ①, wenn Kategorien feststehen) | Feste Antwortfelder statt Freitext in Betracht ziehen |
-| [Bonus · „Mehr Reichweite“]{.fragment fragment-index=1} | [✗ kein klarer Task]{.fragment fragment-index=1} | [Problem erst schärfen]{.fragment fragment-index=1} |
-
 ::: notes
-- Es gibt nicht die eine richtige Lösung: 1 kann ② oder ③ sein, 3 kann ⑥ oder ① sein
-- Spalte „Oder einfacher?“ betonen, dort steht oft die bessere Lösung
-- Problem 2: personenbezogene Daten, Vorgriff auf Datenschutz in Block 3
+- Zuordnung: ⑥ (oder ①, wenn Kategorien feststehen). Keine richtige Antwort, also Plausibilität prüfen
 :::
 
 ## Inhalte {.ca-upper .ca-agenda}
 
 <ol class="ca-toc">
 <li><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 9 min</small></span></li>
-<li><span class="num">02</span><span class="label">KI als Werkzeug: Tasks, Methoden, Prompts<small>Impuls + Übung: Probleme zu Tasks zuordnen · 18 min</small></span></li>
-<li class="active"><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Daten, Infrastruktur, Kosten<small>Impuls + Übung: Was ist schiefgegangen? · 21 min</small></span></li>
+<li><span class="num">02</span><span class="label">KI als Werkzeug: Tasks, Methoden, Prompts<small>Impuls + Übung: Probleme zu Tasks zuordnen · 17 min</small></span></li>
+<li class="active"><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Daten, Infrastruktur, Kosten<small>Impuls + Übung: Was ist schiefgegangen? · 22 min</small></span></li>
 <li><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Fragen · 7 min</small></span></li>
 </ol>
 
@@ -547,26 +543,29 @@ Eine Umfrage unter Ehrenamtlichen liefert 2.000 Freitextantworten. In drei Woche
 ::: {.column width="62%"}
 1. **Eine Person schreibt mit:** Wer im Alphabet zuerst kommt, öffnet den Link zum Pad, teilt den Bildschirm und schreibt.
 2. **5 Minuten:** Lest euer Projekt und sammelt 2–3 Gründe, warum es gescheitert ist.
-3. **5 Minuten:** Welches [Kriterium](#kriterien-liste) (1–7, auch im Pad) hätte das verhindert?
+3. **5 Minuten:** Welche [Kriterien](#kriterien-liste) (1–7, auch im Pad) hätten das verhindert? Mehrere sind möglich
 :::
 
 ::: {.column width="38%"}
-**Projekte**
+::: {style="font-size:0.8em;"}
+**Projekt nach Raumnummer**
 
-- **A** Schuldnerberatung
-- **B** Mieterverein
-- **C** Migrationsberatung
-- **D** Förderanträge
+- **A** Schuldnerberatung: 1, 5, 9, 13
+- **B** Mieterverein: 2, 6, 10, 14
+- **C** Migrationsberatung: 3, 7, 11, 15
+- **D** Förderanträge: 4, 8, 12, 16
+:::
 :::
 
 ::::
 
 ::: notes
-- 2 min erklären, dann direkt Aufteilung
+- 3 min erklären (inkl. Raumnummer → Fall, Link in den Chat), dann direkt Aufteilung
 - Methode heißt Pre-Mortem: Scheitern vorwegnehmen macht Risiken leichter aussprechbar. Niemand muss das Projekt schlechtreden
 - Beispiel mündlich: „Der Mail-Sortierer des Sportvereins wurde abgeschaltet. Nach einem Modell-Update hat niemand neu gemessen, die Mobbing-Mail lag drei Wochen in ‚Sonstiges‘.“ Gründe sind selten technisch
 - Projekte: A Chatbot für Erstfragen · B Suche über 15 Jahre Rundbriefe (RAG) · C Gespräche transkribieren und zusammenfassen · D Agent bereitet Förderanträge vor
-- Räume 16:23–16:33 (Tech-Support öffnet, nach den Fällen benannt). Ich schicke die Broadcasts: Link direkt, „Frage 2“ nach 5 min, „Noch 1 Minute“
+- Räume 16:23–16:33. Tech-Support öffnet nur die Räume (nummeriert, automatisch zugewiesen). Zuordnung Raumnummer → Fall steht auf der Folie und im Pad
+- Pad-Link vor dem Öffnen in den Hauptchat posten. Falls Broadcasts gehen: Link direkt, „Frage 2“ nach 5 min, „Noch 1 Minute“
 - Frage 1 bewusst ohne Kriterien, erst frei sammeln
 - Im Hauptraum bleiben, im Pad mitlesen, Auffälliges für die Fragerunde notieren
 :::
@@ -575,8 +574,8 @@ Eine Umfrage unter Ehrenamtlichen liefert 2.000 Freitextantworten. In drei Woche
 
 <ol class="ca-toc">
 <li><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 9 min</small></span></li>
-<li><span class="num">02</span><span class="label">KI als Werkzeug: Tasks, Methoden, Prompts<small>Impuls + Übung: Probleme zu Tasks zuordnen · 18 min</small></span></li>
-<li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Daten, Infrastruktur, Kosten<small>Impuls + Übung: Was ist schiefgegangen? · 21 min</small></span></li>
+<li><span class="num">02</span><span class="label">KI als Werkzeug: Tasks, Methoden, Prompts<small>Impuls + Übung: Probleme zu Tasks zuordnen · 17 min</small></span></li>
+<li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Daten, Infrastruktur, Kosten<small>Impuls + Übung: Was ist schiefgegangen? · 22 min</small></span></li>
 <li class="active"><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Fragen · 7 min</small></span></li>
 </ol>
 
@@ -607,7 +606,7 @@ Eine Umfrage unter Ehrenamtlichen liefert 2.000 Freitextantworten. In drei Woche
 Statt *„Wie können wir KI einsetzen?“* lieber *„Welches Problem haben wir?“*
 
 1. Lässt sich das Problem in **klare Tasks** zerlegen?
-2. Reicht etwas **Einfacheres**? Zuerst ohne KI, dann die niedrigste Komplexitätsstufe: klassisches ML → … → Agent
+2. Reicht etwas **Einfacheres**? Zuerst ohne KI, dann die niedrigste Komplexitätsstufe: Regeln → klassisches ML → … → Agent
 3. Kann man **prüfen**, ob es gut genug funktioniert?
 4. Liegt das eigentliche Problem **woanders** (z. B. zu wenig Personal oder Geld → systemisches Problem), sodass Technik es nicht löst?
 5. Sind **Daten, Fähigkeiten und Infrastruktur** vorhanden?
