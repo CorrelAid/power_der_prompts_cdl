@@ -601,7 +601,12 @@ Statt *„Wie können wir KI einsetzen?“* lieber *„Welches Problem haben wir
 
 # Zeit für Fragen
 
+::: {style="font-size:0.7em; margin-top:1.5em;"}
+Tiefergehende Fragen zu eurem Projekt? Bucht euch einen kostenlosen Termin in der **Datensprechstunde**: [zeeg.me/correlaid/dss-cdl](https://zeeg.me/correlaid/dss-cdl)
+:::
+
 ::: notes
+- Datensprechstunde: 30 min, kostenlos, Link steht auch in der Abschlussnachricht im Chat
 - 5 min. Direkt zu Beginn die Abschlussnachricht mit Links in den Chat posten (chat_texte.md Nr. 2)
 - Falls keine Fragen kommen, ans Plenum zurückgeben (Chat-Wasserfall): „Denkt an ein KI-Projekt bei euch. Welches Kriterium (1–7) wäre am schwierigsten?“ Zwei Antworten aufgreifen
 - Muster aus der Praxis: KI für die Fachkraft statt für die Betroffenen

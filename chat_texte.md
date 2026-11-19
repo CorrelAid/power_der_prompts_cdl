@@ -15,5 +15,6 @@ Danke fürs Mitmachen! 🦊 Zum Mitnehmen:
 Folien: https://correlaid.github.io/power_der_prompts_cdl/
 Workshop KI-Leitlinien für euren Verein (3.12., 17–18:30 Uhr, online): https://correlaid.org/veranstaltungen/ws-ki-5
 Code of Conduct Demokratische KI: https://demokratische-ki.de/
+Datensprechstunde (kostenloser Termin für eure Fragen): https://zeeg.me/correlaid/dss-cdl
 Projektideen: https://civic-data.de/machen/projektsammlung/ · https://correlaid.org/projekte/projektdatenbank
 ```
