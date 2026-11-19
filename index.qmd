@@ -22,7 +22,7 @@ csl: correlaid_assets/apa.csl
 ## Hallo 👋 {.ca-upper}
 
 ::: ca-team-grid
-<div class="ca-person"><div class="ring"><img src="images/correlaid/jonas.png" alt="Jonas Stettner"></div><div class="name">Jonas</div><div class="role">Referent bei CorrelAid <br> Beratungs- und Umsetzungsteam im CDL</div><div class="role" style="margin-top:0.6em; font-size:0.7em;"><a href="mailto:jonas.s@correlaid.org" style="color:#000; display:inline-flex; align-items:center; gap:0.35em;"><svg width="0.95em" height="0.95em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>jonas.s@correlaid.org</a></div></div>
+<div class="ca-person" style="width:640px;"><div class="ring"><img src="images/correlaid/jonas.png" alt="Jonas Stettner"></div><div class="name">Jonas</div><div class="role">Referent bei CorrelAid</div><div class="role" style="font-size:0.75em; color:#374151; margin-top:0.2em;">Beratungs- und Umsetzungsteam im Civic Data Lab</div><div class="role" style="margin-top:0.6em; font-size:0.7em;"><a href="mailto:jonas.s@correlaid.org" style="color:#000; display:inline-flex; align-items:center; gap:0.35em;"><svg width="0.95em" height="0.95em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>jonas.s@correlaid.org</a></div></div>
 :::
 
 ::: notes
@@ -453,24 +453,31 @@ Eine Umfrage unter Ehrenamtlichen liefert 2.000 Freitextantworten. In drei Woche
 <li><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Fragen · 8 min</small></span></li>
 </ol>
 
-## Voraussetzungen {.ca-dense}
+## Voraussetzungen (I) {.ca-dense}
 
 - **Daten** (*Womit arbeitet die KI?*): Gibt es genug echte Fälle, z. B. Mails oder Anträge? Sind sie zugänglich, aktuell, dokumentiert? Personenbezogen?
   - KI arbeitet besser mit **strukturierten** Daten, am besten mit **semantischen**: **Metadaten** beschreiben, was Felder bedeuten und wie sie zusammenhängen
   - RAG und Agents sind nur so gut wie die **Dokumente**, die sie finden
 - **Labels** (*Wer weiß, was richtig ist?*): Fachleute legen für einen Teil der Fälle die richtige Antwort fest, z. B. die Kategorie jeder Mail. Haben sie dafür Zeit?
+
+::: notes
+- Block 3 zusammen 6 min (Inhalte, Voraussetzungen I und II, Was oft vergessen wird, Wer trägt die Kosten?)
+- Abgrenzung als Bild: Daten sind die Aufgaben, Labels das Lösungsblatt, Fähigkeiten (nächste Folie) die Person, die korrigiert und nachbessert
+- Datenqualität: unstrukturiert (PDFs, Mails) → strukturiert (Tabellen) → semantisch (Felder und Beziehungen beschrieben). Je weiter rechts, desto weniger muss KI raten
+- Beispiel Metadaten: Spalte „Status“ mit 1–3 ist strukturiert, erst Metadaten sagen, dass 1 = „aktiv“
+- Labels brauchen Fachwissen, nicht Technik: Wer im Verein weiß, welche Kategorie eine Mail hat? Oft genau die Fachkräfte, die schon überlastet sind (→ Kriterium 4). Externe Entwickler*innen können das nicht übernehmen
+- Labels: Rückbezug auf die Grenzfälle (Ground Truth). Ohne Lösungsblatt keine Performancemessung
+:::
+
+## Voraussetzungen (II) {.ca-dense}
+
 - **Fähigkeiten** (*Wer baut und betreut es?*): einrichten und anbinden, mit den Labels messen, Fehler auswerten, anpassen. Im Team oder extern?
 - **Infrastruktur** (*Wo läuft es?*): Wer zahlt, wer wartet? Auch noch im zweiten Jahr?
   - KI braucht **Schnittstellen (APIs)** zu euren Systemen
 
 ::: notes
-- Block 3 bis hier zusammen 6 min (Inhalte, Voraussetzungen, Was oft vergessen wird, Wer trägt die Kosten?)
-- Abgrenzung als Bild: Daten sind die Aufgaben, Labels das Lösungsblatt, Fähigkeiten die Person, die korrigiert und nachbessert
-- Labels brauchen Fachwissen, nicht Technik: Wer im Verein weiß, welche Kategorie eine Mail hat? Oft genau die Fachkräfte, die schon überlastet sind (→ Kriterium 4). Externe Entwickler*innen können das nicht übernehmen
-- Labels: Rückbezug auf die Grenzfälle (Ground Truth). Ohne Lösungsblatt keine Performancemessung
+- Fähigkeiten = Technik und Methodik, Labels = Fachwissen. Beides wird gebraucht, oft von verschiedenen Personen
 - Schnittstellen: ohne API kopiert jemand von Hand hin und her
-- Datenqualität: unstrukturiert (PDFs, Mails) → strukturiert (Tabellen) → semantisch (Felder und Beziehungen beschrieben). Je weiter rechts, desto weniger muss KI raten
-- Beispiel Metadaten: Spalte „Status“ mit 1–3 ist strukturiert, erst Metadaten sagen, dass 1 = „aktiv“
 - Zweites Jahr: Wer pflegt, wer zahlt die API, wer aktualisiert die Dokumente nach Förderende?
 :::
 
@@ -518,13 +525,14 @@ Eine Umfrage unter Ehrenamtlichen liefert 2.000 Freitextantworten. In drei Woche
 *1–4:* klarer Task? · reicht etwas Einfacheres? · prüfbar, ob es gut genug ist? · Problem liegt woanders?
 
 5. Sind **Daten, Labels, Fähigkeiten und Infrastruktur** vorhanden?
-6. Ist der **Datenschutz** geklärt und sind **Betroffene** beteiligt?
+6. Ist der **rechtliche Rahmen** geklärt (Datenschutz, EU AI Act) und sind **Betroffene** beteiligt?
 7. Stehen Nutzen und **externalisierte Kosten** in einem vertretbaren Verhältnis?
 
 ::: notes
 - 30 s, nur vorlesen
 - Jetzt vollständig, kommt auf „Mitnehmen“ als Liste wieder
-- 5 fasst die Folie „Voraussetzungen“ zusammen (Daten, Labels, Fähigkeiten, Infrastruktur)
+- 5 fasst die Folien „Voraussetzungen (I, II)“ zusammen (Daten, Labels, Fähigkeiten, Infrastruktur)
+- 6: rechtlicher Rahmen = DSGVO und EU AI Act, siehe „Was oft vergessen wird“
 :::
 
 ## Inhalte {.ca-upper .ca-agenda}
@@ -545,7 +553,7 @@ Statt *„Wie können wir KI einsetzen?“* lieber *„Welches Problem haben wir
 3. Kann man **prüfen**, ob es gut genug funktioniert? Was kosten Fehler?
 4. Liegt das eigentliche Problem **woanders** (z. B. zu wenig Personal oder Geld → systemisches Problem), sodass Technik es nicht löst?
 5. Sind **Daten, Labels, Fähigkeiten und Infrastruktur** vorhanden?
-6. Ist der **Datenschutz** geklärt und sind **Betroffene** beteiligt?
+6. Ist der **rechtliche Rahmen** geklärt (Datenschutz, EU AI Act) und sind **Betroffene** beteiligt?
 7. Stehen Nutzen und **externalisierte Kosten** in einem vertretbaren Verhältnis?
 
 ::: notes

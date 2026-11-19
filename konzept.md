@@ -36,7 +36,7 @@ Minuten aus den Folien-Notizen. „Ab Min“ = Minuten seit Start, abgerundet.
 | 21 | 2 | 2 KI als Werkzeug | Grenzfälle (Ground Truth) | Input, rhetorische Frage |
 | 23 | 1 | 2 KI als Werkzeug | Kriterien (Teil 1) | Input |
 | **24** | 6 | 2 KI als Werkzeug | Übung 2: Welcher Task? (1 erklären · 3 Probleme à ~1,7, Lösung jeweils per Klick) | Chat-Wasserfall |
-| 30 | 6 | 3 KI-Projekt durchführen | Inhalte, Voraussetzungen, Was oft vergessen wird, Wer trägt die Kosten? | Input |
+| 30 | 6 | 3 KI-Projekt durchführen | Inhalte, Voraussetzungen (I, II), Was oft vergessen wird, Wer trägt die Kosten? | Input |
 | 36 | 0,5 | 3 KI-Projekt durchführen | Kriterien (Teil 2) | nur vorlesen |
 | 37 | 5 | Puffer | Verzug aus Block 1–3 | – |
 | 42 | 1,5 | 4 Abschluss | Inhalte, Mitnehmen | Input |
@@ -78,7 +78,7 @@ Damit die Dokumente nicht auseinanderlaufen:
 
 **Was an mehreren Stellen steht und gemeinsam geändert werden muss:**
 
-- **Kriterien 1–7**: Folien „Kriterien (Teil 1/2)“, „Mitnehmen“ (gleicher Wortlaut). Kriterium 5 = Punkte der Folie „Voraussetzungen“
+- **Kriterien 1–7**: Folien „Kriterien (Teil 1/2)“, „Mitnehmen“ (gleicher Wortlaut). Kriterium 5 = Punkte der Folien „Voraussetzungen (I, II)“
 - **Tasks ①–⑧**: Folie „Von Fähigkeiten zu Tasks“, Folien Übung 2, Lösungen in uebungen_vorbereitung.md
 - **Komplexitätsstufen** (Regeln → … → Agent): Tabelle „Ein Task, viele Ansätze“, Kriterium 2
 - **Minuten pro Block**: Agenda-Folien (4×), Zeitplan hier
