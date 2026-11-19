@@ -362,7 +362,7 @@ Bevor ihr euch auf KI verlasst, ein einfacher Einstieg:
 3. Kann man **prüfen**, ob es gut genug funktioniert? Was kosten Fehler?
 
 ::: {.fragment .ca-list-cont}
-4. Liegt das eigentliche Problem **woanders** (z. B. zu wenig Personal oder Geld → systemisches Problem), sodass Technik es nicht löst?
+4. Liegt das eigentliche Problem **woanders** (z. B. Einsamkeit mit einem Chatbot lösen? → systemisches Problem), sodass Technik es nicht löst?
 :::
 
 ::: {style="margin-top:1em; color:#374151;"}
@@ -551,7 +551,7 @@ Statt *„Wie können wir KI einsetzen?“* lieber *„Welches Problem haben wir
 1. Lässt sich das Problem in **klare Tasks** zerlegen?
 2. Reicht etwas **Einfacheres**? Zuerst ohne KI, dann die niedrigste Komplexitätsstufe: Regeln → klassisches ML → Finetuning → Prompt → RAG → Agent
 3. Kann man **prüfen**, ob es gut genug funktioniert? Was kosten Fehler?
-4. Liegt das eigentliche Problem **woanders** (z. B. zu wenig Personal oder Geld → systemisches Problem), sodass Technik es nicht löst?
+4. Liegt das eigentliche Problem **woanders** (z. B. Einsamkeit mit einem Chatbot lösen? → systemisches Problem), sodass Technik es nicht löst?
 5. Sind **Daten, Labels, Fähigkeiten und Infrastruktur** vorhanden?
 6. Ist der **rechtliche Rahmen** geklärt (Datenschutz, EU AI Act) und sind **Betroffene** beteiligt?
 7. Stehen Nutzen und **externalisierte Kosten** in einem vertretbaren Verhältnis?
