@@ -17,3 +17,5 @@ hf_stats_files
 
 .env
 .pad-deletion-token
+
+/.quarto/

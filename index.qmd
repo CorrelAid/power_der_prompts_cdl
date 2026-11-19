@@ -5,10 +5,10 @@ format:
     revealjs:
         slide-number: true
         smaller: true
-date: 2026-11-11
+date: 2026-11-19
 date-format: "D. MMMM YYYY"
 lang: de
-author: Jonas Stettner | CorrelAid · D³ Kongress 2026
+author: Jonas Stettner | CorrelAid · Civic Data Lab Online Barcamp
 theme: [correlaid_assets/correlaid.scss, title-slide.scss]
 logo: correlaid_assets/logo_c.svg
 footer: "correlaid.org"
@@ -22,7 +22,7 @@ csl: correlaid_assets/apa.csl
 ## Hallo 👋 {.ca-upper}
 
 ::: ca-team-grid
-<div class="ca-person"><div class="ring"><img src="images/correlaid/jonas.png" alt="Jonas Stettner"></div><div class="name">Jonas</div><div class="role">Referent für Digitale Infrastruktur bei CorrelAid</div><div class="role" style="margin-top:0.6em; font-size:0.7em;"><a href="mailto:jonas.s@correlaid.org" style="color:#000; display:inline-flex; align-items:center; gap:0.35em;"><svg width="0.95em" height="0.95em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>jonas.s@correlaid.org</a></div></div>
+<div class="ca-person"><div class="ring"><img src="images/correlaid/jonas.png" alt="Jonas Stettner"></div><div class="name">Jonas</div><div class="role">Referent bei CorrelAid <br> Beratungs- und Umsetzungsteam im CDL</div><div class="role" style="margin-top:0.6em; font-size:0.7em;"><a href="mailto:jonas.s@correlaid.org" style="color:#000; display:inline-flex; align-items:center; gap:0.35em;"><svg width="0.95em" height="0.95em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>jonas.s@correlaid.org</a></div></div>
 :::
 
 ::: notes
@@ -53,7 +53,7 @@ csl: correlaid_assets/apa.csl
 ::: ca-welcome-grid
 ![](images/correlaid/i_heart_data.png)
 
-- Die **Folien** findet ihr hier: [correlaid.github.io/power_der_prompts_d3](https://correlaid.github.io/power_der_prompts_d3/#/title-slide)
+- Die **Folien** findet ihr hier: [correlaid.github.io/power_der_prompts_cdl](https://correlaid.github.io/power_der_prompts_cdl/#/title-slide)
 - Lasst uns heute im Workshop gerne beim **Du** bleiben.
 - Macht aktiv mit und teilt eure Erfahrungen. Es gibt keine „blöden“ Fragen. Merkt euch eure Fragen: am Ende gibt es Zeit dafür.
 :::
@@ -65,10 +65,10 @@ csl: correlaid_assets/apa.csl
 ## Inhalte {.ca-upper .ca-agenda}
 
 <ol class="ca-toc">
-<li class="active"><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 9 min</small></span></li>
-<li><span class="num">02</span><span class="label">KI als Werkzeug: Tasks, Methoden, Prompts<small>Impuls + Übung: Probleme zu Tasks zuordnen · 17 min</small></span></li>
-<li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Voraussetzungen und Kosten<small>Impuls + Übung: Was ist schiefgegangen? · 22 min</small></span></li>
-<li><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Fragen · 7 min</small></span></li>
+<li class="active"><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 11 min</small></span></li>
+<li><span class="num">02</span><span class="label">KI als Werkzeug: Tasks, Methoden, Prompts<small>Impuls + Übung: Probleme zu Tasks zuordnen · 20 min</small></span></li>
+<li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Voraussetzungen und Kosten<small>Impuls: Was es braucht und wer die Kosten trägt · 7 min</small></span></li>
+<li><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Fragen · 8 min</small></span></li>
 </ol>
 
 ::: notes
@@ -96,7 +96,7 @@ csl: correlaid_assets/apa.csl
 [@nyt2026mythos · Screenshot: Claude-Modellauswahl, November 2026]{.source}
 
 ::: notes
-- 1,5 min
+- 2 min
 - KI-Hype themed Skala
 - „Mythos“ und „Fable“ sind auch Modellnamen von Anthropic (Claude). Mythos Preview galt im April 2026 als zu gefährlich zur Veröffentlichung, seit Juni 2026 verfügbar, Fable mit zusätzlichen Schutzmaßnahmen. Die Namen sind Marketing
 - - Skala für Machbarkeit von Versprechen, Wahrheitsgehalt von Aussagen
@@ -128,7 +128,7 @@ csl: correlaid_assets/apa.csl
 ::::
 
 ::: notes
-- 4 min: 1 erklären · 2 tippen, Enter erst auf „Los“ · 1 vorlesen
+- 5 min: 1 erklären · 2 tippen, Enter erst auf „Los“ · 2 vorlesen und nachfragen
 - Fokus auf Versprechen an die Zivilgesellschaft: Zeit sparen, „kompetitiv bleiben“, Förderfähigkeit
 - links schlecht/unrealistisch/fake news, rechts gut/realistisch/machbar
 - emojis suchen oder aus meiner nachricht kopieren (chat_texte)
@@ -150,7 +150,7 @@ csl: correlaid_assets/apa.csl
 [@niederhoffer2025]{.source}
 
 ::: notes
-- Erst die Muster nennen, dann per Klick die Kehrseite
+- 1,5 min. Erst die Muster nennen, dann per Klick die Kehrseite
 - Workslop: Output, der gut aussieht, bei dem andere nacharbeiten müssen
 - Kosten nur anteasern, kommt in Block 3 („Wer trägt die Kosten?“)
 - Brücke zu Block 2: „Oft ist KI gar nicht nötig“
@@ -159,10 +159,10 @@ csl: correlaid_assets/apa.csl
 ## Inhalte {.ca-upper .ca-agenda}
 
 <ol class="ca-toc">
-<li><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 9 min</small></span></li>
-<li class="active"><span class="num">02</span><span class="label">KI als Werkzeug: Tasks, Methoden, Prompts<small>Impuls + Übung: Probleme zu Tasks zuordnen · 17 min</small></span></li>
-<li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Voraussetzungen und Kosten<small>Impuls + Übung: Was ist schiefgegangen? · 22 min</small></span></li>
-<li><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Fragen · 7 min</small></span></li>
+<li><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 11 min</small></span></li>
+<li class="active"><span class="num">02</span><span class="label">KI als Werkzeug: Tasks, Methoden, Prompts<small>Impuls + Übung: Probleme zu Tasks zuordnen · 20 min</small></span></li>
+<li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Voraussetzungen und Kosten<small>Impuls: Was es braucht und wer die Kosten trägt · 7 min</small></span></li>
+<li><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Fragen · 8 min</small></span></li>
 </ol>
 
 ::: notes
@@ -217,7 +217,7 @@ Ein **Task** legt fest: Was geht rein? Was soll rauskommen? Woran messen wir, ob
 | ⑧ Vorhersage / Anomalie | Einsatzdaten → Bedarf morgen | Abweichung, Fehlalarme vs. Übersehene |
 
 ::: notes
-- 3 min. Zentrale Folie: vage Fähigkeit („Sprache verstehen“) vs. klarer Task („Mails einer Person zuordnen“)
+- 3,5 min. Zentrale Folie: vage Fähigkeit („Sprache verstehen“) vs. klarer Task („Mails einer Person zuordnen“)
 - Nummern ①–⑧ kommen in Übung 2 wieder
 - ⑧ Fehlalarme vs. Übersehene = Precision/Recall
 - Bei Nachfrage: Neuronale Netze seit etwa 2012 bei Bild, Sprache, Text führend [@lecun2015], bei Tabellendaten oft baumbasierte Verfahren [@grinsztajn2022]
@@ -240,7 +240,7 @@ Mehr Projekte: [CDL-Projektsammlung](https://civic-data.de/machen/projektsammlun
 [@cdl_projektkatalog]{.source}
 
 ::: notes
-- 1,5 min. Gleiche Handvoll Tasks hinter sehr unterschiedlichen Themen
+- 2 min. Gleiche Handvoll Tasks hinter sehr unterschiedlichen Themen
 - Status laut Katalog (Selbstauskunft): AWO abgeschlossen · genialsozial geprüft · Schule ein Gesicht geben unklar · Fair Text, BeeObserver in Betrieb. Auch hier gilt die Skala
 - AfD-Gutachten: KI filtert vor, Menschen prüfen [@verfassungsblog2026]
 - AWO: KI nur für einfache Fälle, schwierige entscheiden Menschen [@cdl_demokratiefoerderquote]
@@ -281,9 +281,8 @@ Welcher Ansatz passt, muss man **ausprobieren und prüfen**.
 :::
 
 ::: notes
-- 1 min. Von einfach nach komplex sortiert, kommt als Kriterium 2 wieder
-- Agent ist ein Ansatz, kein Task. Ausgabe ist eine Folge von Handlungen, schwer zu messen (Übung 3, Projekt D)
-- RAG und Agent kommen in Übung 3 wieder (Projekte B und D)
+- 1,5 min. Von einfach nach komplex sortiert, kommt als Kriterium 2 wieder
+- Agent ist ein Ansatz, kein Task. Ausgabe ist eine Folge von Handlungen, schwer zu messen
 - Früher ein Modell pro Task (z.B. BERT) [@devlin2019], heute oft ein großes Modell + Prompt [@brown2020]
 - Je größer das Modell, desto mehr externalisierte Kosten
 :::
@@ -349,7 +348,7 @@ Bevor ihr euch auf KI verlasst, ein einfacher Einstieg:
 :::
 
 ::: notes
-- 1,5 min. Rhetorisch fragen: Wie hättet ihr entschieden?
+- 2 min. Rhetorisch fragen: Wie hättet ihr entschieden?
 - ① und ②: Was „richtig“ ist, entscheidet, wer die Kategorien definiert. Inhaltliche Entscheidung, keine technische
 - ③: Für die wichtigste Mail gibt es keine Kategorie, sie landet in „Sonstiges“. Ein besserer Prompt hilft nicht, wenn die Kategorie fehlt
 - Grenzfälle sind dort, wo Fehler wehtun
@@ -371,7 +370,7 @@ Bevor ihr euch auf KI verlasst, ein einfacher Einstieg:
 :::
 
 ::: notes
-- 1–3 fassen Block 2 zusammen. 4 per Klick: die Frage, die in der Praxis zuerst kommt
+- 1 min. 1–3 fassen Block 2 zusammen. 4 per Klick: die Frage, die in der Praxis zuerst kommt
 - 2: Erst ohne KI (Prozess, Struktur, bessere Website statt Chatbot), dann die einfachste Stufe aus der Tabelle „Ein Task, viele Ansätze“, die laut Messung reicht
 - 4: Techno-Solutionismus [@morozov2013]. Fehlende Ressourcen lassen sich nicht wegautomatisieren, ein Chatbot hilft nicht gegen Einsamkeit
 - Aus CDL-Beratungen: Chatbot-Anfrage, eigentliches Problem ist oft die Website-Struktur
@@ -396,7 +395,7 @@ Ein Verein bekommt jeden Monat 300 Belege und Rechnungen als PDF und tippt Betra
 :::
 
 ::: notes
-- 5 min: 1 erklären, dann pro Problem ~1,3 min: tippen, Los, Antworten kurz kommentieren, per Klick Lösung zeigen
+- 6 min: 1 erklären, dann pro Problem ~1,7 min: tippen, Los, Antworten kurz kommentieren, per Klick Lösung zeigen
 - Es gibt nicht die eine richtige Lösung. „Oder einfacher?“ betonen, dort steht oft die bessere Lösung
 - Problem vorlesen, alle tippen die Nummer, Enter auf „Los“. Kein Nachfragen, Antworten selbst kurz kommentieren („Viele ②, ein paar ③“)
 - Zuordnung: ② (bei Scans vorher ③). Ohne KI: strukturierte E-Rechnungen (XRechnung/ZUGFeRD)
@@ -448,24 +447,27 @@ Eine Umfrage unter Ehrenamtlichen liefert 2.000 Freitextantworten. In drei Woche
 ## Inhalte {.ca-upper .ca-agenda}
 
 <ol class="ca-toc">
-<li><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 9 min</small></span></li>
-<li><span class="num">02</span><span class="label">KI als Werkzeug: Tasks, Methoden, Prompts<small>Impuls + Übung: Probleme zu Tasks zuordnen · 17 min</small></span></li>
-<li class="active"><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Voraussetzungen und Kosten<small>Impuls + Übung: Was ist schiefgegangen? · 22 min</small></span></li>
-<li><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Fragen · 7 min</small></span></li>
+<li><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 11 min</small></span></li>
+<li><span class="num">02</span><span class="label">KI als Werkzeug: Tasks, Methoden, Prompts<small>Impuls + Übung: Probleme zu Tasks zuordnen · 20 min</small></span></li>
+<li class="active"><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Voraussetzungen und Kosten<small>Impuls: Was es braucht und wer die Kosten trägt · 7 min</small></span></li>
+<li><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Fragen · 8 min</small></span></li>
 </ol>
 
 ## Voraussetzungen {.ca-dense}
 
-- **Daten**: Gibt es genug echte Fälle? Sind sie zugänglich, aktuell, dokumentiert? Personenbezogen?
+- **Daten** (*Womit arbeitet die KI?*): Gibt es genug echte Fälle, z. B. Mails oder Anträge? Sind sie zugänglich, aktuell, dokumentiert? Personenbezogen?
   - KI arbeitet besser mit **strukturierten** Daten, am besten mit **semantischen**: **Metadaten** beschreiben, was Felder bedeuten und wie sie zusammenhängen
   - RAG und Agents sind nur so gut wie die **Dokumente**, die sie finden
-- **Labels**: Wer entscheidet, was „richtig“ ist, und hat diese Person dafür Zeit?
-- **Fähigkeiten**: Wer kann messen, Fehler auswerten und das System anpassen?
-- **Infrastruktur**: Wo läuft es, wer zahlt, wer wartet? Auch noch im zweiten Jahr?
+- **Labels** (*Wer weiß, was richtig ist?*): Fachleute legen für einen Teil der Fälle die richtige Antwort fest, z. B. die Kategorie jeder Mail. Haben sie dafür Zeit?
+- **Fähigkeiten** (*Wer baut und betreut es?*): einrichten und anbinden, mit den Labels messen, Fehler auswerten, anpassen. Im Team oder extern?
+- **Infrastruktur** (*Wo läuft es?*): Wer zahlt, wer wartet? Auch noch im zweiten Jahr?
   - KI braucht **Schnittstellen (APIs)** zu euren Systemen
 
 ::: notes
-- Labels: Rückbezug auf die Grenzfälle
+- Block 3 bis hier zusammen 6 min (Inhalte, Voraussetzungen, Was oft vergessen wird, Wer trägt die Kosten?)
+- Abgrenzung als Bild: Daten sind die Aufgaben, Labels das Lösungsblatt, Fähigkeiten die Person, die korrigiert und nachbessert
+- Labels brauchen Fachwissen, nicht Technik: Wer im Verein weiß, welche Kategorie eine Mail hat? Oft genau die Fachkräfte, die schon überlastet sind (→ Kriterium 4). Externe Entwickler*innen können das nicht übernehmen
+- Labels: Rückbezug auf die Grenzfälle (Ground Truth). Ohne Lösungsblatt keine Performancemessung
 - Schnittstellen: ohne API kopiert jemand von Hand hin und her
 - Datenqualität: unstrukturiert (PDFs, Mails) → strukturiert (Tabellen) → semantisch (Felder und Beziehungen beschrieben). Je weiter rechts, desto weniger muss KI raten
 - Beispiel Metadaten: Spalte „Status“ mit 1–3 ist strukturiert, erst Metadaten sagen, dass 1 = „aktiv“
@@ -515,75 +517,50 @@ Eine Umfrage unter Ehrenamtlichen liefert 2.000 Freitextantworten. In drei Woche
 
 *1–4:* klarer Task? · reicht etwas Einfacheres? · prüfbar, ob es gut genug ist? · Problem liegt woanders?
 
-5. Sind **Daten, Fähigkeiten und Infrastruktur** vorhanden?
+5. Sind **Daten, Labels, Fähigkeiten und Infrastruktur** vorhanden?
 6. Ist der **Datenschutz** geklärt und sind **Betroffene** beteiligt?
 7. Stehen Nutzen und **externalisierte Kosten** in einem vertretbaren Verhältnis?
 
 ::: notes
 - 30 s, nur vorlesen
-- Jetzt vollständig für Frage 2 im Pre-Mortem
-:::
-
-## Übung: Was ist schiefgegangen? {.ca-dense .center}
-
-:::: {.columns style="display:flex; align-items:center; margin-bottom:0.6em;"}
-
-::: {.column width="65%"}
-<span style="font-size:1.25em;">**Stellt euch vor: Es ist 2028, und euer KI‑Projekt ist gescheitert. Warum?**</span>
-:::
-
-::: {.column width="35%"}
-<img src="images/meme_was_is_pasirt.jpg" alt="Jerry aus Tom und Jerry mit der Unterschrift ‚was is pasirt?‘" style="height:120px; margin:0;">
-:::
-
-::::
-
-:::: {.columns}
-
-::: {.column width="62%"}
-1. **2 Minuten, eine Person schreibt mit:** Wer nach dem Vornamen im Alphabet zuerst kommt, öffnet den Link zum Pad, teilt den Bildschirm und schreibt.
-2. **5 Minuten:** Lest euer Projekt und sammelt 2–3 Gründe, warum es gescheitert ist.
-3. **5 Minuten:** Welche [Kriterien](#kriterien-liste) (1–7, auch im Pad) hätten das verhindert? Mehrere sind möglich
-:::
-
-::: {.column width="38%"}
-**Projekte**
-
-- **Raum 1:** Schuldnerberatung
-- **Raum 2:** Mieterverein
-- **Raum 3:** Migrationsberatung
-- **Raum 4:** Förderanträge
-:::
-
-::::
-
-::: notes
-- 3 min erklären (inkl. Raum 1–4 → Fall A–D, Link in den Chat), dann direkt Aufteilung
-- Methode heißt Pre-Mortem: Scheitern vorwegnehmen macht Risiken leichter aussprechbar. Niemand muss das Projekt schlechtreden
-- Beispiel mündlich: „Der Mail-Sortierer des Sportvereins wurde abgeschaltet. Nach einem Modell-Update hat niemand neu gemessen, die Mobbing-Mail lag drei Wochen in ‚Sonstiges‘.“ Gründe sind selten technisch
-- Projekte: A Chatbot für Erstfragen · B Suche über 15 Jahre Rundbriefe (RAG) · C Gespräche transkribieren und zusammenfassen · D Agent bereitet Förderanträge vor
-- Räume 16:21–16:33 (12 min: 2 ankommen, 5 + 5). Tech-Support öffnet nur die 4 Räume (nummeriert, automatisch zugewiesen, 20–30 Personen). Zuordnung Raumnummer → Fall steht auf der Folie und im Pad
-- Pad-Link vor dem Öffnen in den Hauptchat posten. Falls Broadcasts gehen: Link direkt, „Frage 2“ nach 7 min, „Noch 1 Minute“
-- Frage 1 bewusst ohne Kriterien, erst frei sammeln
-- Im Hauptraum bleiben, im Pad mitlesen, Auffälliges für die Fragerunde notieren
+- Jetzt vollständig, kommt auf „Mitnehmen“ als Liste wieder
+- 5 fasst die Folie „Voraussetzungen“ zusammen (Daten, Labels, Fähigkeiten, Infrastruktur)
 :::
 
 ## Inhalte {.ca-upper .ca-agenda}
 
 <ol class="ca-toc">
-<li><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 9 min</small></span></li>
-<li><span class="num">02</span><span class="label">KI als Werkzeug: Tasks, Methoden, Prompts<small>Impuls + Übung: Probleme zu Tasks zuordnen · 17 min</small></span></li>
-<li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Voraussetzungen und Kosten<small>Impuls + Übung: Was ist schiefgegangen? · 22 min</small></span></li>
-<li class="active"><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Fragen · 7 min</small></span></li>
+<li><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 11 min</small></span></li>
+<li><span class="num">02</span><span class="label">KI als Werkzeug: Tasks, Methoden, Prompts<small>Impuls + Übung: Probleme zu Tasks zuordnen · 20 min</small></span></li>
+<li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Voraussetzungen und Kosten<small>Impuls: Was es braucht und wer die Kosten trägt · 7 min</small></span></li>
+<li class="active"><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Fragen · 8 min</small></span></li>
 </ol>
 
-## Code of Conduct Demokratische KI {.ca-coc}
+## Mitnehmen {#kriterien-liste .ca-dense}
 
-::: {style="padding:0.3em 0 1em;"}
-[demokratische-ki.de](https://demokratische-ki.de/)
+Statt *„Wie können wir KI einsetzen?“* lieber *„Welches Problem haben wir?“*
+
+1. Lässt sich das Problem in **klare Tasks** zerlegen?
+2. Reicht etwas **Einfacheres**? Zuerst ohne KI, dann die niedrigste Komplexitätsstufe: Regeln → klassisches ML → Finetuning → Prompt → RAG → Agent
+3. Kann man **prüfen**, ob es gut genug funktioniert? Was kosten Fehler?
+4. Liegt das eigentliche Problem **woanders** (z. B. zu wenig Personal oder Geld → systemisches Problem), sodass Technik es nicht löst?
+5. Sind **Daten, Labels, Fähigkeiten und Infrastruktur** vorhanden?
+6. Ist der **Datenschutz** geklärt und sind **Betroffene** beteiligt?
+7. Stehen Nutzen und **externalisierte Kosten** in einem vertretbaren Verhältnis?
+
+::: notes
+- 1,5 min mit Inhalte-Folie. Wortlaut 1–4 wie auf „Kriterien (Teil 1)“, 5–7 wie auf „Kriterien (Teil 2)“
+- Titel-Spannung auflösen: Prompts können viel, aber das Problem klären und das Ergebnis prüfen bleibt unsere Arbeit
 :::
 
-::: coc-grid
+## Weiterführend {.ca-dense}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Code of Conduct Demokratische KI**<br>[demokratische-ki.de](https://demokratische-ki.de/)
+
+::: {.coc-grid .coc-small}
 <figure><img src="images/coc/abwaegung.jpg" alt=""><figcaption>Abwägung der Nutzung</figcaption></figure>
 <figure><img src="images/coc/menschenzentrierung.jpg" alt=""><figcaption>Menschenzentrierung</figcaption></figure>
 <figure><img src="images/coc/transparenz.jpg" alt=""><figcaption>Transparenz</figcaption></figure>
@@ -593,38 +570,33 @@ Eine Umfrage unter Ehrenamtlichen liefert 2.000 Freitextantworten. In drei Woche
 <figure><img src="images/coc/kompetenzen.jpg" alt=""><figcaption>Kompetenzen</figcaption></figure>
 <figure><img src="images/coc/nachhaltigkeit.jpg" alt=""><figcaption>Ökologische Nachhaltigkeit</figcaption></figure>
 :::
-
-
-::: notes
-- Max. 30 s: „Acht Prinzipien, mitentwickelt von CorrelAid, Link in den Folien.“
 :::
 
-## Mitnehmen {#kriterien-liste .ca-dense}
+::: {.column width="50%" style="font-size:0.85em;"}
+**Workshop: KI-Leitlinien für euren Verein**<br>Do., 3. Dezember, <span style="white-space:nowrap;">17:00–18:30 Uhr</span>, online
 
-Statt *„Wie können wir KI einsetzen?“* lieber *„Welches Problem haben wir?“*
+*KI-Nutzung vereinheitlichen… womit? Leitlinien für eure Organisation entwickeln.* Erste Bausteine für eigene Leitlinien, mit Vorlagen und Beispielen
 
-1. Lässt sich das Problem in **klare Tasks** zerlegen?
-2. Reicht etwas **Einfacheres**? Zuerst ohne KI, dann die niedrigste Komplexitätsstufe: Regeln → klassisches ML → … → Agent
-3. Kann man **prüfen**, ob es gut genug funktioniert?
-4. Liegt das eigentliche Problem **woanders** (z. B. zu wenig Personal oder Geld → systemisches Problem), sodass Technik es nicht löst?
-5. Sind **Daten, Fähigkeiten und Infrastruktur** vorhanden?
-6. Ist der **Datenschutz** geklärt und sind **Betroffene** beteiligt?
-7. Stehen Nutzen und **externalisierte Kosten** in einem vertretbaren Verhältnis?
+**Anmeldung:**<br>[correlaid.org/veranstaltungen/ws-ki-5](https://correlaid.org/veranstaltungen/ws-ki-5)
+
+<div style="display:flex; align-items:center; gap:0.6em; margin-top:0.6em; font-size:0.7em; line-height:1.3; color:#374151;"><img src="images/dsee/foerderlogo.png" alt="Gefördert durch die Deutsche Stiftung für Engagement und Ehrenamt" style="width:220px; margin:0;"><span>Im Rahmen des Projekts<br><b>„KI im Engagement“</b></span></div>
+:::
+
+::::
 
 ::: notes
-- Titel-Spannung auflösen: Prompts können viel, aber das Problem klären und das Ergebnis prüfen bleibt unsere Arbeit
+- 1,5 min
+- Code of Conduct, max. 30 s: „Acht Prinzipien, mitentwickelt von CorrelAid, Link in den Folien.“
+- Workshop: Sagen: „Das machen wir im Rahmen des Projekts ‚KI im Engagement‘, gefördert von der Deutschen Stiftung für Engagement und Ehrenamt (DSEE).“
+- Beide Links stehen auch in der Abschlussnachricht im Chat
 :::
 
 # Zeit für Fragen
 
 ::: notes
-- Kein Debrief: Ergebnisse stehen im Pad. Direkt nach den Räumen die Abschlussnachricht mit Pad-Link posten
-- Falls keine Fragen kommen, aus dem Pad aufgreifen:
-  - A: Die Ratsuchenden tragen das Risiko (6/7). KIA (gefördert) unterstützt bewusst Berater*innen statt Ratsuchende
-  - B: Veraltete Artikel sind das Problem (5), nicht nur die API-Kosten. „Nach Datum gewichten“ löst das nicht. Echtes Gegenstück: foodwatch „RAG4Good“ (Prototyp)
-  - C: „Lokal = Datenschutz gelöst“ stimmt nicht. Schlechtere Erkennung von Dari/Tigrinya = Bias. Einfacher: Fachkraft diktiert nach dem Gespräch selbst
-  - D: Prüfarbeit landet bei der Förderin, Rückbezug auf Workslop (7). Alte Anträge enthalten personenbezogene Daten (6). „40 €/Monat = keine Kosten“ greift zu kurz
-- Muster über alle Räume: KI für die Fachkraft statt für die Betroffenen
+- 5 min. Direkt zu Beginn die Abschlussnachricht mit Links in den Chat posten (chat_texte.md Nr. 2)
+- Falls keine Fragen kommen, ans Plenum zurückgeben (Chat-Wasserfall): „Denkt an ein KI-Projekt bei euch. Welches Kriterium (1–7) wäre am schwierigsten?“ Zwei Antworten aufgreifen
+- Muster aus der Praxis: KI für die Fachkraft statt für die Betroffenen
 - Kriterium 7 heißt nicht nur „Wer zahlt die Rechnung?“, sondern auch: Wer trägt Risiko, Prüfarbeit, Umweltkosten?
 :::
 
