@@ -106,12 +106,3 @@
   p { margin: 0; }
 }
 
-// Compact CoC grid for the shared "Weiterführend" slide
-.reveal .coc-grid.coc-small {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 0.4em 0.6em;
-  margin-top: 0.8em;
-
-  img { height: 70px; }
-  figcaption { font-size: 0.5em; hyphens: auto; overflow-wrap: anywhere; }
-}

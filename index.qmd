@@ -563,34 +563,10 @@ Statt *„Wie können wir KI einsetzen?“* lieber *„Welches Problem haben wir
 
 ## Weiterführend {.ca-dense}
 
-:::: {.columns}
+- **Code of Conduct Demokratische KI**: acht Prinzipien für KI in der Zivilgesellschaft, mitentwickelt von CorrelAid<br>[demokratische-ki.de](https://demokratische-ki.de/)
+- **Workshop: KI-Leitlinien für euren Verein**: Do., 3. Dezember, <span style="white-space:nowrap;">17:00–18:30 Uhr</span>, online<br>*KI-Nutzung vereinheitlichen… womit? Leitlinien für eure Organisation entwickeln.* Erste Bausteine für eigene Leitlinien, mit Vorlagen und Beispielen<br>Anmeldung: [correlaid.org/veranstaltungen/ws-ki-5](https://correlaid.org/veranstaltungen/ws-ki-5)
 
-::: {.column width="50%"}
-**Code of Conduct Demokratische KI**<br>[demokratische-ki.de](https://demokratische-ki.de/)
-
-::: {.coc-grid .coc-small}
-<figure><img src="images/coc/abwaegung.jpg" alt=""><figcaption>Abwägung der Nutzung</figcaption></figure>
-<figure><img src="images/coc/menschenzentrierung.jpg" alt=""><figcaption>Menschenzentrierung</figcaption></figure>
-<figure><img src="images/coc/transparenz.jpg" alt=""><figcaption>Transparenz</figcaption></figure>
-<figure><img src="images/coc/teilhabe.jpg" alt=""><figcaption>Teilhabe und Partizipation</figcaption></figure>
-<figure><img src="images/coc/diskriminierung.jpg" alt=""><figcaption>Diskriminierungskritische Haltung</figcaption></figure>
-<figure><img src="images/coc/verantwortung.jpg" alt=""><figcaption>Verantwortung und Verantwortlichkeit</figcaption></figure>
-<figure><img src="images/coc/kompetenzen.jpg" alt=""><figcaption>Kompetenzen</figcaption></figure>
-<figure><img src="images/coc/nachhaltigkeit.jpg" alt=""><figcaption>Ökologische Nachhaltigkeit</figcaption></figure>
-:::
-:::
-
-::: {.column width="50%" style="font-size:0.85em;"}
-**Workshop: KI-Leitlinien für euren Verein**<br>Do., 3. Dezember, <span style="white-space:nowrap;">17:00–18:30 Uhr</span>, online
-
-*KI-Nutzung vereinheitlichen… womit? Leitlinien für eure Organisation entwickeln.* Erste Bausteine für eigene Leitlinien, mit Vorlagen und Beispielen
-
-**Anmeldung:**<br>[correlaid.org/veranstaltungen/ws-ki-5](https://correlaid.org/veranstaltungen/ws-ki-5)
-
-<div style="display:flex; align-items:center; gap:0.6em; margin-top:0.6em; font-size:0.7em; line-height:1.3; color:#374151;"><img src="images/dsee/foerderlogo.png" alt="Gefördert durch die Deutsche Stiftung für Engagement und Ehrenamt" style="width:220px; margin:0;"><span>Im Rahmen des Projekts<br><b>„KI im Engagement“</b></span></div>
-:::
-
-::::
+<div style="display:flex; align-items:center; gap:0.8em; margin-top:1em; font-size:0.7em; line-height:1.3; color:#374151;"><img src="images/dsee/foerderlogo.png" alt="Gefördert durch die Deutsche Stiftung für Engagement und Ehrenamt" style="width:220px; margin:0;"><span>Im Rahmen des Projekts<br><b>„KI im Engagement“</b></span></div>
 
 ::: notes
 - 1,5 min
