@@ -456,7 +456,7 @@ Eine Umfrage unter Ehrenamtlichen liefert 2.000 Freitextantworten. In drei Woche
 ## Voraussetzungen (I) {.ca-dense}
 
 - **Daten** (*Womit arbeitet die KI?*): Gibt es genug echte Fälle, z. B. Mails oder Anträge? Sind sie zugänglich, aktuell, dokumentiert? Personenbezogen?
-  - KI arbeitet besser mit **strukturierten** Daten, am besten mit **semantischen**: **Metadaten** beschreiben, was Felder bedeuten und wie sie zusammenhängen
+  - KI arbeitet besser mit **strukturierten** Daten, am besten mit **semantischen**: **Metadaten** beschreiben, was Felder bedeuten oder Dokumente enthalten und wie sie zusammenhängen
   - RAG und Agents sind nur so gut wie die **Dokumente**, die sie finden
 - **Labels** (*Wer weiß, was richtig ist?*): Fachleute legen für einen Teil der Fälle die richtige Antwort fest, z. B. die Kategorie jeder Mail. Haben sie dafür Zeit?
 
