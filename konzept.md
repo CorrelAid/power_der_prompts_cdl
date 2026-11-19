@@ -1,6 +1,6 @@
 # Konzept: Power der Prompts (Civic Data Lab Online Barcamp 2026)
 
-Online-Workshop, 50 Minuten, 19.11.2026. Fragen sammeln wir fürs Ende, dafür sind die letzten 5 Minuten reserviert.
+Online-Workshop, 50 Minuten, 19.11.2026, 12:05–12:55 Uhr. Fragen sammeln wir fürs Ende, dafür sind die letzten 5 Minuten reserviert.
 
 > **Quelle der Wahrheit sind die Folien ([index.qmd](index.qmd)) mit ihren Notizen.** Dieses Dokument fasst nur zusammen. Bei Widerspruch gelten die Folien. Siehe [Konsistenz](#konsistenz) unten.
 
@@ -23,29 +23,29 @@ Online-Workshop, 50 Minuten, 19.11.2026. Fragen sammeln wir fürs Ende, dafür s
 
 ## Zeitplan
 
-Minuten aus den Folien-Notizen. „Ab Min“ = Minuten seit Start, abgerundet.
+Minuten aus den Folien-Notizen. „Ab Min“ = Minuten seit Start, abgerundet. „Uhrzeit“ = Plan bei Start 12:05.
 
-| Ab Min | Min | Block | Folien | Methode |
-| --- | --- | --- | --- | --- |
-| 0 | 2 | 1 Ankommen | Hallo, Über CorrelAid, Schön dass ihr da seid, Inhalte | Input |
-| 2 | 2 | 1 Ankommen | Eine Bewertungsskala | Input |
-| **4** | 5 | 1 Ankommen | Übung 1: Vibecheck (1 erklären · 2 tippen · 2 vorlesen und nachfragen) | Chat-Wasserfall |
-| 9 | 1,5 | 1 Ankommen | Was wird versprochen? | Input |
-| 10 | 10 | 2 KI als Werkzeug | Inhalte + Fahrplan (0,5), Was ist KI? Intelligenz (1), Von Fähigkeiten zu Tasks (3,5), Typische KI-Projekte nach Task (2), Was ist KI? Ein Oberbegriff (0,5), Ein Task viele Ansätze (1,5), Was Prompts können (1) | Input |
-| 20 | 1 | 2 KI als Werkzeug | Einfache Performancemessung | Input, kurz |
-| 21 | 2 | 2 KI als Werkzeug | Grenzfälle (Ground Truth) | Input, rhetorische Frage |
-| 23 | 1 | 2 KI als Werkzeug | Kriterien (Teil 1) | Input |
-| **24** | 6 | 2 KI als Werkzeug | Übung 2: Welcher Task? (1 erklären · 3 Probleme à ~1,7, Lösung jeweils per Klick) | Chat-Wasserfall |
-| 30 | 6 | 3 KI-Projekt durchführen | Inhalte, Voraussetzungen (I, II), Was oft vergessen wird, Wer trägt die Kosten? | Input |
-| 36 | 0,5 | 3 KI-Projekt durchführen | Kriterien (Teil 2) | nur vorlesen |
-| 37 | 5 | Puffer | Verzug aus Block 1–3 | – |
-| 42 | 1,5 | 4 Abschluss | Inhalte, Mitnehmen | Input |
-| 43 | 1,5 | 4 Abschluss | Weiterführend: Code of Conduct + Workshop KI-Leitlinien am 3.12. (Projekt „KI im Engagement“, DSEE-Förderlogo) | Input |
-| 45 | 5 | 4 Abschluss | Zeit für Fragen | Plenum |
+| Uhrzeit | Ab Min | Min | Block | Folien | Methode |
+| --- | --- | --- | --- | --- | --- |
+| 12:05 | 0 | 2 | 1 Ankommen | Hallo, Über CorrelAid, Schön dass ihr da seid, Inhalte | Input |
+| 12:07 | 2 | 2 | 1 Ankommen | Eine Bewertungsskala | Input |
+| **12:09** | **4** | 5 | 1 Ankommen | Übung 1: Vibecheck (1 erklären · 2 tippen · 2 vorlesen und nachfragen) | Chat-Wasserfall |
+| 12:14 | 9 | 1,5 | 1 Ankommen | Was wird versprochen? | Input |
+| 12:15 | 10 | 10 | 2 KI als Werkzeug | Inhalte + Fahrplan (0,5), Was ist KI? Intelligenz (1), Von Fähigkeiten zu Tasks (3,5), Typische KI-Projekte nach Task (2), Was ist KI? Ein Oberbegriff (0,5), Ein Task viele Ansätze (1,5), Was Prompts können (1) | Input |
+| 12:25 | 20 | 1 | 2 KI als Werkzeug | Einfache Performancemessung | Input, kurz |
+| 12:26 | 21 | 2 | 2 KI als Werkzeug | Grenzfälle (Ground Truth) | Input, rhetorische Frage |
+| 12:28 | 23 | 1 | 2 KI als Werkzeug | Kriterien (Teil 1) | Input |
+| **12:29** | **24** | 6 | 2 KI als Werkzeug | Übung 2: Welcher Task? (1 erklären · 3 Probleme à ~1,7, Lösung jeweils per Klick) | Chat-Wasserfall |
+| 12:35 | 30 | 6 | 3 KI-Projekt durchführen | Inhalte, Voraussetzungen (I, II), Was oft vergessen wird, Wer trägt die Kosten? | Input |
+| 12:41 | 36 | 0,5 | 3 KI-Projekt durchführen | Kriterien (Teil 2) | nur vorlesen |
+| 12:42 | 37 | 5 | Puffer | Verzug aus Block 1–3 | – |
+| 12:47 | 42 | 1,5 | 4 Abschluss | Inhalte, Mitnehmen | Input |
+| 12:48 | 43 | 1,5 | 4 Abschluss | Weiterführend: Code of Conduct + Workshop KI-Leitlinien am 3.12. (Projekt „KI im Engagement“, DSEE-Förderlogo) | Input |
+| 12:50 | 45 | 5 | 4 Abschluss | Zeit für Fragen | Plenum |
 
 Summe: Block 1 = 10,5 · Block 2 = 20 · Block 3 = 6,5 · Puffer = 5 · Abschluss = 8 → 50 Minuten. Die Agenda-Folie zeigt gerundet 11 · 20 · 7 · 8, der Puffer steht nicht drauf.
 
-**Kontrollpunkte (Minuten seit Start):** Übung 2 beginnt ca. bei 24 · Block 3 ca. bei 30 · Abschluss **spätestens bei 42**. Sind wir früher dran, wird die Fragerunde länger.
+**Kontrollpunkte:** Übung 2 beginnt ca. 12:29 (Min 24) · Block 3 ca. 12:35 (Min 30) · Abschluss **spätestens 12:47** (Min 42). Sind wir früher dran, wird die Fragerunde länger.
 
 ## Fragen
 
