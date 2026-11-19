@@ -34,7 +34,7 @@ Eine einzige Aktivität: Chat-Wasserfall mit Versprechen + Emoji von der Skala.
 - [ ] Wortspiel „fabelhaft“ und Anspielung auf Anthropic-Modellnamen in je einem Satz erklären
 - [ ] Moderationssatz üben: „Tippt ein Versprechen, das ihr gehört habt, plus ein Emoji von der Skala – Enter erst auf mein Los.“
 - [ ] Zwei Beispiel-Versprechen parat haben, falls der Chat leer bleibt
-- [ ] Nur zwei Versprechen vorlesen, möglichst mit unterschiedlichen Emojis, eine Person nach dem Warum fragen
+- [ ] Ein bis zwei Versprechen vorlesen, möglichst mit unterschiedlichen Emojis, bei Zeit eine Person nach dem Warum fragen
 - [ ] Folie „Was wird versprochen?“: typische Muster nennen, dann per Klick die Kehrseite
 
 ## Übung 2: Probleme zu Tasks zuordnen

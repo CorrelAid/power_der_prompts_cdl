@@ -5,7 +5,7 @@ Keine Breakout-Räume mehr (Übung 3 gestrichen), beide Übungen laufen im Chat.
 ## Klären
 
 - [ ] Chat für alle an alle erlaubt
-- [ ] Dauer 50 Minuten
+- [ ] Dauer 45 Minuten (12:05–12:50)
 
 ## Testen
 

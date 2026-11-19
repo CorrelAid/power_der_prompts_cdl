@@ -65,8 +65,8 @@ csl: correlaid_assets/apa.csl
 ## Inhalte {.ca-upper .ca-agenda}
 
 <ol class="ca-toc">
-<li class="active"><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 11 min</small></span></li>
-<li><span class="num">02</span><span class="label">KI als Werkzeug: Tasks, Methoden, Prompts<small>Impuls + Übung: Probleme zu Tasks zuordnen · 20 min</small></span></li>
+<li class="active"><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 10 min</small></span></li>
+<li><span class="num">02</span><span class="label">KI als Werkzeug: Tasks, Methoden, Prompts<small>Impuls + Übung: Probleme zu Tasks zuordnen · 19 min</small></span></li>
 <li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Voraussetzungen und Kosten<small>Impuls: Was es braucht und wer die Kosten trägt · 7 min</small></span></li>
 <li><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Fragen · 8 min</small></span></li>
 </ol>
@@ -128,11 +128,11 @@ csl: correlaid_assets/apa.csl
 ::::
 
 ::: notes
-- 5 min: 1 erklären · 2 tippen, Enter erst auf „Los“ · 2 vorlesen und nachfragen
+- 4 min: 1 erklären · 2 tippen, Enter erst auf „Los“ · 1 vorlesen
 - Fokus auf Versprechen an die Zivilgesellschaft: Zeit sparen, „kompetitiv bleiben“, Förderfähigkeit
 - links schlecht/unrealistisch/fake news, rechts gut/realistisch/machbar
 - emojis suchen oder aus meiner nachricht kopieren (chat_texte)
-- Zwei Versprechen vorlesen, möglichst mit unterschiedlichen Emojis, eine Person fragen, warum
+- Ein bis zwei Versprechen vorlesen, möglichst mit unterschiedlichen Emojis, ggf. eine Person fragen, warum
 
 :::
 
@@ -159,8 +159,8 @@ csl: correlaid_assets/apa.csl
 ## Inhalte {.ca-upper .ca-agenda}
 
 <ol class="ca-toc">
-<li><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 11 min</small></span></li>
-<li class="active"><span class="num">02</span><span class="label">KI als Werkzeug: Tasks, Methoden, Prompts<small>Impuls + Übung: Probleme zu Tasks zuordnen · 20 min</small></span></li>
+<li><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 10 min</small></span></li>
+<li class="active"><span class="num">02</span><span class="label">KI als Werkzeug: Tasks, Methoden, Prompts<small>Impuls + Übung: Probleme zu Tasks zuordnen · 19 min</small></span></li>
 <li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Voraussetzungen und Kosten<small>Impuls: Was es braucht und wer die Kosten trägt · 7 min</small></span></li>
 <li><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Fragen · 8 min</small></span></li>
 </ol>
@@ -395,7 +395,7 @@ Ein Verein bekommt jeden Monat 300 Belege und Rechnungen als PDF und tippt Betra
 :::
 
 ::: notes
-- 6 min: 1 erklären, dann pro Problem ~1,7 min: tippen, Los, Antworten kurz kommentieren, per Klick Lösung zeigen
+- 5 min: 1 erklären, dann pro Problem ~1,3 min: tippen, Los, Antworten kurz kommentieren, per Klick Lösung zeigen
 - Es gibt nicht die eine richtige Lösung. „Oder einfacher?“ betonen, dort steht oft die bessere Lösung
 - Problem vorlesen, alle tippen die Nummer, Enter auf „Los“. Kein Nachfragen, Antworten selbst kurz kommentieren („Viele ②, ein paar ③“)
 - Zuordnung: ② (bei Scans vorher ③). Ohne KI: strukturierte E-Rechnungen (XRechnung/ZUGFeRD)
@@ -447,8 +447,8 @@ Eine Umfrage unter Ehrenamtlichen liefert 2.000 Freitextantworten. In drei Woche
 ## Inhalte {.ca-upper .ca-agenda}
 
 <ol class="ca-toc">
-<li><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 11 min</small></span></li>
-<li><span class="num">02</span><span class="label">KI als Werkzeug: Tasks, Methoden, Prompts<small>Impuls + Übung: Probleme zu Tasks zuordnen · 20 min</small></span></li>
+<li><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 10 min</small></span></li>
+<li><span class="num">02</span><span class="label">KI als Werkzeug: Tasks, Methoden, Prompts<small>Impuls + Übung: Probleme zu Tasks zuordnen · 19 min</small></span></li>
 <li class="active"><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Voraussetzungen und Kosten<small>Impuls: Was es braucht und wer die Kosten trägt · 7 min</small></span></li>
 <li><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Fragen · 8 min</small></span></li>
 </ol>
@@ -538,8 +538,8 @@ Eine Umfrage unter Ehrenamtlichen liefert 2.000 Freitextantworten. In drei Woche
 ## Inhalte {.ca-upper .ca-agenda}
 
 <ol class="ca-toc">
-<li><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 11 min</small></span></li>
-<li><span class="num">02</span><span class="label">KI als Werkzeug: Tasks, Methoden, Prompts<small>Impuls + Übung: Probleme zu Tasks zuordnen · 20 min</small></span></li>
+<li><span class="num">01</span><span class="label">Ankommen & Aktivierung<small>Was kann KI angeblich? · 10 min</small></span></li>
+<li><span class="num">02</span><span class="label">KI als Werkzeug: Tasks, Methoden, Prompts<small>Impuls + Übung: Probleme zu Tasks zuordnen · 19 min</small></span></li>
 <li><span class="num">03</span><span class="label">Ein KI-Projekt durchführen: Voraussetzungen und Kosten<small>Impuls: Was es braucht und wer die Kosten trägt · 7 min</small></span></li>
 <li class="active"><span class="num">04</span><span class="label">Abschluss<small>Ausblick & Fragen · 8 min</small></span></li>
 </ol>
