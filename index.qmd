@@ -563,10 +563,8 @@ Statt *„Wie können wir KI einsetzen?“* lieber *„Welches Problem haben wir
 
 ## Weiterführend {.ca-dense}
 
-- **Code of Conduct Demokratische KI**: acht Prinzipien für KI in der Zivilgesellschaft, mitentwickelt von CorrelAid<br>[demokratische-ki.de](https://demokratische-ki.de/)
-- **Workshop: KI-Leitlinien für euren Verein**: Do., 3. Dezember, <span style="white-space:nowrap;">17:00–18:30 Uhr</span>, online<br>*KI-Nutzung vereinheitlichen… womit? Leitlinien für eure Organisation entwickeln.* Erste Bausteine für eigene Leitlinien, mit Vorlagen und Beispielen<br>Anmeldung: [correlaid.org/veranstaltungen/ws-ki-5](https://correlaid.org/veranstaltungen/ws-ki-5)
-
-<div style="display:flex; align-items:center; gap:0.8em; margin-top:1em; font-size:0.7em; line-height:1.3; color:#374151;"><img src="images/dsee/foerderlogo.png" alt="Gefördert durch die Deutsche Stiftung für Engagement und Ehrenamt" style="width:220px; margin:0;"><span>Im Rahmen des Projekts<br><b>„KI im Engagement“</b></span></div>
+- **Code of Conduct Demokratische KI**: acht Prinzipien für KI in der Zivilgesellschaft: [demokratische-ki.de](https://demokratische-ki.de/)
+- **Workshop: KI-Leitlinien für euren Verein**: Do., 3. Dezember, <span style="white-space:nowrap;">17:00–18:30 Uhr</span>, online<br>Erste Bausteine für eigene Leitlinien, mit Vorlagen und Beispielen<br>Anmeldung: [correlaid.org/veranstaltungen/ws-ki-5](https://correlaid.org/veranstaltungen/ws-ki-5)
 
 ::: notes
 - 1,5 min
